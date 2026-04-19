@@ -1,20 +1,20 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Brainrot Evolution Wiki - Codes, Secrets & Pets",
+      "description": "Track Brainrot Evolution codes, secrets, pets, worlds, rebirths, and weekly updates in one fast Roblox wiki built for cleaner progression routes.",
+      "keywords": "Brainrot Evolution, Brainrot Evolution wiki, Roblox, codes, secrets, pets, worlds, rebirths, updates",
+      "ogTitle": "Brainrot Evolution Wiki - Codes, Secrets & Pets",
+      "ogDescription": "Track Brainrot Evolution codes, secrets, pets, worlds, rebirths, and weekly updates in one fast Roblox wiki built for cleaner progression routes.",
+      "twitterTitle": "Brainrot Evolution Wiki - Codes, Secrets & Pets",
+      "twitterDescription": "Track Brainrot Evolution codes, secrets, pets, worlds, and rebirth routes in one practical Roblox wiki."
     }
   },
   "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -51,728 +51,1686 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Brainrot Evolution Gameplay",
+    "description": "Progress through worlds, evolve stronger Brainrots, stack pets and relics, and route rebirths for faster account growth in Roblox."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Brainrot Evolution",
+    "titleHighlight": "Module Navigator",
+    "subtitle": "Jump from Latest Updates into every Brainrot Evolution module with one-click smooth scroll navigation.",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Brainrot Evolution Codes",
+        "description": "Track active and expired Brainrot Evolution codes, rewards, and redemption steps at a glance."
       },
       {
         "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "title": "Brainrot Evolution Beginner Guide",
+        "description": "Follow a first-hour Brainrot Evolution route so wins, pets, and relics scale efficiently."
       },
       {
         "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "title": "Brainrot Evolution Rebirth Guide",
+        "description": "Plan every Brainrot Evolution rebirth with milestone levels, reset prep, and rebuild priorities."
       },
       {
         "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "title": "Brainrot Evolution All Brainrots",
+        "description": "Browse Brainrot Evolution characters by world, level, health, damage, and progression tags."
       },
       {
         "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "title": "Brainrot Evolution Trading Values",
+        "description": "Compare Brainrot Evolution trade values, demand shifts, and quick W/F/L judgments before swapping."
       },
       {
         "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "title": "Brainrot Evolution Secrets Guide",
+        "description": "Find Brainrot Evolution secret units, drop routes, and unlock conditions by source type."
       },
       {
         "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "title": "Brainrot Evolution Secret Tier List",
+        "description": "Rank Brainrot Evolution secrets by strength, rarity pressure, and practical trade value."
       },
       {
         "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
+        "title": "Brainrot Evolution Pets Guide",
+        "description": "Review Brainrot Evolution eggs, hatch pools, and best pet upgrades for each progression stage."
       },
       {
         "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "title": "Brainrot Evolution World Guide",
+        "description": "Use a Brainrot Evolution world-by-world route for unlock order, bosses, and key systems."
       },
       {
         "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "title": "Brainrot Evolution Relics Guide",
+        "description": "Optimize Brainrot Evolution relic sources and loadouts for EXP, wins, and damage scaling."
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
+        "title": "Brainrot Evolution Trinkets Guide",
+        "description": "Track Brainrot Evolution trinket effects, drop rates, and best station spending order."
       },
       {
         "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "title": "Brainrot Evolution Items Guide",
+        "description": "Sort Brainrot Evolution consumables by source, effect, and best-use timing."
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "title": "Brainrot Evolution Trading Guide",
+        "description": "Learn Brainrot Evolution trading unlock rules, safety checks, and common mistake prevention."
       },
       {
         "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "title": "Brainrot Evolution Update Log",
+        "description": "Follow Brainrot Evolution weekly patches, event notes, and roster changes in one timeline."
       },
       {
         "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "title": "Brainrot Evolution Discord and Trello",
+        "description": "Open official Brainrot Evolution Discord and Trello/community info links in one module."
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Brainrot Evolution Boss Event Guide",
+        "description": "Prepare for Brainrot Evolution weather and limited boss events with spawn and drop checklists."
       }
     ]
   },
   "modules": {
     "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
+      "title": "Brainrot Evolution Codes",
+      "displayType": "codeCards",
+      "eyebrow": "Free Rewards",
+      "subtitle": "Redeem active promo codes for potions, crates, tickets, and early wins. Keep the expired entries nearby so you do not waste attempts on dead codes.",
+      "intro": "Open Brainrot Evolution, tap the Shop button on the left, open the Codes tab on the right, paste a code, and press Verify. Codes are one-time use per account and are usually refreshed during updates, events, and milestone drops.",
+      "items": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "code": "Combinasion",
+          "reward": "2x EXP Potions",
+          "status": "active"
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "code": "Beowl",
+          "reward": "2x EXP Potions",
+          "status": "active"
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "code": "Easter2026",
+          "reward": "2x EXP Potions",
+          "status": "active"
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "code": "Luck",
+          "reward": "2x EXP Potions",
+          "status": "active"
+        },
+        {
+          "code": "Patrick",
+          "reward": "2x EXP Potions",
+          "status": "active"
+        },
+        {
+          "code": "2026",
+          "reward": "4x Mega EXP Potions",
+          "status": "active"
+        },
+        {
+          "code": "List",
+          "reward": "4x Mega EXP Potions",
+          "status": "active"
+        },
+        {
+          "code": "Cheese",
+          "reward": "2x Mega EXP Potions",
+          "status": "active"
+        },
+        {
+          "code": "OP",
+          "reward": "4x Mega EXP Potions",
+          "status": "active"
+        },
+        {
+          "code": "Tsunami",
+          "reward": "2x Mega EXP Potions",
+          "status": "active"
+        },
+        {
+          "code": "Love",
+          "reward": "2x Mega EXP Potions",
+          "status": "active"
+        },
+        {
+          "code": "I2W",
+          "reward": "2x Gingerbread Crates",
+          "status": "active"
+        },
+        {
+          "code": "VOIDPART2",
+          "reward": "1x Void Ticket",
+          "status": "active"
+        },
+        {
+          "code": "JoinFix5",
+          "reward": "30x Void Tickets",
+          "status": "active"
+        },
+        {
+          "code": "TUNG247",
+          "reward": "2x Lolo Crates",
+          "status": "active"
+        },
+        {
+          "code": "FIXED82",
+          "reward": "1x Lolo Crate",
+          "status": "active"
+        },
+        {
+          "code": "i2perfect1",
+          "reward": "2x EXP Potions",
+          "status": "active"
+        },
+        {
+          "code": "release",
+          "reward": "1x Wins Potion",
+          "status": "active"
+        },
+        {
+          "code": "PlzSubi2",
+          "reward": "Expired code",
+          "status": "expired"
+        },
+        {
+          "code": "FIXBUG891",
+          "reward": "Expired code",
+          "status": "expired"
         }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
       ]
     },
     "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+      "title": "Brainrot Evolution Beginner Guide",
+      "displayType": "stepByStep",
+      "eyebrow": "Starter Route",
+      "subtitle": "This route shows what to farm first, when to spend wins, and how pets, relics, dungeons, and rebirth fit together. It is built for faster early progression without wasting resources on the wrong map.",
+      "intro": "Brainrot Evolution is built around eating to gain levels, unlocking new evolutions, and using wins to buy stronger support systems. The cleanest early route is to upgrade only enough to clear each area, keep your best pets equipped, and save your biggest win spending for later worlds.",
+      "items": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "step": 1,
+          "title": "Learn the core loop",
+          "body": "Your early job is simple: eat to gain levels, unlock new evolutions, and keep wins flowing. More content opens as your level rises, so speed and survival matter more than collecting everything in the first area.",
+          "tips": [
+            "Levels unlock new evolutions and more game systems.",
+            "Wins are used to open zones, eggs, and machines.",
+            "Saturday updates regularly add fresh content."
+          ]
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "step": 2,
+          "title": "Buy only a few early eggs in Tung Tung Park",
+          "body": "The first three eggs cost 10, 45, and 250 Wins, so they are perfect for a quick early power spike. A few useful starter pulls are Dog (+1), Cat (+1.25), Bat (+1.5), and Baby Dragon (+2), but the goal is to get stronger fast and move on, not overspend in the starter map.",
+          "tips": [
+            "Egg 1 costs 10 Wins.",
+            "Egg 2 costs 45 Wins.",
+            "Egg 3 costs 250 Wins."
+          ]
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "step": 3,
+          "title": "Equip your best pets and keep advancing",
+          "body": "Pets are your main early damage multiplier, and you can equip three by default. Open just enough eggs in each map to beat the local boss comfortably, then shift to the next area instead of dumping all your wins into one zone.",
+          "tips": [
+            "Use your strongest three pets at all times.",
+            "Replace older pets as soon as a new map gives cleaner upgrades.",
+            "Move on once boss fights stop feeling risky."
+          ]
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "step": 4,
+          "title": "Power-level solo or in a duo",
+          "body": "Large parties split EXP, so solo play or a small duo is the cleanest way to level fast. Team up only when you need help clearing hard sections or bosses that slow your run down.",
+          "tips": [
+            "Solo runs are usually the fastest EXP route.",
+            "A duo is still manageable when you need support.",
+            "Avoid big groups if raw leveling speed is your priority."
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Farm passive enemies first, then add bosses",
+          "body": "Passive enemies are the safest early farm because they do not fight back. Once your damage is stable and your pets are upgraded, rotate in boss kills for bigger EXP bursts and smoother area clears.",
+          "tips": [
+            "Passives are safer for steady farming.",
+            "Bosses are better once survival is no longer a problem.",
+            "Use safer targets to build momentum before pushing hard fights."
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Use dungeons as your first big catch-up tool",
+          "body": "Dungeons become a major spike source once you reach Larila Desert and unlock Gorillo Watermellondrillo. Even one clear is useful early, and later dungeon runs become a reliable way to farm stronger relics.",
+          "tips": [
+            "Run at least one dungeon when you unlock the system.",
+            "Early dungeon clears boost both EXP and gear quality.",
+            "Later on, dungeons become a strong relic farm."
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Match relics to the job you are doing",
+          "body": "Relics come from crates, weather events, bosses, raids, and stations. Use EXP relics while leveling, then swap to wins or damage-focused relics when you are pushing zones; good early examples include Bronze Belt (+10% Damage), Bronze Cape (+10% Damage and +5% EXP), and Silver Belt (+5% Damage and +15% EXP).",
+          "tips": [
+            "EXP relics are best while climbing levels.",
+            "Damage relics help stabilize boss clears.",
+            "Higher crates usually mean stronger relic pools."
+          ]
+        },
+        {
+          "step": 8,
+          "title": "Take your first rebirth as soon as the cycle is done",
+          "body": "Your first rebirth opens after you escape Tung Tung Park and reach level 11. Rebirth gives permanent strength progression and new features; your level and unlocked evolutions reset, but wins, relics, and gems stay with you, so the next climb is much faster.",
+          "tips": [
+            "First rebirth unlock point: level 11 after leaving the starter area.",
+            "Rebirth is the long-term progression engine.",
+            "Do not sit too long in the first cycle once you meet the requirement."
+          ]
         }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+      "title": "Brainrot Evolution Rebirth Guide",
+      "displayType": "rebirthGuide",
+      "eyebrow": "Progression",
+      "subtitle": "Learn what rebirth changes, what to prep before resetting, and which level milestones mark each rebirth jump.",
+      "intro": "Rebirth is one of the biggest account-speed systems in Brainrot Evolution. Use this guide to line up each rebirth checkpoint, keep the parts of your run that matter, and rebuild faster after every reset.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "step": 1,
+          "title": "Know what rebirth changes",
+          "description": "Rebirth boosts future progress and resets your level. The rebirth reference notes that Secrets stay with you, while the inventory guide treats rebirth as the main reset point for inventory management.",
+          "bullets": [
+            "Rebirth boosts stats and resets level.",
+            "Secrets stay with you after rebirthing.",
+            "Check pets, brainrots, and relics before you reset."
+          ]
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "step": 2,
+          "title": "Use the main rebirth checkpoints",
+          "description": "The progression ladder marks each major rebirth jump with a named Brainrot. These are the cleanest breakpoints to plan around.",
+          "milestones": [
+            {
+              "rebirth": "Rebirth 1",
+              "brainrot": "Boneca Ambalabu",
+              "world": "Brainrot City",
+              "level": 11
+            },
+            {
+              "rebirth": "Rebirth 2",
+              "brainrot": "Ta Ta Ta Ta Sahur",
+              "world": "Tralalero Ocean",
+              "level": 25
+            },
+            {
+              "rebirth": "Rebirth 3",
+              "brainrot": "Ballerino Lololo",
+              "world": "Chicleteiramania",
+              "level": 39
+            },
+            {
+              "rebirth": "Rebirth 4",
+              "brainrot": "Bri Bri Bicus Ticus",
+              "world": "Udin Dinlympus",
+              "level": 53
+            },
+            {
+              "rebirth": "Rebirth 5",
+              "brainrot": "Tukanno Bananno",
+              "world": "Brainrot Abyss",
+              "level": 67
+            },
+            {
+              "rebirth": "Rebirth 6",
+              "brainrot": "Il Mastodontico Telepiedone Planetario",
+              "world": "Goooat Galaxy",
+              "level": 81
+            },
+            {
+              "rebirth": "Rebirth 7",
+              "brainrot": "Bombardini Tortini",
+              "world": "Cadabra Restaurant",
+              "level": 95
+            }
+          ]
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "step": 3,
+          "title": "Prep your fastest rebuild loadout",
+          "description": "Before each reset, line up the tools that make the next climb shorter. The official-style wiki tips repeatedly point back to XP farming, relic management, and better crates.",
+          "bullets": [
+            "Farm your highest unlocked zone for faster XP.",
+            "Equip EXP relics while leveling.",
+            "Higher crates give better relics.",
+            "Save scrolls for rare relics.",
+            "Fuse relics and smelt extras before you reset."
+          ]
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "step": 4,
+          "title": "Plan around rebirth-linked unlocks",
+          "description": "A few systems and updates are tied directly to rebirth progress, so these make strong stopping points instead of overgrinding one map.",
+          "bullets": [
+            "Wins unlock new zones and machines.",
+            "Trading opens after your second Rebirth.",
+            "Cadabra Restaurant introduced the Rebirth 7 line through Bombardini Tortini."
+          ]
         }
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+      "title": "Brainrot Evolution All Brainrots",
+      "displayType": "brainrotTable",
+      "eyebrow": "Character Index",
+      "subtitle": "Browse the full main progression lineup from Patapim Park to Brainheaven. Every row includes the world, level, health, damage, and a quick tag for bosses, OG units, or rebirth checkpoints.",
+      "intro": "Use this index when you need to find a specific Brainrot fast. The list follows the live world order and keeps the mainline ladder in one place, so you can jump from early-game names like Tralalero Tralala to late-game entries like Squallo Cavallo without opening multiple pages.",
+      "items": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "world": "Patapim Park",
+          "level": 1,
+          "brainrot": "Tralalero Tralala",
+          "health": "10",
+          "damage": "1",
+          "tag": "Standard"
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "world": "Patapim Park",
+          "level": 2,
+          "brainrot": "Bombardino Crocodilo",
+          "health": "20",
+          "damage": "3",
+          "tag": "Standard"
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "world": "Patapim Park",
+          "level": 3,
+          "brainrot": "Chimpanzini Bananini",
+          "health": "25",
+          "damage": "10",
+          "tag": "Standard"
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "world": "Patapim Park",
+          "level": 4,
+          "brainrot": "Burbaloni Luliloli",
+          "health": "50",
+          "damage": "20",
+          "tag": "Standard"
+        },
+        {
+          "world": "Patapim Park",
+          "level": 5,
+          "brainrot": "Brr Brr Patapim",
+          "health": "100",
+          "damage": "30",
+          "tag": "Standard"
+        },
+        {
+          "world": "Patapim Park",
+          "level": 6,
+          "brainrot": "Udin Din Din Dun",
+          "health": "200",
+          "damage": "50",
+          "tag": "Standard"
+        },
+        {
+          "world": "Patapim Park",
+          "level": 7,
+          "brainrot": "Lirili Larila",
+          "health": "300",
+          "damage": "75",
+          "tag": "Boss"
+        },
+        {
+          "world": "Brainrot City",
+          "level": 8,
+          "brainrot": "Pippi Poppa Pippo Peppe",
+          "health": "400",
+          "damage": "175",
+          "tag": "Standard"
+        },
+        {
+          "world": "Brainrot City",
+          "level": 9,
+          "brainrot": "Bombombini Gusini",
+          "health": "650",
+          "damage": "300",
+          "tag": "Standard"
+        },
+        {
+          "world": "Brainrot City",
+          "level": 10,
+          "brainrot": "Ballerinna Cappucinna",
+          "health": "1k",
+          "damage": "500",
+          "tag": "OG"
+        },
+        {
+          "world": "Brainrot City",
+          "level": 11,
+          "brainrot": "Boneca Ambalabu",
+          "health": "1.5k",
+          "damage": "750",
+          "tag": "Rebirth 1"
+        },
+        {
+          "world": "Brainrot City",
+          "level": 12,
+          "brainrot": "Kravelino Cekicino",
+          "health": "2k",
+          "damage": "1k",
+          "tag": "Standard"
+        },
+        {
+          "world": "Brainrot City",
+          "level": 13,
+          "brainrot": "La Vacca Saturno Saturnita",
+          "health": "2.5k",
+          "damage": "2k",
+          "tag": "Boss"
+        },
+        {
+          "world": "Brainrot City",
+          "level": 14,
+          "brainrot": "Ganganzelli Trulala",
+          "health": "5k",
+          "damage": "3k",
+          "tag": "Standard"
+        },
+        {
+          "world": "Larila Desert",
+          "level": 15,
+          "brainrot": "Raccooni Watermelunni",
+          "health": "15k",
+          "damage": "10k",
+          "tag": "Standard"
+        },
+        {
+          "world": "Larila Desert",
+          "level": 16,
+          "brainrot": "Cacto Hipopotamo",
+          "health": "20k",
+          "damage": "15k",
+          "tag": "Standard"
+        },
+        {
+          "world": "Larila Desert",
+          "level": 17,
+          "brainrot": "Cabrospaghetti Mistico",
+          "health": "25k",
+          "damage": "20k",
+          "tag": "Standard"
+        },
+        {
+          "world": "Larila Desert",
+          "level": 18,
+          "brainrot": "Penguino Cocosino",
+          "health": "30k",
+          "damage": "25k",
+          "tag": "Standard"
+        },
+        {
+          "world": "Larila Desert",
+          "level": 19,
+          "brainrot": "Cocofanto Elefanto",
+          "health": "35k",
+          "damage": "35k",
+          "tag": "Standard"
+        },
+        {
+          "world": "Larila Desert",
+          "level": 20,
+          "brainrot": "Orangutini Ananasini",
+          "health": "50k",
+          "damage": "50k",
+          "tag": "Standard"
+        },
+        {
+          "world": "Larila Desert",
+          "level": 21,
+          "brainrot": "Gorillo Watermellondrillo",
+          "health": "65k",
+          "damage": "100k",
+          "tag": "Boss"
+        },
+        {
+          "world": "Tralalero Ocean",
+          "level": 22,
+          "brainrot": "Trulimero Trulicina",
+          "health": "80k",
+          "damage": "250k",
+          "tag": "Standard"
+        },
+        {
+          "world": "Tralalero Ocean",
+          "level": 23,
+          "brainrot": "Trippi Troppi",
+          "health": "95k",
+          "damage": "500k",
+          "tag": "OG"
+        },
+        {
+          "world": "Tralalero Ocean",
+          "level": 24,
+          "brainrot": "Zibra Zubra Zibralini",
+          "health": "110k",
+          "damage": "1m",
+          "tag": "Standard"
+        },
+        {
+          "world": "Tralalero Ocean",
+          "level": 25,
+          "brainrot": "Ta Ta Ta Ta Sahur",
+          "health": "200k",
+          "damage": "2m",
+          "tag": "Rebirth 2"
+        },
+        {
+          "world": "Tralalero Ocean",
+          "level": 26,
+          "brainrot": "Bobritto Bandito",
+          "health": "400k",
+          "damage": "7.5m",
+          "tag": "Standard"
+        },
+        {
+          "world": "Tralalero Ocean",
+          "level": 27,
+          "brainrot": "Cappuccino Assassino",
+          "health": "700k",
+          "damage": "15m",
+          "tag": "Standard"
+        },
+        {
+          "world": "Tralalero Ocean",
+          "level": 28,
+          "brainrot": "Orcalero Orcala",
+          "health": "1.5m",
+          "damage": "30m",
+          "tag": "Boss"
+        },
+        {
+          "world": "Mount Ambalabu",
+          "level": 29,
+          "brainrot": "Frulli Frulla",
+          "health": "3.25m",
+          "damage": "200m",
+          "tag": "Standard"
+        },
+        {
+          "world": "Mount Ambalabu",
+          "level": 30,
+          "brainrot": "Svinino Bombondino",
+          "health": "4m",
+          "damage": "400m",
+          "tag": "Standard"
+        },
+        {
+          "world": "Mount Ambalabu",
+          "level": 31,
+          "brainrot": "Glorbo Fruttodrillo",
+          "health": "5m",
+          "damage": "600m",
+          "tag": "Standard"
+        },
+        {
+          "world": "Mount Ambalabu",
+          "level": 32,
+          "brainrot": "Frigo Camelo",
+          "health": "15m",
+          "damage": "1b",
+          "tag": "Standard"
+        },
+        {
+          "world": "Mount Ambalabu",
+          "level": 33,
+          "brainrot": "Sigma Boy",
+          "health": "25m",
+          "damage": "2b",
+          "tag": "Standard"
+        },
+        {
+          "world": "Mount Ambalabu",
+          "level": 34,
+          "brainrot": "Tic Tac Tok Afammoc",
+          "health": "35m",
+          "damage": "5b",
+          "tag": "Standard"
+        },
+        {
+          "world": "Mount Ambalabu",
+          "level": 35,
+          "brainrot": "Salamino Pinguino",
+          "health": "80m",
+          "damage": "15b",
+          "tag": "Boss"
+        },
+        {
+          "world": "Chicleteiramania",
+          "level": 36,
+          "brainrot": "Gingobalo Gingobali",
+          "health": "200m",
+          "damage": "350b",
+          "tag": "Standard"
+        },
+        {
+          "world": "Chicleteiramania",
+          "level": 37,
+          "brainrot": "Crocodillo Ananasinno",
+          "health": "250m",
+          "damage": "700b",
+          "tag": "Standard"
+        },
+        {
+          "world": "Chicleteiramania",
+          "level": 38,
+          "brainrot": "Bananaconda",
+          "health": "350m",
+          "damage": "1.5t",
+          "tag": "Standard"
+        },
+        {
+          "world": "Chicleteiramania",
+          "level": 39,
+          "brainrot": "Ballerino Lololo",
+          "health": "1b",
+          "damage": "3t",
+          "tag": "Rebirth 3"
+        },
+        {
+          "world": "Chicleteiramania",
+          "level": 40,
+          "brainrot": "Matteo",
+          "health": "1.5b",
+          "damage": "6t",
+          "tag": "Standard"
+        },
+        {
+          "world": "Chicleteiramania",
+          "level": 41,
+          "brainrot": "Giraffa Celeste",
+          "health": "2b",
+          "damage": "17.5t",
+          "tag": "Standard"
+        },
+        {
+          "world": "Chicleteiramania",
+          "level": 42,
+          "brainrot": "Bulbito Bandito Traktorito",
+          "health": "5b",
+          "damage": "35t",
+          "tag": "Boss"
+        },
+        {
+          "world": "Nuclearo Core",
+          "level": 43,
+          "brainrot": "Spionero Golubiro",
+          "health": "17.5b",
+          "damage": "600t",
+          "tag": "Standard"
+        },
+        {
+          "world": "Nuclearo Core",
+          "level": 44,
+          "brainrot": "Gangster Footera",
+          "health": "25b",
+          "damage": "1.25Qa",
+          "tag": "Standard"
+        },
+        {
+          "world": "Nuclearo Core",
+          "level": 45,
+          "brainrot": "Tortuginni Dragonfruttini",
+          "health": "75b",
+          "damage": "2.5Qa",
+          "tag": "Standard"
+        },
+        {
+          "world": "Nuclearo Core",
+          "level": 46,
+          "brainrot": "Rhino Toasterino",
+          "health": "100b",
+          "damage": "6Qa",
+          "tag": "Standard"
+        },
+        {
+          "world": "Nuclearo Core",
+          "level": 47,
+          "brainrot": "Ecco Cavallo Virtuoso",
+          "health": "200b",
+          "damage": "12.5Qa",
+          "tag": "Standard"
+        },
+        {
+          "world": "Nuclearo Core",
+          "level": 48,
+          "brainrot": "Nuclearo Dinosauro",
+          "health": "300b",
+          "damage": "35Qa",
+          "tag": "Standard"
+        },
+        {
+          "world": "Nuclearo Core",
+          "level": 49,
+          "brainrot": "Lerulerulerule",
+          "health": "500b",
+          "damage": "70Qa",
+          "tag": "Boss"
+        },
+        {
+          "world": "Udin Dinlympus",
+          "level": 50,
+          "brainrot": "Trillalero Tralalima",
+          "health": "4.5t",
+          "damage": "175Qa",
+          "tag": "Standard"
+        },
+        {
+          "world": "Udin Dinlympus",
+          "level": 51,
+          "brainrot": "Pelicini Pananini",
+          "health": "6t",
+          "damage": "350Qa",
+          "tag": "Standard"
+        },
+        {
+          "world": "Udin Dinlympus",
+          "level": 52,
+          "brainrot": "Cocossini Mama",
+          "health": "17.5t",
+          "damage": "600Qa",
+          "tag": "Standard"
+        },
+        {
+          "world": "Udin Dinlympus",
+          "level": 53,
+          "brainrot": "Bri Bri Bicus Ticus",
+          "health": "25t",
+          "damage": "1.25Qi",
+          "tag": "Rebirth 4"
+        },
+        {
+          "world": "Udin Dinlympus",
+          "level": 54,
+          "brainrot": "Espressona Signora",
+          "health": "65t",
+          "damage": "3.5Qi",
+          "tag": "Standard"
+        },
+        {
+          "world": "Udin Dinlympus",
+          "level": 55,
+          "brainrot": "Tric Trac Barabum",
+          "health": "60t",
+          "damage": "3.5Qi",
+          "tag": "Standard"
+        },
+        {
+          "world": "Udin Dinlympus",
+          "level": 56,
+          "brainrot": "Shimpanzini Watermelonini Kingini",
+          "health": "100t",
+          "damage": "7Qi",
+          "tag": "Standard"
+        },
+        {
+          "world": "Glorbo Heights",
+          "level": 57,
+          "brainrot": "Tigrrullini Watermellini",
+          "health": "150t",
+          "damage": "75Qi",
+          "tag": "Standard"
+        },
+        {
+          "world": "Glorbo Heights",
+          "level": 58,
+          "brainrot": "Ti Ti Ti Sahur",
+          "health": "200t",
+          "damage": "150Qi",
+          "tag": "Standard"
+        },
+        {
+          "world": "Glorbo Heights",
+          "level": 59,
+          "brainrot": "Trulibau Trulibanana",
+          "health": "350t",
+          "damage": "300Qi",
+          "tag": "Standard"
+        },
+        {
+          "world": "Glorbo Heights",
+          "level": 60,
+          "brainrot": "Tracotucotulu Delapeladustuz",
+          "health": "500t",
+          "damage": "600Qi",
+          "tag": "Standard"
+        },
+        {
+          "world": "Glorbo Heights",
+          "level": 61,
+          "brainrot": "Bombardiro Cudcudach",
+          "health": "750t",
+          "damage": "1.75Sx",
+          "tag": "Standard"
+        },
+        {
+          "world": "Glorbo Heights",
+          "level": 62,
+          "brainrot": "Trenostruzzo Turbo 3000",
+          "health": "1.5Qa",
+          "damage": "3.5Sx",
+          "tag": "Standard"
+        },
+        {
+          "world": "Glorbo Heights",
+          "level": 63,
+          "brainrot": "Nightmare Sahur",
+          "health": "2.5Qa",
+          "damage": "7Sx",
+          "tag": "Standard"
+        },
+        {
+          "world": "Brainrot Abyss",
+          "level": 64,
+          "brainrot": "Karkerkurkarkarkarkurkurkur",
+          "health": "3.75Qa",
+          "damage": "150Sx",
+          "tag": "Standard"
+        },
+        {
+          "world": "Brainrot Abyss",
+          "level": 65,
+          "brainrot": "Trikitrakatelas",
+          "health": "7.5Qa",
+          "damage": "300Sx",
+          "tag": "Standard"
+        },
+        {
+          "world": "Brainrot Abyss",
+          "level": 66,
+          "brainrot": "Tang Tang Kelentang",
+          "health": "12.5Qa",
+          "damage": "600Sx",
+          "tag": "Standard"
+        },
+        {
+          "world": "Brainrot Abyss",
+          "level": 67,
+          "brainrot": "Tukanno Bananno",
+          "health": "17.5Qa",
+          "damage": "1.25Sp",
+          "tag": "Rebirth 5"
+        },
+        {
+          "world": "Brainrot Abyss",
+          "level": 68,
+          "brainrot": "Antonio",
+          "health": "25Qa",
+          "damage": "3.5Sp",
+          "tag": "Standard"
+        },
+        {
+          "world": "Brainrot Abyss",
+          "level": 69,
+          "brainrot": "Alessio",
+          "health": "50Qa",
+          "damage": "7Sp",
+          "tag": "Standard"
+        },
+        {
+          "world": "Brainrot Abyss",
+          "level": 70,
+          "brainrot": "Ketupat Kepat Prekupat",
+          "health": "100Qa",
+          "damage": "15Sp",
+          "tag": "Standard"
+        },
+        {
+          "world": "Bombardino Sewer",
+          "level": 71,
+          "brainrot": "Centralucci Nuclearucci",
+          "health": "1.5Qi",
+          "damage": "60Sp",
+          "tag": "Standard"
+        },
+        {
+          "world": "Bombardino Sewer",
+          "level": 72,
+          "brainrot": "Leonelli Cactuselli",
+          "health": "3Qi",
+          "damage": "125Sp",
+          "tag": "Standard"
+        },
+        {
+          "world": "Bombardino Sewer",
+          "level": 73,
+          "brainrot": "Gambero Spero",
+          "health": "5Qi",
+          "damage": "300Sp",
+          "tag": "Standard"
+        },
+        {
+          "world": "Bombardino Sewer",
+          "level": 74,
+          "brainrot": "Tirilikalika Tirilikalako",
+          "health": "7Qi",
+          "damage": "600Sp",
+          "tag": "Standard"
+        },
+        {
+          "world": "Bombardino Sewer",
+          "level": 75,
+          "brainrot": "Capibomba Atomica",
+          "health": "10Qi",
+          "damage": "1.75Oc",
+          "tag": "Standard"
+        },
+        {
+          "world": "Bombardino Sewer",
+          "level": 76,
+          "brainrot": "Dar Dir Durr Dorr Telur Dadar",
+          "health": "20Qi",
+          "damage": "3.5Oc",
+          "tag": "Standard"
+        },
+        {
+          "world": "Bombardino Sewer",
+          "level": 77,
+          "brainrot": "Bamberclat Crococlat",
+          "health": "4Qi",
+          "damage": "7.5Oc",
+          "tag": "Standard"
+        },
+        {
+          "world": "Goooat Galaxy",
+          "level": 78,
+          "brainrot": "Piccione Macchina",
+          "health": "6Qi",
+          "damage": "62.5Oc",
+          "tag": "Standard"
+        },
+        {
+          "world": "Goooat Galaxy",
+          "level": 79,
+          "brainrot": "Elefantino Frigorifero",
+          "health": "12Qi",
+          "damage": "125Oc",
+          "tag": "Standard"
+        },
+        {
+          "world": "Goooat Galaxy",
+          "level": 80,
+          "brainrot": "Cacasito Satelito",
+          "health": "20Qi",
+          "damage": "312.5Oc",
+          "tag": "Standard"
+        },
+        {
+          "world": "Goooat Galaxy",
+          "level": 81,
+          "brainrot": "Il Mastodontico Telepiedone Planetario",
+          "health": "28Qi",
+          "damage": "625Oc",
+          "tag": "Rebirth 6"
+        },
+        {
+          "world": "Goooat Galaxy",
+          "level": 82,
+          "brainrot": "La Vacca Black Hole Goat",
+          "health": "40Qi",
+          "damage": "1.88No",
+          "tag": "Standard"
+        },
+        {
+          "world": "Goooat Galaxy",
+          "level": 83,
+          "brainrot": "Trenostruzzo Turbo 4000",
+          "health": "80Qi",
+          "damage": "3.75No",
+          "tag": "Standard"
+        },
+        {
+          "world": "Goooat Galaxy",
+          "level": 84,
+          "brainrot": "Kiki Koka Kiko Keke",
+          "health": "150Qi",
+          "damage": "9.38No",
+          "tag": "Standard"
+        },
+        {
+          "world": "Strawberry Land",
+          "level": 85,
+          "brainrot": "Strawberrelli Flamingelli",
+          "health": "75Sx",
+          "damage": "37.5No",
+          "tag": "Standard"
+        },
+        {
+          "world": "Strawberry Land",
+          "level": 86,
+          "brainrot": "Francesco",
+          "health": "150Sx",
+          "damage": "75No",
+          "tag": "Standard"
+        },
+        {
+          "world": "Strawberry Land",
+          "level": 87,
+          "brainrot": "Cocosino Rhino",
+          "health": "250Sx",
+          "damage": "187.5No",
+          "tag": "Standard"
+        },
+        {
+          "world": "Strawberry Land",
+          "level": 88,
+          "brainrot": "Perochello Lemonchello",
+          "health": "350Sx",
+          "damage": "375No",
+          "tag": "Standard"
+        },
+        {
+          "world": "Strawberry Land",
+          "level": 89,
+          "brainrot": "Bombardana Crocalala",
+          "health": "500Sx",
+          "damage": "1.12Dc",
+          "tag": "Standard"
+        },
+        {
+          "world": "Strawberry Land",
+          "level": 90,
+          "brainrot": "Abonono Schimpanzinono",
+          "health": "1Sp",
+          "damage": "2.25Dc",
+          "tag": "Standard"
+        },
+        {
+          "world": "Strawberry Land",
+          "level": 91,
+          "brainrot": "Strawberry Elephant",
+          "health": "2Sp",
+          "damage": "4.5Dc",
+          "tag": "Standard"
+        },
+        {
+          "world": "Cadabra Restaurant",
+          "level": 92,
+          "brainrot": "Pipi Potato",
+          "health": "3Sp",
+          "damage": "20Dc",
+          "tag": "Standard"
+        },
+        {
+          "world": "Cadabra Restaurant",
+          "level": 93,
+          "brainrot": "Cattini Sushini",
+          "health": "6Sp",
+          "damage": "40Dc",
+          "tag": "Standard"
+        },
+        {
+          "world": "Cadabra Restaurant",
+          "level": 94,
+          "brainrot": "Carloo",
+          "health": "10Sp",
+          "damage": "100Dc",
+          "tag": "Standard"
+        },
+        {
+          "world": "Cadabra Restaurant",
+          "level": 95,
+          "brainrot": "Bombardini Tortini",
+          "health": "15Sp",
+          "damage": "200Dc",
+          "tag": "Rebirth 7"
+        },
+        {
+          "world": "Cadabra Restaurant",
+          "level": 96,
+          "brainrot": "Kiwitto Bandito",
+          "health": "25Sp",
+          "damage": "600Dc",
+          "tag": "Standard"
+        },
+        {
+          "world": "Cadabra Restaurant",
+          "level": 97,
+          "brainrot": "Chef Crabracadabra",
+          "health": "50Sp",
+          "damage": "1.25Ud",
+          "tag": "Standard"
+        },
+        {
+          "world": "Cadabra Restaurant",
+          "level": 98,
+          "brainrot": "Gorgonzilla",
+          "health": "100Sp",
+          "damage": "2.5Ud",
+          "tag": "Standard"
+        },
+        {
+          "world": "Flushrooms",
+          "level": 99,
+          "brainrot": "Y Y Y Sahur",
+          "health": "150Sp",
+          "damage": "10Ud",
+          "tag": "Standard"
+        },
+        {
+          "world": "Flushrooms",
+          "level": 100,
+          "brainrot": "E E E Sahur",
+          "health": "300Sp",
+          "damage": "20Ud",
+          "tag": "Standard"
+        },
+        {
+          "world": "Flushrooms",
+          "level": 101,
+          "brainrot": "P P P Sahur",
+          "health": "700Sp",
+          "damage": "40Ud",
+          "tag": "Standard"
+        },
+        {
+          "world": "Flushrooms",
+          "level": 102,
+          "brainrot": "A A A Sahur",
+          "health": "1.5Oc",
+          "damage": "80Ud",
+          "tag": "Standard"
+        },
+        {
+          "world": "Flushrooms",
+          "level": 103,
+          "brainrot": "K K K Sahur",
+          "health": "4.5Oc",
+          "damage": "200Ud",
+          "tag": "Standard"
+        },
+        {
+          "world": "Flushrooms",
+          "level": 104,
+          "brainrot": "I I I Sahur",
+          "health": "9Oc",
+          "damage": "500Ud",
+          "tag": "Standard"
+        },
+        {
+          "world": "Flushrooms",
+          "level": 105,
+          "brainrot": "N N Sahur",
+          "health": "20Oc",
+          "damage": "1Dd",
+          "tag": "Standard"
+        },
+        {
+          "world": "Brainheaven",
+          "level": 106,
+          "brainrot": "Beduk Duk Duk Beraduk",
+          "health": "30Oc",
+          "damage": "4Dd",
+          "tag": "Standard"
+        },
+        {
+          "world": "Brainheaven",
+          "level": 107,
+          "brainrot": "Pipi Halolo",
+          "health": "60Oc",
+          "damage": "8Dd",
+          "tag": "Standard"
+        },
+        {
+          "world": "Brainheaven",
+          "level": 108,
+          "brainrot": "Frigo Angello",
+          "health": "140Oc",
+          "damage": "16Dd",
+          "tag": "Standard"
+        },
+        {
+          "world": "Brainheaven",
+          "level": 109,
+          "brainrot": "Boneca Malalabu",
+          "health": "300Oc",
+          "damage": "32Dd",
+          "tag": "Standard"
+        },
+        {
+          "world": "Brainheaven",
+          "level": 110,
+          "brainrot": "Angelita Delphinita",
+          "health": "900Oc",
+          "damage": "80Dd",
+          "tag": "Standard"
+        },
+        {
+          "world": "Brainheaven",
+          "level": 111,
+          "brainrot": "La Sentinal Saturno Saturnita",
+          "health": "1.8No",
+          "damage": "200Dd",
+          "tag": "Standard"
+        },
+        {
+          "world": "Brainheaven",
+          "level": 112,
+          "brainrot": "Squallo Cavallo",
+          "health": "4No",
+          "damage": "400Dd",
+          "tag": "Standard"
         }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
+      "title": "Brainrot Evolution Trading Values",
       "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+      "intro": "Use this Brainrot Evolution Trading Values module to compare demand, avoid rushed swaps, and judge W/F/L with current value context.",
       "cards": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "name": "Core Value Board",
+          "description": "Track high-interest secrets, event units, and pet trades in one shortlist before you open trade chat."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "name": "Demand Momentum",
+          "description": "Check whether a unit is rising because of updates, event windows, or short-term hype before accepting offers."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "name": "Fair Swap Baseline",
+          "description": "Start from balanced value range, then adjust for rarity source, event lock, and current market urgency."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "name": "Scam Avoidance",
+          "description": "Confirm item names and exact variants before confirming. Similar names can hide large value gaps."
         }
       ],
       "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
+        "Check value and demand together",
+        "Do not rush update-week trades",
+        "Capture screenshots before finalize",
+        "Use W/F/L after every offer change"
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
+      "title": "Brainrot Evolution Secrets Guide",
       "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
+      "intro": "Review where each Brainrot Evolution secret can appear and which activity type gives the best chance to target it.",
       "regions": [
         {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "name": "Crate Secrets",
+          "type": "Crates",
+          "description": "Prioritize higher-tier crates during event windows to improve odds on rare secret pulls."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "name": "Boss Secrets",
+          "type": "Boss Drops",
+          "description": "Some secrets are tied to specific world bosses. Farm the highest boss you can clear consistently."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
+          "name": "Event Secrets",
+          "type": "Limited Events",
+          "description": "Limited events can add exclusive secrets with time-gated availability and short-lived demand spikes."
         },
         {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "name": "Pack Secrets",
+          "type": "Shop Packs",
+          "description": "Pack secrets usually trade at premium early, then normalize after wider circulation."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
+      "title": "Brainrot Evolution Secret Tier List",
       "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
+      "intro": "Rank Brainrot Evolution secrets by practical grind speed, rebirth support value, and trade desirability.",
       "creatures": [
         {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
+          "name": "S-Tier Secrets",
+          "role": "Top Priority",
+          "description": "Best mix of farming power and long-term trade value. These are usually worth building around."
         },
         {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
+          "name": "A-Tier Secrets",
+          "role": "Strong Core",
+          "description": "Reliable progression gains and stable demand, even outside major update cycles."
         },
         {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
+          "name": "B-Tier Secrets",
+          "role": "Situational",
+          "description": "Useful in specific routes or world phases, but replaced quickly by stronger options."
         },
         {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
+          "name": "C-Tier Secrets",
+          "role": "Collection",
+          "description": "Mainly collection or novelty value. Keep only if your trade strategy can convert them efficiently."
         },
         {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
+          "name": "Trade-Only Secrets",
+          "role": "Market Piece",
+          "description": "Low farming performance but still relevant when demand spikes after patch notes."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
+      "title": "Brainrot Evolution Pets Guide",
       "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+      "intro": "Follow this Brainrot Evolution Pets Guide to pick efficient eggs, rotate multipliers faster, and avoid overpaying early maps.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "name": "Starter Eggs",
+          "type": "Early Wins",
+          "description": "Buy low-cost starter eggs for your first damage jump, then move worlds without overspending."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "name": "Mid-Route Pets",
+          "type": "Progression Core",
+          "description": "Upgrade when a new world gives clean multiplier jumps instead of chasing tiny upgrades."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "name": "Boss Support Pets",
+          "type": "Boss Push",
+          "description": "Use pets with stable damage scaling when your route starts chaining bosses for XP bursts."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "name": "Event Hatch Picks",
+          "type": "Limited Rotation",
+          "description": "Event eggs can add short-window value targets. Balance hatch cost against trade and farming value."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
+          "name": "Rebirth Rebuild Pets",
+          "type": "Rebirth Reset",
+          "description": "Keep a rebuild-ready pet setup to reduce downtime after each rebirth reset."
         }
       ],
       "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
+        "Buy first efficient egg path",
+        "Replace starter pets on world jump",
+        "Align pet setup with rebirth timing",
+        "Reserve wins for high-impact hatch tiers"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
+      "title": "Brainrot Evolution World Guide",
       "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
+      "intro": "Use this Brainrot Evolution World Guide to plan unlock order, boss routes, and clean transition points between maps.",
       "sections": [
         {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "name": "World Unlock Order",
+          "description": "Follow a consistent unlock route so wins and damage gains stay aligned with level requirements."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "name": "Boss Gate Checks",
+          "description": "Treat boss checkpoints as pace markers; if clears slow down, refresh pets and relics before forcing progress."
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
+          "name": "System Unlock Timing",
+          "description": "Track where dungeons, relic loops, and trading access begin so you can pivot strategy at the right time."
         },
         {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
+          "name": "Rebirth Route Sync",
+          "description": "Plan world transitions around rebirth checkpoints instead of overgrinding one zone."
         }
       ],
       "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
+        "Unlock the next world on time",
+        "Clear local boss consistently",
+        "Integrate dungeons and relic routes",
+        "Hit rebirth checkpoints without overgrind"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
+      "title": "Brainrot Evolution Relics Guide",
       "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
+      "intro": "Prioritize Brainrot Evolution relic upgrades by use-case so EXP, wins, and damage boosts match your current grind objective.",
       "priorities": [
         {
-          "name": "Personal Qualia",
+          "name": "EXP Relic Stack",
           "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
+          "description": "Best option when pushing level milestones and preparing for fast rebirth cycles."
         },
         {
-          "name": "Frost Pick",
+          "name": "Damage Relic Stack",
           "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
+          "description": "Use when boss clears and world entry fights start slowing your route."
         },
         {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
+          "name": "Wins Relic Stack",
           "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
+          "description": "Strong for unlock-heavy sessions where zone gates and egg costs are the bottleneck."
         },
         {
-          "name": "Glider Glove",
+          "name": "Hybrid Relic Set",
           "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "description": "Balanced set for mixed sessions combining leveling, boss runs, and trade prep."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
+      "title": "Brainrot Evolution Trinkets Guide",
       "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+      "intro": "Track Brainrot Evolution trinkets by source and effect so station spending goes to permanent power first.",
       "groups": [
         {
-          "name": "Exploration",
+          "name": "Starter Trinkets",
           "achievements": [
             {
-              "title": "Angel α",
-              "description": "Enter a qualia."
+              "title": "Basic Damage Trinket",
+              "description": "Entry-level damage bump for early world consistency."
             },
             {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
+              "title": "Basic EXP Trinket",
+              "description": "Helps accelerate first rebirth checkpoint cycles."
             },
             {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
+              "title": "Basic Wins Trinket",
+              "description": "Supports unlock-heavy sessions with lower friction."
             }
           ]
         },
         {
-          "name": "Crafting and Summoning",
+          "name": "Mid-Game Trinkets",
           "achievements": [
             {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
+              "title": "Boss Pressure Trinket",
+              "description": "Improves survivability during higher world boss chains."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
+              "title": "Hybrid Route Trinket",
+              "description": "Balances EXP and damage for flexible farming windows."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
+              "title": "Event Route Trinket",
+              "description": "Best used during limited events and bonus drops."
             }
           ]
         },
         {
-          "name": "Mobility and Utility",
+          "name": "Late-Route Trinkets",
           "achievements": [
             {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
+              "title": "Rebirth Cycle Trinket",
+              "description": "Optimized for repeated rebirth loops with minimal downtime."
             },
             {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
+              "title": "Trade Prep Trinket",
+              "description": "Useful for farming high-interest units before trade sessions."
             },
             {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
+              "title": "Endgame Efficiency Trinket",
+              "description": "Maximizes consistency in high-cost progression windows."
             }
           ]
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
+      "title": "Brainrot Evolution Items Guide",
       "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
+      "intro": "These Brainrot Evolution item FAQs focus on when to use potions, tickets, scrolls, and event consumables for maximum value.",
       "faqs": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "question": "Which Brainrot Evolution potion should I use first?",
+          "answer": "Use EXP-focused potions during level pushes, then swap to wins-focused consumables when unlock costs become the bottleneck."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "question": "When should I spend Brainrot Evolution event tickets?",
+          "answer": "Spend tickets during active event windows when limited crates or boss tables include high-demand units."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "question": "How do Brainrot Evolution scrolls fit into progression?",
+          "answer": "Use scrolls on higher-value relic targets instead of early filler upgrades to avoid wasting rare enhancement resources."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "question": "Should I save Brainrot Evolution consumables before rebirth?",
+          "answer": "Yes. Keep your best consumables for the first stretch after rebirth to rebuild speed quickly."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "question": "What is the safest Brainrot Evolution item routine each session?",
+          "answer": "Start with EXP tools, switch to damage or wins based on your bottleneck, and save premium consumables for boss-heavy windows."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
+      "title": "Brainrot Evolution Trading Guide",
       "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
+      "intro": "Use this Brainrot Evolution Trading Guide to unlock trading cleanly, evaluate offers, and reduce risky swaps.",
       "faqs": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "question": "When does Brainrot Evolution trading unlock?",
+          "answer": "Trading is tied to progression milestones. Confirm your current rebirth and world prerequisites before opening trade sessions."
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "question": "How do I check if a Brainrot Evolution trade is fair?",
+          "answer": "Compare both value range and demand trend, then re-check after every offer change before confirming."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "question": "Which Brainrot Evolution assets are easiest to overpay for?",
+          "answer": "New event units and short-supply secrets often spike first. Wait for stabilized comparisons when possible."
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "question": "How can I avoid Brainrot Evolution trade scams?",
+          "answer": "Verify exact unit names and variants, record screenshots, and never confirm while details are changing quickly."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
+      "title": "Brainrot Evolution Update Log",
       "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
+      "intro": "Track Brainrot Evolution update highlights, patch focus, and progression impact in a fast-scan card layout.",
       "settings": [
         {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "name": "Weekly Saturday Patch",
+          "type": "Schedule",
+          "description": "Core updates usually land on Saturday with new progression routes and balance shifts."
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "name": "New Brainrot Additions",
+          "type": "Roster",
+          "description": "Watch each update for new units tied to fresh world pushes or event loops."
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
+          "name": "Economy and Value Drift",
+          "type": "Trading",
+          "description": "Patch weeks can move demand quickly, so update-day trades should use stricter value checks."
         },
         {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
+          "name": "Route Adjustments",
+          "type": "Progression",
+          "description": "Revisit your leveling and rebirth path after each patch so time is spent in the best-value zones."
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
+      "title": "Brainrot Evolution Discord and Trello",
       "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+      "intro": "Use official Brainrot Evolution community channels for announcements, code drops, and event alerts.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "type": "Discord",
+          "title": "Brainrot Evolution Official Discord",
+          "description": "Primary community channel for announcements, updates, and player discussions."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "type": "Community",
+          "title": "Brainrot Evolution Roblox Group",
+          "description": "Official Roblox group hub for in-platform community updates and announcements."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "type": "Social",
+          "title": "Brainrot Evolution X Updates",
+          "description": "Follow developer-side posts and update callouts published through official X channels."
+        },
+        {
+          "type": "Reference",
+          "title": "Brainrot Evolution Trello Status",
+          "description": "Treat Trello availability as optional and verify link legitimacy through official channels first."
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
+      "title": "Brainrot Evolution Boss Event Guide",
       "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+      "intro": "Follow this Brainrot Evolution Boss Event Guide to time entries, prepare loadouts, and convert limited windows into stronger rewards.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Track Event Windows Early",
+          "description": "Check update announcements and community alerts before the event starts so your route is ready at spawn time."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Prepare Boss-Focused Loadout",
+          "description": "Switch to damage-friendly pets and relics before event bosses appear to reduce failed attempts."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Prioritize Limited Drops",
+          "description": "Limited crates and event units should be targeted first because they usually hold stronger trade pressure."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Convert Rewards Into Progress",
+          "description": "After the event, reinvest gains into rebirth pacing, world unlocks, or high-value trade opportunities."
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "Brainrot Evolution",
+    "titleHighlight": "FAQ",
+    "subtitle": "Everything players ask about Brainrot Evolution codes, progression pacing, trading safety, and weekly updates.",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "How often does Brainrot Evolution receive updates?",
+        "answer": "Brainrot Evolution commonly updates on Saturday, and update notes usually affect codes, world pacing, and event planning."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What is the fastest Brainrot Evolution early progression route?",
+        "answer": "In Brainrot Evolution, focus on efficient world transitions, upgrade only needed pets, and line up your first rebirth quickly."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How should I redeem Brainrot Evolution codes correctly?",
+        "answer": "Open Brainrot Evolution, use the in-game Codes tab, paste the code exactly, and redeem each code once per account."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "When should I start Brainrot Evolution trading?",
+        "answer": "Start Brainrot Evolution trading after you unlock required progression milestones and can evaluate value plus demand together."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Which Brainrot Evolution modules should I read first?",
+        "answer": "For Brainrot Evolution, start with Codes, Beginner Guide, Rebirth Guide, and All Brainrots, then move to trading and event modules."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Where can I follow official Brainrot Evolution community links?",
+        "answer": "Use the Brainrot Evolution Discord, Roblox Group, X account, and YouTube channel listed on this homepage footer."
       }
     ]
   },
@@ -790,7 +1748,7 @@
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "YouTube",
+    "steamCommunity": "YouTube Channel",
     "steamStore": "Play on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
@@ -801,10 +1759,10 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
+      "title": "Brainrot Evolution Guides",
       "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "metaTitle": "Brainrot Evolution Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Brainrot Evolution guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
       "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
@@ -821,10 +1779,10 @@
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
+      "title": "Brainrot Evolution Crafting",
       "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
+      "metaTitle": "Brainrot Evolution Crafting - Apotheosis System & Recipes",
+      "metaDescription": "Master Brainrot Evolution Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
       "categoryLabel": "CRAFTING SYSTEM",
       "whatIs": "What is Crafting?",
       "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
@@ -841,10 +1799,10 @@
       "all": "All Crafting Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
+      "title": "Brainrot Evolution Items",
       "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
+      "metaTitle": "Brainrot Evolution Items - Tools, Weapons & Gear Guide",
+      "metaDescription": "Complete item database for Brainrot Evolution including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
       "categoryLabel": "ITEMS & EQUIPMENT",
       "whatIs": "What are Items?",
       "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
@@ -861,10 +1819,10 @@
       "all": "All Items"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
+      "title": "Brainrot Evolution Biomes",
       "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
+      "metaTitle": "Brainrot Evolution Biomes - World Regions & Exploration",
+      "metaDescription": "Explore Brainrot Evolution biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
       "categoryLabel": "WORLD REGIONS",
       "whatIs": "What are Biomes?",
       "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
@@ -881,10 +1839,10 @@
       "all": "All Biomes"
     },
     "building": {
-      "title": "Lucid Blocks Building",
+      "title": "Brainrot Evolution Building",
       "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
+      "metaTitle": "Brainrot Evolution Building - Qualia & Base Construction",
+      "metaDescription": "Master Brainrot Evolution building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
       "categoryLabel": "BUILDING & BASES",
       "whatIs": "What is Building?",
       "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
@@ -901,10 +1859,10 @@
       "all": "All Building Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
+      "title": "Brainrot Evolution Support",
       "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
+      "metaTitle": "Brainrot Evolution Support - Technical Help & Fixes",
+      "metaDescription": "Get technical support for Brainrot Evolution including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
       "categoryLabel": "TECHNICAL SUPPORT",
       "whatIs": "What is Support?",
       "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",

@@ -12,7 +12,7 @@ interface PageProps {
 
 const SITE_NAME = 'Brainrot Evolution Wiki'
 const SITE_DESCRIPTION =
-  "Track Brainrot Evolution codes, secrets, pets, worlds, rebirths, and updates in one fast Roblox wiki built for players who want cleaner progression help."
+  'Track Brainrot Evolution codes, secrets, pets, worlds, rebirths, and weekly updates in one fast Roblox wiki built for cleaner progression routes.'
 const FEATURED_VIDEO_ID = 'QVktq23WYUE'
 const FEATURED_VIDEO_TITLE = 'ALL NEW LEAKS in Brainrot Evolution Update 22'
 const FEATURED_VIDEO_URL = `https://www.youtube.com/watch?v=${FEATURED_VIDEO_ID}`
@@ -24,6 +24,7 @@ const SITE_KEYWORDS = [
   'pets',
   'worlds',
   'rebirths',
+  'trading values',
   'updates',
 ]
 
