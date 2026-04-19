@@ -14,46 +14,46 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  lucidBlocksBeginnerGuide: { field: 'items', nameKey: 'code' },
+  lucidBlocksApotheosisCrafting: { field: 'items', nameKey: 'title' },
+  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'title' },
+  lucidBlocksStorageAndInventory: { field: 'items', nameKey: 'brainrot' },
+  lucidBlocksQualiaAndBaseBuilding: { field: 'items', nameKey: 'asset' },
+  lucidBlocksWorldRegions: { field: 'items', nameKey: 'secret' },
+  lucidBlocksCreaturesAndEnemies: { field: 'items', nameKey: 'focus' },
+  lucidBlocksMobilityGear: { field: 'items', nameKey: 'top_pet' },
+  lucidBlocksFarmingAndGrowth: { field: 'items', nameKey: 'name' },
+  lucidBlocksBestEarlyUnlocks: { field: 'items', nameKey: 'relic' },
+  lucidBlocksAchievementTracker: { field: 'items', nameKey: 'trinket' },
+  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'items', nameKey: 'section' },
+  lucidBlocksSteamDeckAndController: { field: 'items', nameKey: 'title' },
+  lucidBlocksSettingsAndAccessibility: { field: 'items', nameKey: 'patch' },
+  lucidBlocksUpdatesAndPatchNotes: { field: 'items', nameKey: 'title' },
+  lucidBlocksCrashFixAndTroubleshooting: { field: 'items', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  lucidBlocksBeginnerGuide: ['codes', 'redeem', 'shop', 'verify', 'rewards', 'promo'],
+  lucidBlocksApotheosisCrafting: ['beginner guide', 'progression', 'eggs', 'pets', 'dungeons', 'rebirth'],
+  lucidBlocksToolsAndWeapons: ['rebirth', 'reset', 'level', 'checkpoints', 'secrets', 'progression'],
+  lucidBlocksStorageAndInventory: ['all brainrots', 'brainrot list', 'characters', 'names', 'secret', 'last brainrot'],
+  lucidBlocksQualiaAndBaseBuilding: ['trading values', 'value list', 'trading', 'gems', 'tri ton', 'meowl'],
+  lucidBlocksWorldRegions: ['secrets guide', 'secret boost', 'fusion secrets', 'hidden secret', 'unlock', 'youtuber secret'],
+  lucidBlocksCreaturesAndEnemies: ['secret tier list', 'tier list', 'ranking', 'best secret', 's tier', 'guide'],
+  lucidBlocksMobilityGear: ['pets guide', 'pets', 'egg', 'hatch', 'top pet', 'damage'],
+  lucidBlocksFarmingAndGrowth: ['world guide', 'world 15', 'zones', 'progression', 'route', 'maps'],
+  lucidBlocksBestEarlyUnlocks: ['relics guide', 'relics', 'crate', 'drop rate', 'damage', 'exp'],
+  lucidBlocksAchievementTracker: ['trinkets guide', 'trinkets', 'station', 'shards', 'drop rate', 'equip trinkets'],
+  lucidBlocksSingleplayerAndPlatformFAQ: ['items guide', 'potions', 'scrolls', 'tickets', 'shards', 'attachment gems'],
+  lucidBlocksSteamDeckAndController: ['trading guide', 'value list', 'wfl', 'trade', 'offers', 'market'],
+  lucidBlocksSettingsAndAccessibility: ['update log', 'patch notes', 'weekly update', 'update 47', 'leaks', 'saturday'],
+  lucidBlocksUpdatesAndPatchNotes: ['discord', 'trello', 'group', 'youtube', 'website', 'community'],
+  lucidBlocksCrashFixAndTroubleshooting: ['boss event', 'admin abuse', 'live event', 'void event', 'tsunami', 'cheese event'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['brainrot', 'brain', 'rot', 'evolution', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "Brainrot Evolution")
+  const strippedQuery = normalizedQuery.replace(/brain\s*rot\s*evolution\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/brain\s*rot\s*evolution\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }

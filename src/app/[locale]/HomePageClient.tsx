@@ -78,17 +78,27 @@ function ToolNavCard({
   )
 }
 
-// Render section titles as plain text to avoid internal URL links on homepage modules.
 function LinkedTitle({
+  linkData,
   children,
   className,
+  locale,
 }: {
   linkData: { url: string; title: string } | null | undefined
   children: React.ReactNode
   className?: string
   locale: string
 }) {
-  return <span className={className}>{children}</span>
+  if (!linkData?.url) {
+    return <span className={className}>{children}</span>
+  }
+
+  const localizedHref = locale === 'en' ? linkData.url : `/${locale}${linkData.url}`
+  return (
+    <a href={localizedHref} className={className}>
+      {children}
+    </a>
+  )
 }
 
 interface HomePageClientProps {
