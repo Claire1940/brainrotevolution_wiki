@@ -122,22 +122,22 @@
       {
         "icon": "Gamepad2",
         "title": "Brainrot Evolution Trading Guide",
-        "description": "Learn Brainrot Evolution trading unlock rules, safety checks, and common mistake prevention."
+        "description": "Follow Brainrot Evolution trading from Rebirth 2 unlock to full-offer checks and final W/F/L confirmation."
       },
       {
         "icon": "Settings",
         "title": "Brainrot Evolution Update Log",
-        "description": "Follow Brainrot Evolution weekly patches, event notes, and roster changes in one timeline."
+        "description": "Track Brainrot Evolution Saturday patch windows, feature drops, and update highlights in one timeline."
       },
       {
         "icon": "Clock",
         "title": "Brainrot Evolution Discord and Trello",
-        "description": "Open official Brainrot Evolution Discord and Trello/community info links in one module."
+        "description": "Open Brainrot Evolution community links for Discord, Roblox, wiki, YouTube, X, and Trello status."
       },
       {
         "icon": "Shield",
         "title": "Brainrot Evolution Boss Event Guide",
-        "description": "Prepare for Brainrot Evolution weather and limited boss events with spawn and drop checklists."
+        "description": "Prepare Brainrot Evolution Admin Abuse, YT bosses, weather bosses, and seasonal limited drop routes."
       }
     ]
   },
@@ -2655,101 +2655,225 @@
     },
     "lucidBlocksSteamDeckAndController": {
       "title": "Brainrot Evolution Trading Guide",
-      "displayType": "accordion",
-      "intro": "Use this Brainrot Evolution Trading Guide to unlock trading cleanly, evaluate offers, and reduce risky swaps.",
-      "faqs": [
+      "displayType": "stepByStep",
+      "eyebrow": "Trading",
+      "subtitle": "Trading in Brainrot Evolution starts with access, then shifts into value checking. The safest swaps come from using live gem anchors and the W/F/L verdict before locking any offer.",
+      "intro": "Use this Brainrot Evolution Trading Guide when you want cleaner first trades and fewer low-information swaps. Current value tools cover mixed offers across brainrots, pets, relics, items, crates, trinkets, and secrets, so evaluate value before rarity every time.",
+      "items": [
         {
-          "question": "When does Brainrot Evolution trading unlock?",
-          "answer": "Trading is tied to progression milestones. Confirm your current rebirth and world prerequisites before opening trade sessions."
+          "step": 1,
+          "title": "Unlock Brainrot Evolution trading first",
+          "description": "Trading unlocks after your second Rebirth, so clear that progression gate before spending time comparing market offers.",
+          "keyPoints": [
+            "Requirement: Rebirth 2",
+            "Trading opens after the unlock, not during the opening grind"
+          ]
         },
         {
-          "question": "How do I check if a Brainrot Evolution trade is fair?",
-          "answer": "Compare both value range and demand trend, then re-check after every offer change before confirming."
+          "step": 2,
+          "title": "Check the full Brainrot Evolution offer, not one unit",
+          "description": "The current value stack tracks more than a single brainrot. Live lists cover brainrots, pets, relics, items, crates, and trinkets, while official W/F/L inputs include pets, relics, items, and secrets in one flow.",
+          "keyPoints": [
+            "Tracked categories: brainrots, pets, relics, items, crates, trinkets",
+            "Official W/F/L inputs: pets, relics, items, secrets"
+          ]
         },
         {
-          "question": "Which Brainrot Evolution assets are easiest to overpay for?",
-          "answer": "New event units and short-supply secrets often spike first. Wait for stabilized comparisons when possible."
+          "step": 3,
+          "title": "Anchor Brainrot Evolution swaps against live top values",
+          "description": "Use high-end market values as your ceiling reference before accepting bundles. In the February 21, 2026 refresh, top tracked names were Tri Ton at 3.5M gems, Meowl at 2.6M, Evilduck at 2.4M, and Xmastree at 2M.",
+          "keyPoints": [
+            "Tri Ton: 3.5M gems",
+            "Meowl: 2.6M gems",
+            "Evilduck: 2.4M gems",
+            "Xmastree: 2M gems"
+          ]
         },
         {
-          "question": "How can I avoid Brainrot Evolution trade scams?",
-          "answer": "Verify exact unit names and variants, record screenshots, and never confirm while details are changing quickly."
+          "step": 4,
+          "title": "Read the Brainrot Evolution W/F/L verdict before confirm",
+          "description": "W/F/L means Win, Fair, or Lose. It is the fastest sanity check in the current trade stack because it shows whether the final result is good, balanced, or bad for your side.",
+          "keyPoints": [
+            "W = good outcome",
+            "F = balanced outcome",
+            "L = bad outcome"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Refresh Brainrot Evolution values after Saturday patches",
+          "description": "The companion site surfaces New Values, an Update Log, and price-voting tools. Recheck those pages before high-end swaps, especially when a Saturday patch lands or an Admin Abuse event shifts supply.",
+          "keyPoints": [
+            "Check New Values before major swaps",
+            "Weekend patches can move crate and event-item prices quickly"
+          ]
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
       "title": "Brainrot Evolution Update Log",
-      "displayType": "settingCards",
-      "intro": "Track Brainrot Evolution update highlights, patch focus, and progression impact in a fast-scan card layout.",
-      "settings": [
+      "displayType": "timelineCards",
+      "eyebrow": "Updates",
+      "subtitle": "Brainrot Evolution runs on a strong Saturday update rhythm. This timeline tracks recent cycles, feature pushes, and patch themes in one scroll.",
+      "intro": "Use this Brainrot Evolution Update Log as a quick patch memory lane when you want to see what changed recently and where the next activity spike is likely. The latest tracked window is April 18, 2026.",
+      "items": [
         {
-          "name": "Weekly Saturday Patch",
-          "type": "Schedule",
-          "description": "Core updates usually land on Saturday with new progression routes and balance shifts."
+          "date": "2026-04-18",
+          "patch": "Weekly Saturday Update",
+          "summary": "The April 18 cycle went live at 11:00 AM EST. It included fresh codes, and the Admin Abuse window started one hour earlier at 10:00 AM EST.",
+          "highlights": [
+            "Release time: 11:00 AM EST",
+            "Admin Abuse: 10:00 AM EST",
+            "Saturday cadence remains active"
+          ]
         },
         {
-          "name": "New Brainrot Additions",
-          "type": "Roster",
-          "description": "Watch each update for new units tied to fresh world pushes or event loops."
+          "date": "2026-03-14",
+          "patch": "YT Tier Release Window",
+          "summary": "The March 14 cycle focused on YT rarity, a new event, new crates, Secret Brainrots, weather spawns, bosses, and a code that rewarded Mega EXP Potions.",
+          "highlights": [
+            "New rarity: YT",
+            "New event with Admin Abuse support",
+            "Weather spawns, bosses, and crates"
+          ]
         },
         {
-          "name": "Economy and Value Drift",
-          "type": "Trading",
-          "description": "Patch weeks can move demand quickly, so update-day trades should use stricter value checks."
+          "date": "2026-01-17",
+          "patch": "Update 39",
+          "summary": "Update 39 launched with new events, rewards, and weather rotations. Two weather events were added: Cactus Formaggio and YONI PONI, with Event Crates tied to event bosses.",
+          "highlights": [
+            "New weather events: Cactus Formaggio, YONI PONI",
+            "Event Crates from event bosses",
+            "New rewards added to the patch"
+          ]
         },
         {
-          "name": "Route Adjustments",
-          "type": "Progression",
-          "description": "Revisit your leveling and rebirth path after each patch so time is spent in the best-value zones."
+          "date": "2025-12-13",
+          "patch": "Blinket Update",
+          "summary": "The December 13 update introduced Blinkets as a permanent-boost system with upgrade paths. It also tied N N N Sahur to discovering the 105th Brainrot.",
+          "highlights": [
+            "New system: Blinkets",
+            "Permanent boosts through upgrades",
+            "N N N Sahur linked to 105 discoveries"
+          ]
+        },
+        {
+          "date": "2025-12-06",
+          "patch": "Trading and Fusion Update",
+          "summary": "The December 6 update centered on new brainrots, the trading feature, and a Fusion route that can convert specific units into Secrets such as Nightmare Yoni, Job Job Job Sahur, and Tri Ton Ton Ton Sahur.",
+          "highlights": [
+            "Trading feature added",
+            "Fusion route for Secret targets",
+            "Admin brainrot teased for the cycle"
+          ]
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
       "title": "Brainrot Evolution Discord and Trello",
-      "displayType": "timeline",
-      "intro": "Use official Brainrot Evolution community channels for announcements, code drops, and event alerts.",
-      "entries": [
+      "displayType": "cardList",
+      "eyebrow": "Community",
+      "subtitle": "Most live Brainrot Evolution information flows through Discord, Roblox, and the companion wiki. Public Trello is not active in the current link stack.",
+      "intro": "Use this Brainrot Evolution Discord and Trello module to reach official community channels quickly. Discord is the live hub, Roblox pages handle in-platform follows, and the companion wiki centralizes codes, W/F/L, tips, and update tracking.",
+      "items": [
         {
-          "type": "Discord",
           "title": "Brainrot Evolution Official Discord",
-          "description": "Primary community channel for announcements, updates, and player discussions."
+          "badge": "Live hub",
+          "description": "Best place for patch notes, code drops, bug reports, sneak peeks, and active player discussion.",
+          "href": "https://discord.gg/YpM5XYRPYH",
+          "linkLabel": "Join Discord"
         },
         {
-          "type": "Community",
-          "title": "Brainrot Evolution Roblox Group",
-          "description": "Official Roblox group hub for in-platform community updates and announcements."
-        },
-        {
-          "type": "Social",
-          "title": "Brainrot Evolution X Updates",
-          "description": "Follow developer-side posts and update callouts published through official X channels."
-        },
-        {
-          "type": "Reference",
           "title": "Brainrot Evolution Trello Status",
-          "description": "Treat Trello availability as optional and verify link legitimacy through official channels first."
+          "badge": "Not live",
+          "description": "No official public Trello board is active in the current public link stack. For live info, use Discord and the official companion wiki.",
+          "href": "https://brainrotevo.xfrozenstudios.com/",
+          "linkLabel": "Use the wiki"
+        },
+        {
+          "title": "Brainrot Evolution Official Roblox Group",
+          "badge": "7.1M+ members",
+          "description": "The main in-platform community hub for following creator-side posts and game brand activity.",
+          "href": "https://www.roblox.com/communities/35325835/Brainrot-Evolution",
+          "linkLabel": "Open Group"
+        },
+        {
+          "title": "Brainrot Evolution Official Game Page",
+          "badge": "Roblox",
+          "description": "Launch the game and use update-week tools, including Notify Me for release windows.",
+          "href": "https://www.roblox.com/games/111989938562194/Brainrot-Evolution",
+          "linkLabel": "Open Game Page"
+        },
+        {
+          "title": "Brainrot Evolution Official Wiki",
+          "badge": "Companion site",
+          "description": "The companion wiki bundles codes, tips, update log tracking, and W/F/L tools into one hub.",
+          "href": "https://brainrotevo.xfrozenstudios.com/",
+          "linkLabel": "Open Wiki"
+        },
+        {
+          "title": "Brainrot Evolution YouTube Channel",
+          "badge": "Creator channel",
+          "description": "Use i2Perfect for video updates, showcases, and public-facing game content.",
+          "href": "https://www.youtube.com/@i2Perfect",
+          "linkLabel": "Open YouTube"
+        },
+        {
+          "title": "Brainrot Evolution X Feed",
+          "badge": "Social feed",
+          "description": "Follow xFrozenStudios for fast announcement coverage paired with Discord drops.",
+          "href": "https://x.com/xFrozenStudios",
+          "linkLabel": "Open X"
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
       "title": "Brainrot Evolution Boss Event Guide",
-      "displayType": "steps",
-      "intro": "Follow this Brainrot Evolution Boss Event Guide to time entries, prepare loadouts, and convert limited windows into stronger rewards.",
-      "steps": [
+      "displayType": "accordion",
+      "eyebrow": "Events",
+      "subtitle": "The strongest Brainrot Evolution event rewards come from timed windows rather than ordinary progression. Saturday Admin Abuse, rotating YT bosses, weather bosses, and seasonal passes are where limited drops stack fastest.",
+      "intro": "Use this Brainrot Evolution Boss Event Guide for event-only crates, boss rewards, and time-limited secrets. Keep it open before Saturday patches because boss spawns, Admin Crates, event buffs, and reward tables are tied to release windows.",
+      "items": [
         {
-          "title": "Track Event Windows Early",
-          "description": "Check update announcements and community alerts before the event starts so your route is ready at spawn time."
+          "title": "Brainrot Evolution Admin Abuse Window",
+          "summary": "The weekly live-event shell around major Saturday releases.",
+          "bullets": [
+            "The April 18, 2026 update went live at 11:00 AM EST, and Admin Abuse started at 10:00 AM EST.",
+            "Common rewards include weather events, free Admin Crates, bonus crates, and power or luck buffs.",
+            "Joining before release rush helps you stay in-server when the event flips on."
+          ]
         },
         {
-          "title": "Prepare Boss-Focused Loadout",
-          "description": "Switch to damage-friendly pets and relics before event bosses appear to reduce failed attempts."
+          "title": "Brainrot Evolution YT Boss Cycle",
+          "summary": "Update 48 introduced YT rarity through timed World 1 bosses.",
+          "bullets": [
+            "CoralBlox and LukeBlox are the first YT Brainrots.",
+            "Each boss appears every four hours in World 1 and alternates during the cycle.",
+            "When a boss dies, every player who dealt damage gets five crates.",
+            "YT Brainrots have a 0.5% crate rate, and pity guarantees one after 500 crates."
+          ]
         },
         {
-          "title": "Prioritize Limited Drops",
-          "description": "Limited crates and event units should be targeted first because they usually hold stronger trade pressure."
+          "title": "Brainrot Evolution Weather Bosses Worth Tracking",
+          "summary": "Weather and event bosses are a clean route into limited Secrets.",
+          "bullets": [
+            "Pinkberri Cuoricini weather boss -> Pinkberri Cuoricini crate -> +225B Health, +225T Damage, 178% stronger.",
+            "Pigu Amore weather boss -> Pigu Amore crate -> +225B Health, +225T Damage, 179% stronger.",
+            "Cuoricino Amorso weather boss -> Cuoricino Amorso crate -> +225B Health, +225T Damage, 180% stronger.",
+            "Cuore Dannato weather boss -> Cuore Dannato crate -> +225B Health, +225T Damage, 181% stronger.",
+            "YONI PONI boss -> Poni Crate -> +225B Health, +225T Damage, 176% stronger."
+          ]
         },
         {
-          "title": "Convert Rewards Into Progress",
-          "description": "After the event, reinvest gains into rebirth pacing, world unlocks, or high-value trade opportunities."
+          "title": "Brainrot Evolution Seasonal Event Rewards",
+          "summary": "Seasonal events bundle passes, event currency, and limited bosses into one loop.",
+          "bullets": [
+            "The 2025 Summer Event ran from June 28 to July 12.",
+            "OMEGA Sahur was on the free Summer Pass path, while Premium cost 399 Robux.",
+            "Summer Points came from daily and hourly event quests, and Sun Shards powered the Summer Shop.",
+            "Summer Shop rewards included the Summer Egg and an Extra Pet Slot.",
+            "Limited-time world bosses could spawn at random times and feed seasonal crate farming."
+          ]
         }
       ]
     }

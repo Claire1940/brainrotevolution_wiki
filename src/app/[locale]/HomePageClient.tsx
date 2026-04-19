@@ -11,11 +11,12 @@ import {
   Clock,
   Eye,
   ExternalLink,
+  Gamepad2,
   MessageCircle,
-  Settings,
   Sparkles,
   Star,
   TrendingUp,
+  Users,
 } from 'lucide-react'
 import { useMessages } from 'next-intl'
 import { VideoFeature } from '@/components/home/VideoFeature'
@@ -156,7 +157,7 @@ export default function HomePageClient({
         sameAs: [
           'https://www.roblox.com/games/111989938562194/Brainrot-Evolution',
           'https://www.roblox.com/communities/35325835/brainrot-evolution',
-          'https://discord.com/invite/eYeaS2R2JR',
+          'https://discord.gg/YpM5XYRPYH',
           'https://x.com/xFrozenStudios',
           'https://www.youtube.com/channel/UCLqP1JHpk9RRvdKTEHGcqSA',
         ],
@@ -184,7 +185,9 @@ export default function HomePageClient({
 
   // FAQ accordion states
   const [faqExpanded, setFaqExpanded] = useState<number | null>(null)
-  const [deckExpanded, setDeckExpanded] = useState<number | null>(null)
+  const [eventExpanded, setEventExpanded] = useState<number | null>(0)
+  const tradingStepIcons = [TrendingUp, ClipboardCheck, Star, Check, Clock]
+  const communityIcons = [MessageCircle, Clock, Users, Gamepad2, BookOpen, Sparkles, TrendingUp]
 
   // Scroll reveal animation
   useEffect(() => {
@@ -260,7 +263,7 @@ export default function HomePageClient({
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <a
-                href="https://discord.com/invite/eYeaS2R2JR"
+                href="https://discord.gg/YpM5XYRPYH"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4
@@ -343,7 +346,7 @@ export default function HomePageClient({
             <ToolNavCard card={t.tools.cards[11]} index={11} href="#brainrot-evolution-items-guide" sectionId="brainrot-evolution-items-guide" />
             <ToolNavCard card={t.tools.cards[12]} index={12} href="#brainrot-evolution-trading-guide" sectionId="brainrot-evolution-trading-guide" />
             <ToolNavCard card={t.tools.cards[13]} index={13} href="#brainrot-evolution-update-log" sectionId="brainrot-evolution-update-log" />
-            <ToolNavCard card={t.tools.cards[14]} index={14} href="#brainrot-evolution-discord-trello" sectionId="brainrot-evolution-discord-trello" />
+            <ToolNavCard card={t.tools.cards[14]} index={14} href="#brainrot-evolution-discord-and-trello" sectionId="brainrot-evolution-discord-and-trello" />
             <ToolNavCard card={t.tools.cards[15]} index={15} href="#brainrot-evolution-boss-event-guide" sectionId="brainrot-evolution-boss-event-guide" />
           </div>
         </div>
@@ -1096,27 +1099,60 @@ export default function HomePageClient({
       <section id="brainrot-evolution-trading-guide" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
+              {t.modules.lucidBlocksSteamDeckAndController.eyebrow}
+            </span>
             <div className="flex items-center justify-center gap-3 mb-4">
               <TrendingUp className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
               <h2 className="text-4xl md:text-5xl font-bold"><LinkedTitle linkData={moduleLinkMap['lucidBlocksSteamDeckAndController']} locale={locale}>{t.modules.lucidBlocksSteamDeckAndController.title}</LinkedTitle></h2>
             </div>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksSteamDeckAndController.intro}</p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksSteamDeckAndController.subtitle}</p>
           </div>
-          <div className="scroll-reveal space-y-2">
-            {t.modules.lucidBlocksSteamDeckAndController.faqs.map((faq: any, index: number) => (
-              <div key={index} className="border border-border rounded-xl overflow-hidden">
-                <button
-                  onClick={() => setDeckExpanded(deckExpanded === index ? null : index)}
-                  className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
+          <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
+            {t.modules.lucidBlocksSteamDeckAndController.intro}
+          </p>
+          <div className="scroll-reveal space-y-4">
+            {t.modules.lucidBlocksSteamDeckAndController.items.map((item: any, index: number) => {
+              const StepIcon = tradingStepIcons[index] || Check
+
+              return (
+                <article
+                  key={index}
+                  className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.45)] transition-colors"
                 >
-                  <span className="font-semibold">{faq.question}</span>
-                  <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-transform ${deckExpanded === index ? "rotate-180" : ""}`} />
-                </button>
-                {deckExpanded === index && (
-                  <div className="px-5 pb-5 text-muted-foreground text-sm">{faq.answer}</div>
-                )}
-              </div>
-            ))}
+                  <div className="flex flex-col sm:flex-row sm:items-start gap-4 mb-4">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 rounded-full border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.16)] flex items-center justify-center text-sm font-bold text-[hsl(var(--nav-theme-light))]">
+                        {item.step}
+                      </div>
+                      <div className="w-9 h-9 rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center">
+                        <StepIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-bold mb-2">
+                        <LinkedTitle linkData={moduleLinkMap[`lucidBlocksSteamDeckAndController::items::${index}`]} locale={locale}>
+                          {item.title}
+                        </LinkedTitle>
+                      </h3>
+                      <p className="text-sm text-muted-foreground">{item.description}</p>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    {item.keyPoints.map((point: string, pointIndex: number) => (
+                      <div
+                        key={pointIndex}
+                        className="flex items-start gap-2 px-3 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.25)]"
+                      >
+                        <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                        <span className="text-sm text-muted-foreground">{point}</span>
+                      </div>
+                    ))}
+                  </div>
+                </article>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -1125,53 +1161,94 @@ export default function HomePageClient({
       <section id="brainrot-evolution-update-log" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
+              {t.modules.lucidBlocksSettingsAndAccessibility.eyebrow}
+            </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksSettingsAndAccessibility']} locale={locale}>{t.modules.lucidBlocksSettingsAndAccessibility.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksSettingsAndAccessibility.intro}</p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksSettingsAndAccessibility.subtitle}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.lucidBlocksSettingsAndAccessibility.settings.map((s: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-3 mb-3">
-                  <Settings className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`lucidBlocksSettingsAndAccessibility::settings::${index}`]} locale={locale}>
-                      {s.name}
-                    </LinkedTitle>
-                  </h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{s.type}</span>
+          <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
+            {t.modules.lucidBlocksSettingsAndAccessibility.intro}
+          </p>
+          <div className="scroll-reveal relative space-y-5">
+            <div className="absolute left-5 top-0 bottom-0 w-px bg-[hsl(var(--nav-theme)/0.28)] hidden sm:block" />
+            {t.modules.lucidBlocksSettingsAndAccessibility.items.map((item: any, index: number) => (
+              <article key={index} className="relative sm:pl-14">
+                <div className="hidden sm:flex absolute left-0 top-5 w-10 h-10 rounded-full border-2 border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.16)] items-center justify-center">
+                  <Clock className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
                 </div>
-                <p className="text-muted-foreground text-sm">{s.description}</p>
-              </div>
+                <div className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.45)] transition-colors">
+                  <div className="flex flex-wrap items-center gap-2 mb-3">
+                    <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)]">
+                      {item.date}
+                    </span>
+                    <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.22)] text-[hsl(var(--nav-theme-light))]">
+                      {item.patch}
+                    </span>
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-4">{item.summary}</p>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    {item.highlights.map((highlight: string, highlightIndex: number) => (
+                      <div
+                        key={highlightIndex}
+                        className="flex items-start gap-2 text-sm p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.18)]"
+                      >
+                        <Check className="w-4 h-4 mt-0.5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                        <span className="text-muted-foreground">{highlight}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </article>
             ))}
           </div>
         </div>
       </section>
 
       {/* Module 15: Discord and Trello */}
-      <section id="brainrot-evolution-discord-trello" className="scroll-mt-24 px-4 py-20">
+      <section id="brainrot-evolution-discord-and-trello" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
+              {t.modules.lucidBlocksUpdatesAndPatchNotes.eyebrow}
+            </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksUpdatesAndPatchNotes']} locale={locale}>{t.modules.lucidBlocksUpdatesAndPatchNotes.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksUpdatesAndPatchNotes.intro}</p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksUpdatesAndPatchNotes.subtitle}</p>
           </div>
-          <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-8">
-            {t.modules.lucidBlocksUpdatesAndPatchNotes.entries.map((entry: any, index: number) => (
-              <div key={index} className="relative">
-                <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
-                <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{entry.type}</span>
-                    <Clock className="w-4 h-4 text-muted-foreground" />
+          <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
+            {t.modules.lucidBlocksUpdatesAndPatchNotes.intro}
+          </p>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            {t.modules.lucidBlocksUpdatesAndPatchNotes.items.map((item: any, index: number) => {
+              const CardIcon = communityIcons[index] || ExternalLink
+
+              return (
+                <article
+                  key={index}
+                  className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.45)] transition-colors flex flex-col"
+                >
+                  <div className="flex items-center justify-between gap-3 mb-3">
+                    <div className="w-9 h-9 rounded-lg bg-[hsl(var(--nav-theme)/0.14)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center">
+                      <CardIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <span className="text-[11px] font-semibold px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.24)]">
+                      {item.badge}
+                    </span>
                   </div>
-                  <h3 className="font-bold mb-1">
-                    <LinkedTitle linkData={moduleLinkMap[`lucidBlocksUpdatesAndPatchNotes::entries::${index}`]} locale={locale}>
-                      {entry.title}
-                    </LinkedTitle>
-                  </h3>
-                  <p className="text-muted-foreground text-sm">{entry.description}</p>
-                </div>
-              </div>
-            ))}
+                  <h3 className="font-bold mb-2">{item.title}</h3>
+                  <p className="text-sm text-muted-foreground mb-4 flex-1">{item.description}</p>
+                  <a
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-sm font-medium text-[hsl(var(--nav-theme-light))] hover:text-[hsl(var(--nav-theme))] transition-colors"
+                  >
+                    {item.linkLabel}
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                </article>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -1180,43 +1257,89 @@ export default function HomePageClient({
       <section id="brainrot-evolution-boss-event-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
+              {t.modules.lucidBlocksCrashFixAndTroubleshooting.eyebrow}
+            </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksCrashFixAndTroubleshooting']} locale={locale}>{t.modules.lucidBlocksCrashFixAndTroubleshooting.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksCrashFixAndTroubleshooting.intro}</p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksCrashFixAndTroubleshooting.subtitle}</p>
           </div>
-          <div className="scroll-reveal space-y-4 mb-8">
-            {t.modules.lucidBlocksCrashFixAndTroubleshooting.steps.map((step: any, index: number) => (
-              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
-                  <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
+          <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
+            {t.modules.lucidBlocksCrashFixAndTroubleshooting.intro}
+          </p>
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-12 gap-5">
+            <aside className="lg:col-span-4">
+              <div className="lg:sticky lg:top-24 p-5 md:p-6 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)] rounded-xl">
+                <div className="w-11 h-11 rounded-lg bg-[hsl(var(--nav-theme)/0.2)] border border-[hsl(var(--nav-theme)/0.4)] flex items-center justify-center mb-4">
+                  <AlertTriangle className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                 </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2">
-                    <LinkedTitle linkData={moduleLinkMap[`lucidBlocksCrashFixAndTroubleshooting::steps::${index}`]} locale={locale}>
-                      {step.title}
-                    </LinkedTitle>
-                  </h3>
-                  <p className="text-muted-foreground">{step.description}</p>
+                <h3 className="font-bold text-lg mb-3">Brainrot Evolution Event Priority Rail</h3>
+                <ul className="space-y-2 text-sm text-muted-foreground mb-4">
+                  <li className="flex items-start gap-2">
+                    <Check className="w-4 h-4 mt-0.5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                    Join before Saturday release windows to lock server access.
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Check className="w-4 h-4 mt-0.5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                    Route crates first when reward tables rotate.
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Check className="w-4 h-4 mt-0.5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                    Recheck values after each event wave before trading.
+                  </li>
+                </ul>
+                <div className="flex flex-wrap gap-2">
+                  <a
+                    href="https://discord.gg/YpM5XYRPYH"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.35)] text-xs font-semibold hover:bg-[hsl(var(--nav-theme)/0.24)] transition-colors"
+                  >
+                    <MessageCircle className="w-3.5 h-3.5" />
+                    Discord
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
+                  <a
+                    href="https://www.roblox.com/communities/35325835/Brainrot-Evolution"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.35)] text-xs font-semibold hover:bg-[hsl(var(--nav-theme)/0.24)] transition-colors"
+                  >
+                    Roblox Group
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
                 </div>
               </div>
-            ))}
-          </div>
-          <div className="scroll-reveal p-6 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.35)] rounded-xl">
-            <div className="flex items-start gap-3">
-              <AlertTriangle className="w-6 h-6 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="font-bold text-[hsl(var(--nav-theme-light))] mb-2">Need live boss event alerts?</h3>
-                <p className="text-sm text-muted-foreground mb-3">Follow official Brainrot Evolution channels for event windows and patch timing:</p>
-                <div className="flex flex-wrap gap-3">
-                  <a href="https://discord.com/invite/eYeaS2R2JR" target="_blank" rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
-                    <MessageCircle className="w-4 h-4" /> Discord <ExternalLink className="w-3 h-3" />
-                  </a>
-                  <a href="https://www.roblox.com/communities/35325835/brainrot-evolution" target="_blank" rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
-                    Roblox Group <ExternalLink className="w-3 h-3" />
-                  </a>
-                </div>
-              </div>
+            </aside>
+            <div className="lg:col-span-8 space-y-4">
+              {t.modules.lucidBlocksCrashFixAndTroubleshooting.items.map((item: any, index: number) => (
+                <article key={index} className="border border-border rounded-xl overflow-hidden bg-white/5">
+                  <button
+                    onClick={() => setEventExpanded(eventExpanded === index ? null : index)}
+                    className="w-full p-5 text-left hover:bg-white/5 transition-colors flex items-start justify-between gap-4"
+                  >
+                    <div className="flex items-start gap-3">
+                      <div className="w-8 h-8 rounded-full border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.16)] flex items-center justify-center text-xs font-bold text-[hsl(var(--nav-theme-light))] flex-shrink-0">
+                        {index + 1}
+                      </div>
+                      <div>
+                        <h3 className="font-bold mb-1">{item.title}</h3>
+                        <p className="text-sm text-muted-foreground">{item.summary}</p>
+                      </div>
+                    </div>
+                    <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-transform ${eventExpanded === index ? 'rotate-180' : ''}`} />
+                  </button>
+                  {eventExpanded === index && (
+                    <div className="px-5 pb-5 space-y-2">
+                      {item.bullets.map((bullet: string, bulletIndex: number) => (
+                        <div key={bulletIndex} className="flex items-start gap-2 p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.2)]">
+                          <Check className="w-4 h-4 mt-0.5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                          <p className="text-sm text-muted-foreground">{bullet}</p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </article>
+              ))}
             </div>
           </div>
         </div>
@@ -1263,7 +1386,7 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/eYeaS2R2JR"
+                    href="https://discord.gg/YpM5XYRPYH"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
