@@ -102,22 +102,22 @@
       {
         "icon": "TrendingUp",
         "title": "Brainrot Evolution World Guide",
-        "description": "Use a Brainrot Evolution world-by-world route for unlock order, bosses, and key systems."
+        "description": "Follow the Brainrot Evolution world route with unlock order, key systems, and clean transition notes."
       },
       {
         "icon": "Star",
         "title": "Brainrot Evolution Relics Guide",
-        "description": "Optimize Brainrot Evolution relic sources and loadouts for EXP, wins, and damage scaling."
+        "description": "Choose Brainrot Evolution relic targets from Bronze to Demon Crates using drop rates and buff roles."
       },
       {
         "icon": "ClipboardCheck",
         "title": "Brainrot Evolution Trinkets Guide",
-        "description": "Track Brainrot Evolution trinket effects, drop rates, and best station spending order."
+        "description": "Track Brainrot Evolution trinket stations by world, roll cost, and drop rates before spending shards."
       },
       {
         "icon": "MessageCircle",
         "title": "Brainrot Evolution Items Guide",
-        "description": "Sort Brainrot Evolution consumables by source, effect, and best-use timing."
+        "description": "Use one Brainrot Evolution reference for potions, scrolls, tickets, currencies, and best timing."
       },
       {
         "icon": "Gamepad2",
@@ -1857,142 +1857,799 @@
     },
     "lucidBlocksFarmingAndGrowth": {
       "title": "Brainrot Evolution World Guide",
-      "displayType": "mixedCards",
-      "intro": "Use this Brainrot Evolution World Guide to plan unlock order, boss routes, and clean transition points between maps.",
-      "sections": [
+      "displayType": "worldProgressionCards",
+      "eyebrow": "Progression Route",
+      "subtitle": "Brainrot Evolution World Guide: World Order, Key Systems, and What Each Zone Unlocks",
+      "intro": "Brainrot Evolution keeps stacking progression layers on top of each other: eggs, trinkets, relic tools, tickets, runes, merchants, and index machines. This route map focuses on what each world actually adds, so you know when to push forward and when a zone is worth farming before moving on.",
+      "items": [
         {
-          "name": "World Unlock Order",
-          "description": "Follow a consistent unlock route so wins and damage gains stay aligned with level requirements."
+          "world": "W1",
+          "name": "Patapim Park",
+          "enemy_ceiling": "Lirili Larila — 300 Health / 75 Damage",
+          "eggs": [
+            "Adventure Egg — 10 Wins",
+            "Flower Egg — 35 Wins",
+            "Corn Egg — 150 Wins"
+          ],
+          "systems": [
+            "Starter enemy ladder",
+            "First three pet egg lines"
+          ],
+          "route_note": "Open with Adventure Eggs, then swap to Flower and Corn Eggs as soon as your damage stalls."
         },
         {
-          "name": "Boss Gate Checks",
-          "description": "Treat boss checkpoints as pace markers; if clears slow down, refresh pets and relics before forcing progress."
+          "world": "W2",
+          "name": "Brainrot City",
+          "enemy_ceiling": "Ganganzelli Trulala — 5k Health / 3k Damage",
+          "eggs": [
+            "Alien Egg — 2.5k Wins",
+            "Golem Egg — 15k Wins",
+            "Ice Egg — 75k Wins"
+          ],
+          "systems": [
+            "First major stat jump",
+            "Three stronger egg lines for early snowballing"
+          ],
+          "route_note": "This is the first clean power jump after Patapim Park, so upgrade pets here before forcing World 3."
         },
         {
-          "name": "System Unlock Timing",
-          "description": "Track where dungeons, relic loops, and trading access begin so you can pivot strategy at the right time."
+          "world": "W3",
+          "name": "Larila Desert",
+          "enemy_ceiling": "Gorillo Watermellondrillo — 65k Health / 100k Damage",
+          "eggs": [
+            "Ancient Egg — 350k Wins",
+            "Cactus Egg — 2.5m Wins",
+            "Scorpio Egg — 15m Wins"
+          ],
+          "systems": [
+            "Larila Trinket station",
+            "Vending Machine for Small Luck, Small Wins, and Small EXP Potions"
+          ],
+          "route_note": "Larila is the first world worth farming a side system in, because Trinkets and vending potions both start here."
         },
         {
-          "name": "Rebirth Route Sync",
-          "description": "Plan world transitions around rebirth checkpoints instead of overgrinding one zone."
+          "world": "W4",
+          "name": "Tralalero Ocean",
+          "enemy_ceiling": "Orcalero Orcala — 1.5m Health / 30m Damage",
+          "eggs": [
+            "Leviathan Egg — 100m Wins",
+            "Coral Egg — 1B Wins",
+            "Kraken Egg — 10B Wins"
+          ],
+          "systems": [
+            "Tralalero Ticket drops",
+            "Tralalero Wheel access",
+            "Tralalero Runes for Blinket upgrades"
+          ],
+          "route_note": "Push this world when you need a fresh egg tier and want to start collecting Ocean tickets instead of only raw wins."
+        },
+        {
+          "world": "W5",
+          "name": "Mount Ambalabu",
+          "enemy_ceiling": "Salamino Pinguino — 80m Health / 15b Damage",
+          "eggs": [
+            "Reindeer Egg — 100B Wins",
+            "Snow Egg — 1T Wins",
+            "Marsh Egg — 10T Wins"
+          ],
+          "systems": [
+            "Merchant sells Bronze Scroll, Silver Scroll, and Golden Scroll"
+          ],
+          "route_note": "This is the first world where scroll spending becomes part of progression, so bring relics worth rerolling."
+        },
+        {
+          "world": "W6",
+          "name": "Chicleteiramania",
+          "enemy_ceiling": "Bulbito Bandito Traktorito — 5b Health / 35t Damage",
+          "eggs": [
+            "Train Egg — 20T Wins",
+            "Soldier Egg — 200T Wins",
+            "Monster Egg — 2Qa Wins"
+          ],
+          "systems": [
+            "Chicleteira Trinket station",
+            "Relic Smelter access",
+            "Chicleteira Shard farming"
+          ],
+          "route_note": "Chicleteiramania is a strong farm stop because it upgrades both your pet ladder and your relic economy."
+        },
+        {
+          "world": "W7",
+          "name": "Udin Dinlympus",
+          "enemy_ceiling": "Shimpanzini Watermelonini Kingini — 100t Health / 7Qi Damage",
+          "eggs": [
+            "Lab Egg — 60Qa Wins",
+            "Mecha Egg — 900Qa Wins"
+          ],
+          "systems": [
+            "Udin Din Trinket station",
+            "Udin Din Shard farming"
+          ],
+          "route_note": "Treat this as a focused midgame bridge: fewer egg lines than earlier worlds, but a very important Trinket station."
+        },
+        {
+          "world": "W8",
+          "name": "Nuclearo Core",
+          "enemy_ceiling": "Lerulerulerule — 500b Health / 70Qa Damage",
+          "eggs": [
+            "God Egg — 60Qi Wins",
+            "Thanatos Egg — 450Qi Wins",
+            "Angelico Egg — 1.5Sx Wins"
+          ],
+          "systems": [
+            "Pet Index Machine",
+            "Index Coins",
+            "Demon Scroll merchant",
+            "Nuclearo Runes for Blinkets"
+          ],
+          "route_note": "Nuclearo Core is a systems world more than a pure grind map, because the Index shop changes long-run account growth."
+        },
+        {
+          "world": "W9",
+          "name": "Glorbo Heights",
+          "enemy_ceiling": "Nightmare Sahur — 2.5Qa Health / 7Sx Damage",
+          "eggs": [
+            "City Egg — 50Sx Wins",
+            "Hydrant Egg — 650Sx Wins",
+            "Capy Egg — 8Sp Wins"
+          ],
+          "systems": [
+            "Metal Runes for Blinket upgrades"
+          ],
+          "route_note": "Move here once Nuclearo eggs flatten out; the main reason to stay is a clean pet jump and Metal Rune income."
+        },
+        {
+          "world": "W10",
+          "name": "Brainrot Abyss",
+          "enemy_ceiling": "Ketupat Kepat Prekupat — 100Qa Health / 15Sp Damage",
+          "eggs": [
+            "Ghoulix Egg — 97.5Sp Wins",
+            "Virex Egg — 1Oc Wins",
+            "Skeleton Egg — 13Oc Wins"
+          ],
+          "systems": [
+            "Mega Luck, Mega Wins, and Mega EXP crafting",
+            "Ruined Shard farming for Ruined Trinkets"
+          ],
+          "route_note": "Abyss is one of the best utility stops in the game, because it upgrades your potion economy instead of only your damage."
+        },
+        {
+          "world": "W11",
+          "name": "Bombardino Sewer",
+          "enemy_ceiling": "Bamberclat Crococlat — 40Qi Health / 7.5Oc Damage",
+          "eggs": [
+            "Hydrocore Egg — 97.5Oc Wins",
+            "Maelstorm Egg — 1.3No Wins",
+            "Sludge Egg — 22.5No Wins"
+          ],
+          "systems": [
+            "Relic Smelter farming route",
+            "Late-game relic coin economy"
+          ],
+          "route_note": "This is a good place to recycle weak relic inventory and convert progression into Relic Coins."
+        },
+        {
+          "world": "W12",
+          "name": "Goaaat Galaxy",
+          "enemy_ceiling": "Kiki Koka Kiko Keke — 150Qi Health / 9.38No Damage",
+          "eggs": [
+            "Nightspire Egg — 185No Wins",
+            "Moonveil Egg — 245No Wins",
+            "Twilight Egg — 4.25Dc Wins"
+          ],
+          "systems": [
+            "Goaaat Trinket station",
+            "Secret Index Machine",
+            "Secret Index Coins",
+            "Goaaat Shard farming"
+          ],
+          "route_note": "Goaaat Galaxy is where secret-focused progression starts to matter much more than basic pet replacement."
+        },
+        {
+          "world": "W13",
+          "name": "Strawberry Land",
+          "enemy_ceiling": "Strawberry Elephant — 2Sp Health / 4.5Dc Damage",
+          "eggs": [
+            "Strawberry Egg — 4.5Dc Wins",
+            "Peach Egg — 50Dc Wins",
+            "Avocado Egg — 750Dc Wins"
+          ],
+          "systems": [
+            "Fruit Merchant for Strawberry, White Strawberry, Star Fruit, and Dark Fruit"
+          ],
+          "route_note": "Come here when you want short, controllable damage buffs from fruit instead of relying only on potion drops."
+        },
+        {
+          "world": "W14",
+          "name": "Cadabra Restaurant",
+          "enemy_ceiling": "Gorgonzilla — 100Sp Health / 2.5Ud Damage",
+          "eggs": [
+            "Cake Egg — 375Dc Wins",
+            "Chef Egg — 4Ud Wins",
+            "Oven Egg — 60Ud Wins"
+          ],
+          "systems": [
+            "Late-game food-themed pet ladder"
+          ],
+          "route_note": "Restaurant is mostly a raw egg and enemy upgrade world, so cycle through it quickly if your buffs are already stocked."
+        },
+        {
+          "world": "W15",
+          "name": "Flushrooms",
+          "enemy_ceiling": "N N N Sahur — 20Oc Health / 1Dd Damage",
+          "eggs": [
+            "Toilet Egg — 600Ud Wins",
+            "Sink Egg — 6Dd Wins",
+            "Sahure Egg — 75Dd Wins"
+          ],
+          "systems": [
+            "Toxic Shards for Blinket upgrades"
+          ],
+          "route_note": "This is the current main late-game pet route in the pet guide, with Blinket upgrade materials attached."
         }
-      ],
-      "growthMilestones": [
-        "Unlock the next world on time",
-        "Clear local boss consistently",
-        "Integrate dungeons and relic routes",
-        "Hit rebirth checkpoints without overgrind"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
       "title": "Brainrot Evolution Relics Guide",
-      "displayType": "priorityCards",
-      "intro": "Prioritize Brainrot Evolution relic upgrades by use-case so EXP, wins, and damage boosts match your current grind objective.",
-      "priorities": [
+      "displayType": "relicComparisonTable",
+      "eyebrow": "Relic Routing",
+      "subtitle": "Brainrot Evolution Relics Guide: Which Relics to Chase First From Bronze to Demon Crates",
+      "intro": "Relics are one of the cleanest progression accelerators in Brainrot Evolution because they stack damage, EXP, health, and speed without replacing your full pet setup. This table highlights the most useful crate targets from early Bronze pulls to late Demon chases, so you can match your relic grind to your current farming goal.",
+      "items": [
         {
-          "name": "EXP Relic Stack",
-          "priority": "Essential",
-          "description": "Best option when pushing level milestones and preparing for fast rebirth cycles."
+          "crate": "Bronze Crate",
+          "relic": "Bronze Belt",
+          "drop_rate": "50%",
+          "buffs": "Damage +10%",
+          "best_for": "Fast early damage"
         },
         {
-          "name": "Damage Relic Stack",
-          "priority": "Very High",
-          "description": "Use when boss clears and world entry fights start slowing your route."
+          "crate": "Bronze Crate",
+          "relic": "Bronze Charm",
+          "drop_rate": "0.50%",
+          "buffs": "Health +15%, EXP +15%, Damage +15%, Speed +5%",
+          "best_for": "Best early all-rounder"
         },
         {
-          "name": "Wins Relic Stack",
-          "priority": "High",
-          "description": "Strong for unlock-heavy sessions where zone gates and egg costs are the bottleneck."
+          "crate": "Silver Crate",
+          "relic": "Silver Belt",
+          "drop_rate": "50%",
+          "buffs": "Damage +5%, EXP +15%",
+          "best_for": "Early EXP farming"
         },
         {
-          "name": "Hybrid Relic Set",
-          "priority": "High",
-          "description": "Balanced set for mixed sessions combining leveling, boss runs, and trade prep."
+          "crate": "Silver Crate",
+          "relic": "Silver Charm",
+          "drop_rate": "0.50%",
+          "buffs": "Health +20%, Damage +20%, EXP +20%, Speed +10%",
+          "best_for": "Balanced early-mid farming"
+        },
+        {
+          "crate": "Golden Crate",
+          "relic": "Golden Cape",
+          "drop_rate": "35%",
+          "buffs": "Damage +20%, EXP +15%",
+          "best_for": "Reliable midgame DPS"
+        },
+        {
+          "crate": "Golden Crate",
+          "relic": "Golden Charm",
+          "drop_rate": "0.50%",
+          "buffs": "Health +25%, EXP +35%, Damage +35%, Speed +15%",
+          "best_for": "Premium midgame all-rounder"
+        },
+        {
+          "crate": "Void Crate",
+          "relic": "Dusk Hat",
+          "drop_rate": "50%",
+          "buffs": "Health +20%, EXP +25%, Damage +10%",
+          "best_for": "Safe EXP-focused farming"
+        },
+        {
+          "crate": "Void Crate",
+          "relic": "Null Straw",
+          "drop_rate": "35%",
+          "buffs": "Health +30%, EXP +30%, Damage +20%, Speed +5%",
+          "best_for": "Balanced void farm"
+        },
+        {
+          "crate": "Lolo Crate",
+          "relic": "Golden Glasses",
+          "drop_rate": "11.50%",
+          "buffs": "Health +60%, EXP +60%, Damage +65%, Speed +10%",
+          "best_for": "Strong late-mid general use"
+        },
+        {
+          "crate": "Lolo Crate",
+          "relic": "Ashen Glasses",
+          "drop_rate": "2.50%",
+          "buffs": "Health +60%, EXP +80%, Damage +80%, Speed +15%",
+          "best_for": "Late-game balanced push"
+        },
+        {
+          "crate": "Demon Crate",
+          "relic": "Blaze Book",
+          "drop_rate": "12%",
+          "buffs": "Health +80%, EXP +120%, Damage +125%",
+          "best_for": "Boss damage and fast EXP"
+        },
+        {
+          "crate": "Demon Crate",
+          "relic": "Ember Wand",
+          "drop_rate": "2.50%",
+          "buffs": "Health +100%, EXP +150%, Damage +150%, Speed +10%",
+          "best_for": "Top-end DPS farming"
+        },
+        {
+          "crate": "Demon Crate",
+          "relic": "Ashen Charm",
+          "drop_rate": "0.50%",
+          "buffs": "Health +175%, EXP +200%, Damage +200%, Speed +15%",
+          "best_for": "Best-in-slot general chase"
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
       "title": "Brainrot Evolution Trinkets Guide",
-      "displayType": "achievementGrid",
-      "intro": "Track Brainrot Evolution trinkets by source and effect so station spending goes to permanent power first.",
-      "groups": [
+      "displayType": "trinketMatrixTable",
+      "eyebrow": "Permanent Buffs",
+      "subtitle": "Brainrot Evolution Trinkets Guide: Permanent Trinkets by World, Roll Cost, and Drop Rate",
+      "intro": "Trinkets are long-run account upgrades, so the important question is not just what drops where, but when each station is worth your shard grind. This table keeps every permanent station together, shows the exact roll cost and drop rate for each Trinket, and makes it easier to plan whether you want a quick EXP bump or a true chase pull.",
+      "items": [
         {
-          "name": "Starter Trinkets",
-          "achievements": [
-            {
-              "title": "Basic Damage Trinket",
-              "description": "Entry-level damage bump for early world consistency."
-            },
-            {
-              "title": "Basic EXP Trinket",
-              "description": "Helps accelerate first rebirth checkpoint cycles."
-            },
-            {
-              "title": "Basic Wins Trinket",
-              "description": "Supports unlock-heavy sessions with lower friction."
-            }
-          ]
+          "world": "Larila Desert",
+          "station_priority": "1st station",
+          "roll_cost": "10 Larila Shards",
+          "trinket": "Nile",
+          "drop_rate": "40.45%",
+          "buffs": "EXP +5%"
         },
         {
-          "name": "Mid-Game Trinkets",
-          "achievements": [
-            {
-              "title": "Boss Pressure Trinket",
-              "description": "Improves survivability during higher world boss chains."
-            },
-            {
-              "title": "Hybrid Route Trinket",
-              "description": "Balances EXP and damage for flexible farming windows."
-            },
-            {
-              "title": "Event Route Trinket",
-              "description": "Best used during limited events and bonus drops."
-            }
-          ]
+          "world": "Larila Desert",
+          "station_priority": "1st station",
+          "roll_cost": "10 Larila Shards",
+          "trinket": "Scarab",
+          "drop_rate": "33%",
+          "buffs": "Damage +5%, EXP +5%"
         },
         {
-          "name": "Late-Route Trinkets",
-          "achievements": [
-            {
-              "title": "Rebirth Cycle Trinket",
-              "description": "Optimized for repeated rebirth loops with minimal downtime."
-            },
-            {
-              "title": "Trade Prep Trinket",
-              "description": "Useful for farming high-interest units before trade sessions."
-            },
-            {
-              "title": "Endgame Efficiency Trinket",
-              "description": "Maximizes consistency in high-cost progression windows."
-            }
-          ]
+          "world": "Larila Desert",
+          "station_priority": "1st station",
+          "roll_cost": "10 Larila Shards",
+          "trinket": "Bastet",
+          "drop_rate": "20%",
+          "buffs": "Health +5%, Damage +5%, EXP +5%"
+        },
+        {
+          "world": "Larila Desert",
+          "station_priority": "1st station",
+          "roll_cost": "10 Larila Shards",
+          "trinket": "Ankh",
+          "drop_rate": "5%",
+          "buffs": "Health +5%, Damage +10%, EXP +10%"
+        },
+        {
+          "world": "Larila Desert",
+          "station_priority": "1st station",
+          "roll_cost": "10 Larila Shards",
+          "trinket": "Horus",
+          "drop_rate": "1%",
+          "buffs": "Health +5%, Damage +15%, EXP +15%"
+        },
+        {
+          "world": "Larila Desert",
+          "station_priority": "1st station",
+          "roll_cost": "10 Larila Shards",
+          "trinket": "Osiris",
+          "drop_rate": "0.5%",
+          "buffs": "Health +10%, Damage +20%, EXP +15%"
+        },
+        {
+          "world": "Larila Desert",
+          "station_priority": "1st station",
+          "roll_cost": "10 Larila Shards",
+          "trinket": "Ra",
+          "drop_rate": "0.05%",
+          "buffs": "Health +15%, Damage +25%, EXP +25%"
+        },
+        {
+          "world": "Chicleteiramania",
+          "station_priority": "2nd station",
+          "roll_cost": "10 Chicleteira Shards",
+          "trinket": "Marble",
+          "drop_rate": "40.45%",
+          "buffs": "EXP +5%"
+        },
+        {
+          "world": "Chicleteiramania",
+          "station_priority": "2nd station",
+          "roll_cost": "10 Chicleteira Shards",
+          "trinket": "Jax",
+          "drop_rate": "33%",
+          "buffs": "Damage +5%, EXP +5%"
+        },
+        {
+          "world": "Chicleteiramania",
+          "station_priority": "2nd station",
+          "roll_cost": "10 Chicleteira Shards",
+          "trinket": "Plush",
+          "drop_rate": "20%",
+          "buffs": "Health +5%, Damage +5%, EXP +5%"
+        },
+        {
+          "world": "Chicleteiramania",
+          "station_priority": "2nd station",
+          "roll_cost": "10 Chicleteira Shards",
+          "trinket": "Tinker",
+          "drop_rate": "5%",
+          "buffs": "Health +5%, Damage +10%, EXP +10%"
+        },
+        {
+          "world": "Chicleteiramania",
+          "station_priority": "2nd station",
+          "roll_cost": "10 Chicleteira Shards",
+          "trinket": "Blocko",
+          "drop_rate": "1%",
+          "buffs": "Health +5%, Damage +15%, EXP +15%"
+        },
+        {
+          "world": "Chicleteiramania",
+          "station_priority": "2nd station",
+          "roll_cost": "10 Chicleteira Shards",
+          "trinket": "Playbit",
+          "drop_rate": "0.5%",
+          "buffs": "Health +10%, Damage +20%, EXP +15%"
+        },
+        {
+          "world": "Chicleteiramania",
+          "station_priority": "2nd station",
+          "roll_cost": "10 Chicleteira Shards",
+          "trinket": "Toyken",
+          "drop_rate": "0.05%",
+          "buffs": "Health +15%, Damage +25%, EXP +25%"
+        },
+        {
+          "world": "Udin Dinlympus",
+          "station_priority": "3rd station",
+          "roll_cost": "10 Udin Din Shards",
+          "trinket": "Echo",
+          "drop_rate": "40.45%",
+          "buffs": "EXP +5%"
+        },
+        {
+          "world": "Udin Dinlympus",
+          "station_priority": "3rd station",
+          "roll_cost": "10 Udin Din Shards",
+          "trinket": "Iris",
+          "drop_rate": "33%",
+          "buffs": "Damage +5%, EXP +5%"
+        },
+        {
+          "world": "Udin Dinlympus",
+          "station_priority": "3rd station",
+          "roll_cost": "10 Udin Din Shards",
+          "trinket": "Hermes",
+          "drop_rate": "20%",
+          "buffs": "Health +5%, Damage +5%, EXP +5%"
+        },
+        {
+          "world": "Udin Dinlympus",
+          "station_priority": "3rd station",
+          "roll_cost": "10 Udin Din Shards",
+          "trinket": "Ares",
+          "drop_rate": "5%",
+          "buffs": "Health +5%, Damage +10%, EXP +10%"
+        },
+        {
+          "world": "Udin Dinlympus",
+          "station_priority": "3rd station",
+          "roll_cost": "10 Udin Din Shards",
+          "trinket": "Poseidon",
+          "drop_rate": "1%",
+          "buffs": "Health +5%, Damage +15%, EXP +15%"
+        },
+        {
+          "world": "Udin Dinlympus",
+          "station_priority": "3rd station",
+          "roll_cost": "10 Udin Din Shards",
+          "trinket": "Athena",
+          "drop_rate": "0.5%",
+          "buffs": "Health +10%, Damage +20%, EXP +15%"
+        },
+        {
+          "world": "Udin Dinlympus",
+          "station_priority": "3rd station",
+          "roll_cost": "10 Udin Din Shards",
+          "trinket": "Zeus",
+          "drop_rate": "0.05%",
+          "buffs": "Health +15%, Damage +25%, EXP +25%"
+        },
+        {
+          "world": "Goaaat Galaxy",
+          "station_priority": "4th station",
+          "roll_cost": "10 Goaaat Shards",
+          "trinket": "Comet",
+          "drop_rate": "40.45%",
+          "buffs": "EXP +5%"
+        },
+        {
+          "world": "Goaaat Galaxy",
+          "station_priority": "4th station",
+          "roll_cost": "10 Goaaat Shards",
+          "trinket": "Nebula",
+          "drop_rate": "33%",
+          "buffs": "Damage +5%, EXP +5%"
+        },
+        {
+          "world": "Goaaat Galaxy",
+          "station_priority": "4th station",
+          "roll_cost": "10 Goaaat Shards",
+          "trinket": "Meteor",
+          "drop_rate": "20%",
+          "buffs": "Health +5%, Damage +5%, EXP +5%"
+        },
+        {
+          "world": "Goaaat Galaxy",
+          "station_priority": "4th station",
+          "roll_cost": "10 Goaaat Shards",
+          "trinket": "Orbit",
+          "drop_rate": "5%",
+          "buffs": "Health +5%, Damage +10%, EXP +10%"
+        },
+        {
+          "world": "Goaaat Galaxy",
+          "station_priority": "4th station",
+          "roll_cost": "10 Goaaat Shards",
+          "trinket": "Quasar",
+          "drop_rate": "1%",
+          "buffs": "Health +5%, Damage +15%, EXP +15%"
+        },
+        {
+          "world": "Goaaat Galaxy",
+          "station_priority": "4th station",
+          "roll_cost": "10 Goaaat Shards",
+          "trinket": "Nova",
+          "drop_rate": "0.5%",
+          "buffs": "Health +10%, Damage +20%, EXP +15%"
+        },
+        {
+          "world": "Goaaat Galaxy",
+          "station_priority": "4th station",
+          "roll_cost": "10 Goaaat Shards",
+          "trinket": "Eclipse",
+          "drop_rate": "0.05%",
+          "buffs": "Health +15%, Damage +25%, EXP +25%"
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
       "title": "Brainrot Evolution Items Guide",
-      "displayType": "accordion",
-      "intro": "These Brainrot Evolution item FAQs focus on when to use potions, tickets, scrolls, and event consumables for maximum value.",
-      "faqs": [
+      "displayType": "itemAccordion",
+      "eyebrow": "Consumables",
+      "subtitle": "Brainrot Evolution Items Guide: Potions, Scrolls, Tickets, and Currencies in One Reference",
+      "intro": "Brainrot Evolution has several item layers that look similar in your inventory but solve different problems: short buffs, relic rerolls, wheel tickets, upgrade currencies, and shard-based side systems. Grouping them by purpose makes it much easier to decide what should be consumed immediately and what should be saved for later worlds.",
+      "items": [
         {
-          "question": "Which Brainrot Evolution potion should I use first?",
-          "answer": "Use EXP-focused potions during level pushes, then swap to wins-focused consumables when unlock costs become the bottleneck."
+          "section": "Potions and Fruits",
+          "summary": "Short-term buffs for damage, hatch luck, wins, or EXP. Use the small versions for quick pushes and the mega versions for longer grinds or egg sessions.",
+          "entries": [
+            {
+              "name": "White Strawberry",
+              "effect": "Damage boost for 10 minutes",
+              "source": "Fruit Merchant in Strawberry Land",
+              "best_timing": "Use before a hard world push or boss-heavy farming block"
+            },
+            {
+              "name": "Strawberry",
+              "effect": "Damage boost for 5 minutes",
+              "source": "Fruit Merchant in Strawberry Land",
+              "best_timing": "Use for short clears or quick rebirth loops"
+            },
+            {
+              "name": "Dark Fruit",
+              "effect": "Damage boost for 10 minutes",
+              "source": "Fruit Merchant in Strawberry Land",
+              "best_timing": "Use when you need longer damage uptime without switching items often"
+            },
+            {
+              "name": "Star Fruit",
+              "effect": "Damage boost for 5 minutes",
+              "source": "Fruit Merchant in Strawberry Land",
+              "best_timing": "Use for burst damage windows"
+            },
+            {
+              "name": "Luck Potion",
+              "effect": "Egg hatch luck for 10 minutes",
+              "source": "Achievements and Daily Quests",
+              "best_timing": "Use during egg or crate opening sessions"
+            },
+            {
+              "name": "Small Luck Potion",
+              "effect": "Egg hatch luck for 5 minutes",
+              "source": "Vending Machine in Larila Desert",
+              "best_timing": "Use for short hatch bursts when you do not want to spend a mega item"
+            },
+            {
+              "name": "Mega Luck Potion",
+              "effect": "Triples luck for 10 minutes",
+              "source": "Craft with Small Luck Potion or Luck Potion in Brainrot Abyss",
+              "best_timing": "Save for premium egg, crate, or event opening runs"
+            },
+            {
+              "name": "Wins Potion",
+              "effect": "Double Wins for 10 minutes",
+              "source": "Achievements and Daily Quests",
+              "best_timing": "Use when unlocking new egg lines or world thresholds"
+            },
+            {
+              "name": "Small Wins Potion",
+              "effect": "Increases Wins gain for 5 minutes",
+              "source": "Vending Machine in Larila Desert",
+              "best_timing": "Use for short wins top-ups before a purchase"
+            },
+            {
+              "name": "Mega Wins Potion",
+              "effect": "Triple Wins for 10 minutes",
+              "source": "Craft with Small Wins Potion or Wins Potion in Brainrot Abyss",
+              "best_timing": "Use during concentrated wins farming or fast unlock sessions"
+            },
+            {
+              "name": "EXP Potion",
+              "effect": "Doubles EXP for 10 minutes",
+              "source": "Achievements and Daily Quests",
+              "best_timing": "Use when leveling evolutions or pushing a new damage breakpoint"
+            },
+            {
+              "name": "Small EXP Potion",
+              "effect": "Increases EXP gain for 5 minutes",
+              "source": "Vending Machine in Larila Desert",
+              "best_timing": "Use for quick level pushes"
+            },
+            {
+              "name": "Mega EXP Potion",
+              "effect": "Triples EXP for 10 minutes",
+              "source": "Craft with EXP Potion or Small EXP Potion in Brainrot Abyss",
+              "best_timing": "Use for long evolution or leveling grinds"
+            }
+          ]
         },
         {
-          "question": "When should I spend Brainrot Evolution event tickets?",
-          "answer": "Spend tickets during active event windows when limited crates or boss tables include high-demand units."
+          "section": "Scrolls",
+          "summary": "Relic reroll tools. Do not spend them on temporary filler relics; save them for pieces that already have a strong base buff spread.",
+          "entries": [
+            {
+              "name": "Bronze Scroll",
+              "effect": "Rerolls relic stats",
+              "source": "Merchant in Mount Ambalabu",
+              "best_timing": "Use on your first relic worth keeping through multiple worlds"
+            },
+            {
+              "name": "Silver Scroll",
+              "effect": "Rerolls relic stats",
+              "source": "Merchant in Mount Ambalabu",
+              "best_timing": "Use once your midgame relic pool is stable"
+            },
+            {
+              "name": "Golden Scroll",
+              "effect": "Rerolls relic stats",
+              "source": "Merchant in Mount Ambalabu",
+              "best_timing": "Use on premium midgame relics you plan to hold"
+            },
+            {
+              "name": "Demon Scroll",
+              "effect": "Rerolls relic stats",
+              "source": "Merchant in Nuclearo Core for 30k Gems",
+              "best_timing": "Use on late-game relics with strong native buffs"
+            },
+            {
+              "name": "Dark Scroll",
+              "effect": "Rerolls relic stats",
+              "source": "Merchant in Mount Ambalabu for 159 Robux",
+              "best_timing": "Use only if you want a paid shortcut instead of farming scroll currency"
+            },
+            {
+              "name": "Toxic Scroll",
+              "effect": "Rerolls relic stats",
+              "source": "Relic Smelter in Nuclearo Core for 15k Relic Coins",
+              "best_timing": "Use when your relic coin economy is strong enough to chase perfect rolls"
+            }
+          ]
         },
         {
-          "question": "How do Brainrot Evolution scrolls fit into progression?",
-          "answer": "Use scrolls on higher-value relic targets instead of early filler upgrades to avoid wasting rare enhancement resources."
-        },
-        {
-          "question": "Should I save Brainrot Evolution consumables before rebirth?",
-          "answer": "Yes. Keep your best consumables for the first stretch after rebirth to rebuild speed quickly."
-        },
-        {
-          "question": "What is the safest Brainrot Evolution item routine each session?",
-          "answer": "Start with EXP tools, switch to damage or wins based on your bottleneck, and save premium consumables for boss-heavy windows."
+          "section": "Currencies, Tickets, and Shards",
+          "summary": "These items unlock side systems: wheels, index shops, trinket stations, blinket upgrades, and egg progression. Most of them are better saved for the station they belong to instead of being spent the moment you get them.",
+          "entries": [
+            {
+              "name": "Tralalero Ticket",
+              "effect": "Used to spin the Tralalero Wheel",
+              "source": "Destroy objects or kill monsters in Tralalero Ocean",
+              "best_timing": "Save until you are ready for a focused wheel session"
+            },
+            {
+              "name": "Gems",
+              "effect": "Used for permanent upgrades, scrolls, and other items",
+              "source": "Destroy objects or kill monsters across worlds",
+              "best_timing": "Spend on account-wide upgrades first when possible"
+            },
+            {
+              "name": "Relic Coins",
+              "effect": "Used to buy Scrolls and Crates",
+              "source": "Smelt Relics at the Relic Smelter in Chicleteiramania and Bombardino Sewer",
+              "best_timing": "Save for rerolls on relics you actually plan to keep"
+            },
+            {
+              "name": "Index Coins",
+              "effect": "Used in the Pet Index Machine shop",
+              "source": "Obtain new pets and claim from the Pet Index Machine in Nuclearo Core",
+              "best_timing": "Spend once the shop upgrade is stronger than another temporary boost"
+            },
+            {
+              "name": "Secret Index Coins",
+              "effect": "Used in the Secret Index Machine shop",
+              "source": "Obtain Secret brainrots and claim from the Secret Index Machine in Goaaat Galaxy",
+              "best_timing": "Use after your secret collection starts growing"
+            },
+            {
+              "name": "Wins",
+              "effect": "Used to buy pet Eggs and other items",
+              "source": "Destroy objects or kill monsters across worlds",
+              "best_timing": "Prioritize new egg lines over small filler purchases"
+            },
+            {
+              "name": "Larila Shards",
+              "effect": "Used to pull Larila Trinkets",
+              "source": "Destroy objects and kill monsters in Larila Desert",
+              "best_timing": "Start spending once Larila becomes your main farm world"
+            },
+            {
+              "name": "Chicleteira Shards",
+              "effect": "Used to pull Chicleteira Trinkets",
+              "source": "Destroy objects and kill monsters in Chicleteiramania",
+              "best_timing": "Save for your second permanent Trinket station"
+            },
+            {
+              "name": "Udindin Shards",
+              "effect": "Used to pull Udin Din Trinkets",
+              "source": "Destroy objects and kill monsters in Udindin World",
+              "best_timing": "Use when moving into the Udin midgame route"
+            },
+            {
+              "name": "Goaaat Shards",
+              "effect": "Used to pull Goaaat Trinkets",
+              "source": "Destroy objects and kill monsters in Goaaat Galaxy",
+              "best_timing": "Best spent once you are chasing long-term late-game stats"
+            },
+            {
+              "name": "Tralalero Runes",
+              "effect": "Used to upgrade Blinkets in Tralalero Ocean",
+              "source": "Destroy objects and kill monsters in Tralalero Ocean",
+              "best_timing": "Hold until you know which Blinket path you want to push"
+            },
+            {
+              "name": "Nuclearo Runes",
+              "effect": "Used to upgrade Blinkets in Nuclearo Core",
+              "source": "Destroy objects and kill monsters in Nuclearo Core",
+              "best_timing": "Use after your Nuclearo farming route is stable"
+            },
+            {
+              "name": "Metal Runes",
+              "effect": "Used to upgrade Blinkets in Glorbo Heights",
+              "source": "Destroy objects and kill monsters in Glorbo Heights",
+              "best_timing": "Spend when your Blinket path matters more than another egg reroll"
+            },
+            {
+              "name": "Toxic Shards",
+              "effect": "Used to upgrade Blinkets in Flushrooms",
+              "source": "Destroy objects and kill monsters in Flushrooms",
+              "best_timing": "Late-game Blinket upgrades only"
+            },
+            {
+              "name": "Ruined Shards",
+              "effect": "Used to obtain Ruined Trinkets",
+              "source": "Destroy objects and kill monsters in Brainrot Abyss",
+              "best_timing": "Farm once you are ready to add another permanent stat layer"
+            }
+          ]
         }
       ]
     },
