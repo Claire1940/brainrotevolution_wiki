@@ -1337,128 +1337,522 @@
     },
     "lucidBlocksQualiaAndBaseBuilding": {
       "title": "Brainrot Evolution Trading Values",
-      "displayType": "cards",
-      "intro": "Use this Brainrot Evolution Trading Values module to compare demand, avoid rushed swaps, and judge W/F/L with current value context.",
-      "cards": [
+      "displayType": "valueTable",
+      "eyebrow": "Trading",
+      "subtitle": "These are the highest-listed current values on the main trading sheet. Compare both sides before you lock a deal.",
+      "intro": "The current value sheet is led by Tri Ton at 3.5M, with Secret Meowl at 2.6M and Evilduck at 2.4M. The official calculator uses W/F/L to label whether a trade result is good, balanced, or bad, so the fastest check is to compare the total listed value on your side against the total listed value on the other side before you confirm.",
+      "items": [
         {
-          "name": "Core Value Board",
-          "description": "Track high-interest secrets, event units, and pet trades in one shortlist before you open trade chat."
+          "rank": 1,
+          "asset": "Tri Ton",
+          "category": "Mythic",
+          "current_value": "3.5M",
+          "demand": "-",
+          "status": "-"
         },
         {
-          "name": "Demand Momentum",
-          "description": "Check whether a unit is rising because of updates, event windows, or short-term hype before accepting offers."
+          "rank": 2,
+          "asset": "Secret Meowl",
+          "category": "Secret",
+          "current_value": "2.6M",
+          "demand": "-",
+          "status": "-"
         },
         {
-          "name": "Fair Swap Baseline",
-          "description": "Start from balanced value range, then adjust for rarity source, event lock, and current market urgency."
+          "rank": 3,
+          "asset": "Evilduck",
+          "category": "Pet",
+          "current_value": "2.4M",
+          "demand": "-",
+          "status": "-"
         },
         {
-          "name": "Scam Avoidance",
-          "description": "Confirm item names and exact variants before confirming. Similar names can hide large value gaps."
+          "rank": 4,
+          "asset": "Xmastree",
+          "category": "Pet",
+          "current_value": "2M",
+          "demand": "-",
+          "status": "-"
+        },
+        {
+          "rank": 5,
+          "asset": "Meowrrior",
+          "category": "Pet",
+          "current_value": "1.3M",
+          "demand": "-",
+          "status": "-"
+        },
+        {
+          "rank": 6,
+          "asset": "Crabler",
+          "category": "Pet",
+          "current_value": "1.1M",
+          "demand": "-",
+          "status": "-"
+        },
+        {
+          "rank": 7,
+          "asset": "Balerinna Cappucinna",
+          "category": "Brainrot",
+          "current_value": "1M",
+          "demand": "-",
+          "status": "-"
+        },
+        {
+          "rank": 8,
+          "asset": "Malame",
+          "category": "Uncommon",
+          "current_value": "900K",
+          "demand": "-",
+          "status": "-"
+        },
+        {
+          "rank": 9,
+          "asset": "Ketupat",
+          "category": "Pet",
+          "current_value": "850K",
+          "demand": "-",
+          "status": "-"
+        },
+        {
+          "rank": 10,
+          "asset": "Medus",
+          "category": "Pet",
+          "current_value": "812.5K",
+          "demand": "-",
+          "status": "-"
+        },
+        {
+          "rank": 11,
+          "asset": "Tripi Tropa",
+          "category": "Pet",
+          "current_value": "800K",
+          "demand": "-",
+          "status": "-"
+        },
+        {
+          "rank": 12,
+          "asset": "Tri Ton Ton Sahur",
+          "category": "Secret",
+          "current_value": "770K",
+          "demand": "-",
+          "status": "-"
         }
-      ],
-      "highlights": [
-        "Check value and demand together",
-        "Do not rush update-week trades",
-        "Capture screenshots before finalize",
-        "Use W/F/L after every offer change"
       ]
     },
     "lucidBlocksWorldRegions": {
       "title": "Brainrot Evolution Secrets Guide",
-      "displayType": "regionCards",
-      "intro": "Review where each Brainrot Evolution secret can appear and which activity type gives the best chance to target it.",
-      "regions": [
+      "displayType": "secretUnlockTable",
+      "eyebrow": "Secrets",
+      "subtitle": "Secrets come from crate drops, fusion recipes, event passes, and exclusive packs. This table highlights the routes with the clearest payoffs and the strongest stat bumps.",
+      "intro": "Every unlocked Secret adds a 10% Secret Boost to your current stats, so chasing the right ones matters even before you min-max trades. The standouts below cover late-game fusion crafts, premium and event pass rewards, dungeon crate drops, and high-end exclusive pack pulls.",
+      "items": [
         {
-          "name": "Crate Secrets",
-          "type": "Crates",
-          "description": "Prioritize higher-tier crates during event windows to improve odds on rare secret pulls."
+          "secret": "Tri Ton Ton Sahur",
+          "unlock_type": "Spooky Crate",
+          "unlock_route": "Open the Spooky Crate",
+          "health": "+2T",
+          "damage": "+50Qa",
+          "bonus": "375% stronger"
         },
         {
-          "name": "Boss Secrets",
-          "type": "Boss Drops",
-          "description": "Some secrets are tied to specific world bosses. Farm the highest boss you can clear consistently."
+          "secret": "Los Karkerkirkursitos",
+          "unlock_type": "Exclusive Pack",
+          "unlock_route": "Purchase the Fourth Exclusive Pack",
+          "health": "+2T",
+          "damage": "+50Qa",
+          "bonus": "350% stronger"
         },
         {
-          "name": "Event Secrets",
-          "type": "Limited Events",
-          "description": "Limited events can add exclusive secrets with time-gated availability and short-lived demand spikes."
+          "secret": "Hokka Horloge",
+          "unlock_type": "Fusion",
+          "unlock_route": "Fuse Job Job Job Sahur, Gargirgurgargargar, and Tic Tac Sahur",
+          "health": "+17.5Qi",
+          "damage": "+750C",
+          "bonus": "225% stronger"
         },
         {
-          "name": "Pack Secrets",
-          "type": "Shop Packs",
-          "description": "Pack secrets usually trade at premium early, then normalize after wider circulation."
+          "secret": "Owlcano",
+          "unlock_type": "Fusion",
+          "unlock_route": "Fuse Papayaneli Owlicina, Strawberrini Octosini, and Nightmare YONI in World 14",
+          "health": "+225B",
+          "damage": "+225T",
+          "bonus": "220% stronger"
+        },
+        {
+          "secret": "Prestige Palettini Amorini",
+          "unlock_type": "Valentine Fuse",
+          "unlock_route": "Fuse Pinkberri Cuoricini, Pigu Amore, Cuoricino Amorso, and Cuore Dannato (10% chance)",
+          "health": "+225B",
+          "damage": "+225T",
+          "bonus": "215% stronger"
+        },
+        {
+          "secret": "Pulu Pulu Pulu Pulpen",
+          "unlock_type": "Boss Event",
+          "unlock_route": "Defeat the Pulu Pulu Pulu Pulpen boss when the weather spawns",
+          "health": "+1T",
+          "damage": "+1Qa",
+          "bonus": "215% stronger"
+        },
+        {
+          "secret": "Cavalluccio Virtuoso",
+          "unlock_type": "Fusion",
+          "unlock_route": "Fuse Bluberrini Octossini, Tarari Tarara, and Gargirgurgargargar in World 8",
+          "health": "+225B",
+          "damage": "+225T",
+          "bonus": "210% stronger"
+        },
+        {
+          "secret": "Prestige Caciolero Lucertino",
+          "unlock_type": "Cheese Fuse",
+          "unlock_route": "Fuse Cactus Formaggio, YONI PONI, Quesadilla Crocodila, and Plorbo Lemozzadrilo (10% chance)",
+          "health": "+1T",
+          "damage": "+1Qa",
+          "bonus": "210% stronger"
+        },
+        {
+          "secret": "Prestige Lepreccooni",
+          "unlock_type": "Event Pass",
+          "unlock_route": "Complete the premium Patrick Event pass",
+          "health": "+225B",
+          "damage": "+225T",
+          "bonus": "205% stronger"
+        },
+        {
+          "secret": "Prestige Mateho Ho Ho Ho",
+          "unlock_type": "Craft",
+          "unlock_route": "Craft Los Stantanitos Tralaleritos, Snowmanito Bandito, Ginger Ginger Ginger Sahur, and Giftinini Mananini",
+          "health": "+1T",
+          "damage": "+1Qa",
+          "bonus": "205% stronger"
+        },
+        {
+          "secret": "Papayaneli Owlicina",
+          "unlock_type": "Fusion",
+          "unlock_route": "Fuse Blueberinni Octossini, Strawberri Octossini, and Blueberrini Tatticini",
+          "health": "+15Qi",
+          "damage": "+400C",
+          "bonus": "205% stronger"
+        },
+        {
+          "secret": "Prestige Shelly",
+          "unlock_type": "Season Pass",
+          "unlock_route": "Complete Season 9 pass",
+          "health": "+225B",
+          "damage": "+225T",
+          "bonus": "200% stronger"
+        },
+        {
+          "secret": "Prestige Cuore Amoroso",
+          "unlock_type": "Event Pass",
+          "unlock_route": "Reach level 10 in the Valentine Event F2P pass",
+          "health": "+225B",
+          "damage": "+225T",
+          "bonus": "200% stronger"
+        },
+        {
+          "secret": "Bisonte Giuppiture Giuppitercito",
+          "unlock_type": "Dungeon Crate",
+          "unlock_route": "Open Vault crates by completing the Vault of Jupiter dungeon",
+          "health": "+50B",
+          "damage": "+75T",
+          "bonus": "135% stronger"
+        },
+        {
+          "secret": "Pipi Kiwi",
+          "unlock_type": "Weather Crate",
+          "unlock_route": "Open Crocodillitos crates during the Los Crocodillitos weather event",
+          "health": "+225B",
+          "damage": "+225T",
+          "bonus": "155% stronger"
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
       "title": "Brainrot Evolution Secret Tier List",
-      "displayType": "creatureCards",
-      "intro": "Rank Brainrot Evolution secrets by practical grind speed, rebirth support value, and trade desirability.",
-      "creatures": [
+      "displayType": "tierMatrix",
+      "eyebrow": "Tier List",
+      "subtitle": "This grid weights current trade value at the top end, then raw buff strength and unlock difficulty. It is built for the late-game question players ask most: which Secrets are worth protecting, crafting, or flipping?",
+      "intro": "Tri Ton Ton Sahur and Secret Meowl sit at the top for different reasons: Tri Ton Ton Sahur combines a 375% boost with a 770K listed value, while Secret Meowl leads the current secret market at 2.6M. Right below them, the best fusion and pass Secrets stay relevant because they compress massive power into fewer roster slots.",
+      "items": [
         {
-          "name": "S-Tier Secrets",
-          "role": "Top Priority",
-          "description": "Best mix of farming power and long-term trade value. These are usually worth building around."
+          "tier": "S",
+          "focus": "Best overall holds",
+          "entries": [
+            {
+              "name": "Secret Meowl",
+              "highlight": "2.6M current value",
+              "why": "The highest-listed Secret on the current value sheet."
+            },
+            {
+              "name": "Tri Ton Ton Sahur",
+              "highlight": "375% stronger · 770K value",
+              "why": "Elite mix of raw power and current market value."
+            },
+            {
+              "name": "Hokka Horloge",
+              "highlight": "225% stronger",
+              "why": "One of the strongest fusion payoffs on the guide list."
+            },
+            {
+              "name": "Owlcano",
+              "highlight": "220% stronger",
+              "why": "Late fusion target with top-end power."
+            },
+            {
+              "name": "Los Karkerkirkursitos",
+              "highlight": "350% stronger",
+              "why": "Exclusive route with huge burst stats."
+            }
+          ]
         },
         {
-          "name": "A-Tier Secrets",
-          "role": "Strong Core",
-          "description": "Reliable progression gains and stable demand, even outside major update cycles."
+          "tier": "A",
+          "focus": "Power-first keepers",
+          "entries": [
+            {
+              "name": "Prestige Palettini Amorini",
+              "highlight": "215% stronger",
+              "why": "Top 10% Valentine fuse result with premium-end upside."
+            },
+            {
+              "name": "Pulu Pulu Pulu Pulpen",
+              "highlight": "215% stronger",
+              "why": "Boss-based Secret with strong endgame damage."
+            },
+            {
+              "name": "Cavalluccio Virtuoso",
+              "highlight": "210% stronger",
+              "why": "High-value World 8 fusion craft."
+            },
+            {
+              "name": "Prestige Caciolero Lucertino",
+              "highlight": "210% stronger",
+              "why": "Best Cheese Fuse output for raw push power."
+            },
+            {
+              "name": "Prestige Mateho Ho Ho Ho",
+              "highlight": "205% stronger · 220K value",
+              "why": "Craft line with both power and current trade relevance."
+            }
+          ]
         },
         {
-          "name": "B-Tier Secrets",
-          "role": "Situational",
-          "description": "Useful in specific routes or world phases, but replaced quickly by stronger options."
+          "tier": "B",
+          "focus": "Strong value or efficient chase pieces",
+          "entries": [
+            {
+              "name": "Pipi Kiwi",
+              "highlight": "390K value · 155% stronger",
+              "why": "Not the biggest buff, but still one of the better trade holds."
+            },
+            {
+              "name": "Toc Toc Toc Sahur",
+              "highlight": "287.5K current value",
+              "why": "High-value Secret that stays relevant in top-end swaps."
+            },
+            {
+              "name": "Tic Tac Sahur",
+              "highlight": "195K current value",
+              "why": "Solid hold when you want easier liquidity than ultra-rare tops."
+            },
+            {
+              "name": "Golden Sahur",
+              "highlight": "190K current value",
+              "why": "Still strong enough to matter in mid-high trades."
+            },
+            {
+              "name": "Prestige Lepreccooni",
+              "highlight": "205% stronger",
+              "why": "Premium pass Secret with dependable push power."
+            }
+          ]
         },
         {
-          "name": "C-Tier Secrets",
-          "role": "Collection",
-          "description": "Mainly collection or novelty value. Keep only if your trade strategy can convert them efficiently."
-        },
-        {
-          "name": "Trade-Only Secrets",
-          "role": "Market Piece",
-          "description": "Low farming performance but still relevant when demand spikes after patch notes."
+          "tier": "C",
+          "focus": "Good progression pieces before premium-end upgrades",
+          "entries": [
+            {
+              "name": "Prestige Shelly",
+              "highlight": "200% stronger",
+              "why": "Great pass reward before you move into higher-value crafts."
+            },
+            {
+              "name": "Prestige Cuore Amoroso",
+              "highlight": "200% stronger",
+              "why": "Very solid event-pass power for a non-fusion route."
+            },
+            {
+              "name": "Palettini Amorini",
+              "highlight": "195% stronger",
+              "why": "The 90% Valentine fuse result still performs well."
+            },
+            {
+              "name": "Caciolero Lucertino",
+              "highlight": "190% stronger",
+              "why": "Reliable 90% Cheese Fuse result."
+            },
+            {
+              "name": "Paperado Avocado",
+              "highlight": "186% stronger",
+              "why": "Boss-crate Secret that stays useful without premium routes."
+            }
+          ]
         }
       ]
     },
     "lucidBlocksMobilityGear": {
       "title": "Brainrot Evolution Pets Guide",
-      "displayType": "itemCards",
-      "intro": "Follow this Brainrot Evolution Pets Guide to pick efficient eggs, rotate multipliers faster, and avoid overpaying early maps.",
+      "displayType": "petProgressionTable",
+      "eyebrow": "Pets",
+      "subtitle": "Pets scale grinding speed across every world, so the smartest route is not hatching everything equally. Use this table to spot the best pet in each key egg and decide when the next price jump is worth it.",
+      "intro": "The cleanest breakpoints come when the top pet in an egg meaningfully outpaces the last one you were farming. Early examples are Baby Dragon at 2 Damage and Squirrel at 4, but the larger spikes arrive at Ancient Egg (22), Scorpio Egg (62), Kraken Egg (205), Marsh Egg (475), Monster Egg (745), Xenon Egg (1.05k), and Sahure Egg (2.5k).",
       "items": [
         {
-          "name": "Starter Eggs",
-          "type": "Early Wins",
-          "description": "Buy low-cost starter eggs for your first damage jump, then move worlds without overspending."
+          "world": "Patapim Park (World 1)",
+          "egg": "Adventure Egg",
+          "price": "10 Wins",
+          "top_pet": "Baby Dragon",
+          "top_rate": "0.25%",
+          "top_damage": "2",
+          "jump_vs_previous": "Start"
         },
         {
-          "name": "Mid-Route Pets",
-          "type": "Progression Core",
-          "description": "Upgrade when a new world gives clean multiplier jumps instead of chasing tiny upgrades."
+          "world": "Patapim Park (World 1)",
+          "egg": "Corn Egg",
+          "price": "150 Wins",
+          "top_pet": "Squirrel",
+          "top_rate": "0.5%",
+          "top_damage": "4",
+          "jump_vs_previous": "+2"
         },
         {
-          "name": "Boss Support Pets",
-          "type": "Boss Push",
-          "description": "Use pets with stable damage scaling when your route starts chaining bosses for XP bursts."
+          "world": "Larila Desert (World 3)",
+          "egg": "Ancient Egg",
+          "price": "350k Wins",
+          "top_pet": "Bastiri",
+          "top_rate": "2%",
+          "top_damage": "22",
+          "jump_vs_previous": "+18"
         },
         {
-          "name": "Event Hatch Picks",
-          "type": "Limited Rotation",
-          "description": "Event eggs can add short-window value targets. Balance hatch cost against trade and farming value."
+          "world": "Larila Desert (World 3)",
+          "egg": "Cactus Egg",
+          "price": "2.5m Wins",
+          "top_pet": "Tuthra",
+          "top_rate": "2%",
+          "top_damage": "40",
+          "jump_vs_previous": "+18"
         },
         {
-          "name": "Rebirth Rebuild Pets",
-          "type": "Rebirth Reset",
-          "description": "Keep a rebuild-ready pet setup to reduce downtime after each rebirth reset."
+          "world": "Larila Desert (World 3)",
+          "egg": "Scorpio Egg",
+          "price": "15m Wins",
+          "top_pet": "Sekzari",
+          "top_rate": "2%",
+          "top_damage": "62",
+          "jump_vs_previous": "+22"
+        },
+        {
+          "world": "Tralalero Ocean (World 4)",
+          "egg": "Kraken Egg",
+          "price": "10B Wins",
+          "top_pet": "Ancient Kraken",
+          "top_rate": "2%",
+          "top_damage": "205",
+          "jump_vs_previous": "+143"
+        },
+        {
+          "world": "Mount Ambalabu (World 5)",
+          "egg": "Marsh Egg",
+          "price": "10T Wins",
+          "top_pet": "Godshmallow",
+          "top_rate": "2%",
+          "top_damage": "475",
+          "jump_vs_previous": "+270"
+        },
+        {
+          "world": "Chicleteiramania (World 6)",
+          "egg": "Monster Egg",
+          "price": "2Qa Wins",
+          "top_pet": "ToyBoy",
+          "top_rate": "2%",
+          "top_damage": "745",
+          "jump_vs_previous": "+270"
+        },
+        {
+          "world": "Udin Dinlympus (World 7)",
+          "egg": "Xenon Egg",
+          "price": "9Qi Wins",
+          "top_pet": "Kraken X",
+          "top_rate": "2%",
+          "top_damage": "1.05k",
+          "jump_vs_previous": "+305"
+        },
+        {
+          "world": "Nuclearo Core (World 8)",
+          "egg": "Angelico Egg",
+          "price": "1.5Sx Wins",
+          "top_pet": "Angelic Dominus",
+          "top_rate": "2%",
+          "top_damage": "1.28k",
+          "jump_vs_previous": "+230"
+        },
+        {
+          "world": "Glorbo Heights (World 9)",
+          "egg": "Capy Egg",
+          "price": "8Sp Wins",
+          "top_pet": "Capycop",
+          "top_rate": "2%",
+          "top_damage": "1.45k",
+          "jump_vs_previous": "+170"
+        },
+        {
+          "world": "Brainrot Abyss (World 10)",
+          "egg": "Virex Egg",
+          "price": "1Oc Wins",
+          "top_pet": "Virex",
+          "top_rate": "2%",
+          "top_damage": "1.55k",
+          "jump_vs_previous": "+100"
+        },
+        {
+          "world": "Bombardino Sewer (World 11)",
+          "egg": "Sludge Egg",
+          "price": "22.5No Wins",
+          "top_pet": "Cloakar",
+          "top_rate": "2%",
+          "top_damage": "1.75k",
+          "jump_vs_previous": "+200"
+        },
+        {
+          "world": "Strawberry Land (World 13)",
+          "egg": "Avocado Egg",
+          "price": "750Dc Wins",
+          "top_pet": "Watermelon",
+          "top_rate": "2%",
+          "top_damage": "2.05k",
+          "jump_vs_previous": "+300"
+        },
+        {
+          "world": "Cadabra Restaurant (World 14)",
+          "egg": "Oven Egg",
+          "price": "60Ud",
+          "top_pet": "Pizza",
+          "top_rate": "2%",
+          "top_damage": "2.2k",
+          "jump_vs_previous": "+150"
+        },
+        {
+          "world": "Flushrooms (World 15)",
+          "egg": "Sahure Egg",
+          "price": "75Dd",
+          "top_pet": "O Sahur",
+          "top_rate": "2%",
+          "top_damage": "2.5k",
+          "jump_vs_previous": "+300"
         }
-      ],
-      "unlockMilestones": [
-        "Buy first efficient egg path",
-        "Replace starter pets on world jump",
-        "Align pet setup with rebirth timing",
-        "Reserve wins for high-impact hatch tiers"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
