@@ -152,11 +152,11 @@ export default function Navigation({ navPreviewData, wikiLinks }: NavigationProp
 														<span>{extractPrimaryKeyword(article.title)}</span>
 													</Link>
 												))}
-												{randomArticles.length === 0 && (
-													<div className="px-4 py-3 text-sm text-muted-foreground text-center">
-														No articles yet
-													</div>
-												)}
+											{randomArticles.length === 0 && (
+												<div className="px-4 py-3 text-sm text-muted-foreground text-center">
+													{t('common.noArticlesYet')}
+												</div>
+											)}
 											</div>
 											{articles.length > 1 && (
 												<Link
@@ -228,7 +228,7 @@ export default function Navigation({ navPreviewData, wikiLinks }: NavigationProp
 								aria-expanded={wikiMenuOpen}
 								aria-haspopup="menu"
 							>
-								More Wikis
+								{t('common.moreWikis')}
 								<ChevronDown className={`w-3 h-3 ml-1 transition-transform ${wikiMenuOpen ? 'rotate-180' : ''}`} />
 							</Button>
 
@@ -302,7 +302,7 @@ export default function Navigation({ navPreviewData, wikiLinks }: NavigationProp
 												))}
 												{mobileRandomArticles.length === 0 && (
 													<div className="py-2 text-sm text-muted-foreground">
-														No articles yet
+														{t('common.noArticlesYet')}
 													</div>
 												)}
 												{articles.length > 1 && (
@@ -331,7 +331,7 @@ export default function Navigation({ navPreviewData, wikiLinks }: NavigationProp
 								>
 									<span className="flex items-center gap-3 font-medium">
 										<ExternalLink className="w-5 h-5" />
-										More Wikis
+										{t('common.moreWikis')}
 									</span>
 									<ChevronDown className={`w-4 h-4 transition-transform ${mobileWikiExpanded ? 'rotate-180' : ''}`} />
 								</button>

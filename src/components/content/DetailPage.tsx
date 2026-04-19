@@ -141,7 +141,7 @@ export async function DetailPage({ frontmatter, content, contentType, language, 
 				{/* 文章底部广告区域 */}
 				<div className="border-t border-border pt-12 mt-12 space-y-8">
 					<div className="text-center text-sm text-muted-foreground mb-4">
-						Advertisement
+						{t('common.advertisement')}
 					</div>
 
 					{/* 广告 1: 728×90 横幅 */}

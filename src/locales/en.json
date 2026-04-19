@@ -23,6 +23,9 @@
     "home": "Home",
     "more": "More",
     "playNow": "Play on Roblox",
+    "moreWikis": "More Wikis",
+    "noArticlesYet": "No articles yet",
+    "advertisement": "Advertisement",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -38,7 +41,7 @@
     "title": "Brainrot Evolution Wiki",
     "description": "Track codes, secret brainrots, pets, worlds, rebirth routes, and weekly updates for one of Roblox's fastest-growing meme evolution games.",
     "getFreeCodesCTA": "Join Discord",
-    "playOnSteamCTA": "Play on Roblox",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
         "value": "1.7B+",
@@ -150,7 +153,7 @@
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
+    "brainrotCodesModule": {
       "title": "Brainrot Evolution Codes",
       "displayType": "codeCards",
       "eyebrow": "Free Rewards",
@@ -259,7 +262,7 @@
         }
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
+    "brainrotBeginnerGuideModule": {
       "title": "Brainrot Evolution Beginner Guide",
       "displayType": "stepByStep",
       "eyebrow": "Starter Route",
@@ -348,7 +351,7 @@
         }
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
+    "brainrotRebirthGuideModule": {
       "title": "Brainrot Evolution Rebirth Guide",
       "displayType": "rebirthGuide",
       "eyebrow": "Progression",
@@ -438,7 +441,7 @@
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
+    "brainrotAllBrainrotsModule": {
       "title": "Brainrot Evolution All Brainrots",
       "displayType": "brainrotTable",
       "eyebrow": "Character Index",
@@ -1343,7 +1346,7 @@
         }
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
+    "brainrotTradingValuesModule": {
       "title": "Brainrot Evolution Trading Values",
       "displayType": "valueTable",
       "eyebrow": "Trading",
@@ -1448,7 +1451,7 @@
         }
       ]
     },
-    "lucidBlocksWorldRegions": {
+    "brainrotSecretsGuideModule": {
       "title": "Brainrot Evolution Secrets Guide",
       "displayType": "secretUnlockTable",
       "eyebrow": "Secrets",
@@ -1577,7 +1580,7 @@
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
+    "brainrotSecretTierListModule": {
       "title": "Brainrot Evolution Secret Tier List",
       "displayType": "tierMatrix",
       "eyebrow": "Tier List",
@@ -1710,7 +1713,7 @@
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
+    "brainrotPetsGuideModule": {
       "title": "Brainrot Evolution Pets Guide",
       "displayType": "petProgressionTable",
       "eyebrow": "Pets",
@@ -1863,7 +1866,7 @@
         }
       ]
     },
-    "lucidBlocksFarmingAndGrowth": {
+    "brainrotWorldGuideModule": {
       "title": "Brainrot Evolution World Guide",
       "displayType": "worldProgressionCards",
       "eyebrow": "Progression Route",
@@ -2097,7 +2100,7 @@
         }
       ]
     },
-    "lucidBlocksBestEarlyUnlocks": {
+    "brainrotRelicsGuideModule": {
       "title": "Brainrot Evolution Relics Guide",
       "displayType": "relicComparisonTable",
       "eyebrow": "Relic Routing",
@@ -2197,7 +2200,7 @@
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
+    "brainrotTrinketsGuideModule": {
       "title": "Brainrot Evolution Trinkets Guide",
       "displayType": "trinketMatrixTable",
       "eyebrow": "Permanent Buffs",
@@ -2430,7 +2433,7 @@
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
+    "brainrotItemsGuideModule": {
       "title": "Brainrot Evolution Items Guide",
       "displayType": "itemAccordion",
       "eyebrow": "Consumables",
@@ -2661,7 +2664,7 @@
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
+    "brainrotTradingGuideModule": {
       "title": "Brainrot Evolution Trading Guide",
       "displayType": "stepByStep",
       "eyebrow": "Trading",
@@ -2718,7 +2721,7 @@
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
+    "brainrotUpdateLogModule": {
       "title": "Brainrot Evolution Update Log",
       "displayType": "timelineCards",
       "eyebrow": "Updates",
@@ -2777,7 +2780,7 @@
         }
       ]
     },
-    "lucidBlocksUpdatesAndPatchNotes": {
+    "brainrotDiscordAndTrelloModule": {
       "title": "Brainrot Evolution Discord and Trello",
       "displayType": "cardList",
       "eyebrow": "Community",
@@ -2835,7 +2838,7 @@
         }
       ]
     },
-    "lucidBlocksCrashFixAndTroubleshooting": {
+    "brainrotBossEventGuideModule": {
       "title": "Brainrot Evolution Boss Event Guide",
       "displayType": "accordion",
       "eyebrow": "Events",

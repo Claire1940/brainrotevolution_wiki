@@ -291,7 +291,7 @@ export default function HomePageClient({
                            border border-border hover:bg-white/10 rounded-lg
                            font-semibold text-lg transition-colors"
               >
-                {t.hero.playOnSteamCTA}
+                {t.hero.playOnRobloxCTA}
                 <ArrowRight className="w-5 h-5" />
               </a>
             </div>
@@ -370,20 +370,20 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
-              {t.modules.lucidBlocksBeginnerGuide.eyebrow}
+              {t.modules.brainrotCodesModule.eyebrow}
             </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <LinkedTitle linkData={moduleLinkMap['lucidBlocksBeginnerGuide']} locale={locale}>
-                {t.modules.lucidBlocksBeginnerGuide.title}
+              <LinkedTitle linkData={moduleLinkMap['brainrotCodesModule']} locale={locale}>
+                {t.modules.brainrotCodesModule.title}
               </LinkedTitle>
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-              {t.modules.lucidBlocksBeginnerGuide.subtitle}
+              {t.modules.brainrotCodesModule.subtitle}
             </p>
           </div>
 
           <div className="scroll-reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-            {t.modules.lucidBlocksBeginnerGuide.items.map((codeItem: any, index: number) => (
+            {t.modules.brainrotCodesModule.items.map((codeItem: any, index: number) => (
               <article
                 key={index}
                 className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
@@ -412,7 +412,7 @@ export default function HomePageClient({
               <h3 className="font-bold text-lg">How to Redeem Brainrot Evolution Codes</h3>
             </div>
             <p className="text-sm text-muted-foreground">
-              {t.modules.lucidBlocksBeginnerGuide.intro}
+              {t.modules.brainrotCodesModule.intro}
             </p>
           </div>
         </div>
@@ -426,23 +426,23 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
-              {t.modules.lucidBlocksApotheosisCrafting.eyebrow}
+              {t.modules.brainrotBeginnerGuideModule.eyebrow}
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksApotheosisCrafting']} locale={locale}>{t.modules.lucidBlocksApotheosisCrafting.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksApotheosisCrafting.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['brainrotBeginnerGuideModule']} locale={locale}>{t.modules.brainrotBeginnerGuideModule.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.brainrotBeginnerGuideModule.subtitle}</p>
           </div>
           <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
-            {t.modules.lucidBlocksApotheosisCrafting.intro}
+            {t.modules.brainrotBeginnerGuideModule.intro}
           </p>
           <div className="scroll-reveal space-y-4">
-            {t.modules.lucidBlocksApotheosisCrafting.items.map((item: any, index: number) => (
+            {t.modules.brainrotBeginnerGuideModule.items.map((item: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-3 mb-3">
                   <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border border-[hsl(var(--nav-theme)/0.35)] text-sm font-bold text-[hsl(var(--nav-theme-light))]">
                     {item.step}
                   </span>
                   <h3 className="font-bold text-xl">
-                    <LinkedTitle linkData={moduleLinkMap[`lucidBlocksApotheosisCrafting::items::${index}`]} locale={locale}>
+                    <LinkedTitle linkData={moduleLinkMap[`brainrotBeginnerGuideModule::items::${index}`]} locale={locale}>
                       {item.title}
                     </LinkedTitle>
                   </h3>
@@ -467,23 +467,23 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
-              {t.modules.lucidBlocksToolsAndWeapons.eyebrow}
+              {t.modules.brainrotRebirthGuideModule.eyebrow}
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksToolsAndWeapons']} locale={locale}>{t.modules.lucidBlocksToolsAndWeapons.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksToolsAndWeapons.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['brainrotRebirthGuideModule']} locale={locale}>{t.modules.brainrotRebirthGuideModule.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.brainrotRebirthGuideModule.subtitle}</p>
           </div>
           <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
-            {t.modules.lucidBlocksToolsAndWeapons.intro}
+            {t.modules.brainrotRebirthGuideModule.intro}
           </p>
           <div className="scroll-reveal space-y-5">
-            {t.modules.lucidBlocksToolsAndWeapons.items.map((item: any, index: number) => (
+            {t.modules.brainrotRebirthGuideModule.items.map((item: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-3 mb-3">
                   <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border border-[hsl(var(--nav-theme)/0.35)] text-sm font-bold text-[hsl(var(--nav-theme-light))]">
                     {item.step}
                   </span>
                   <h3 className="font-bold text-xl">
-                    <LinkedTitle linkData={moduleLinkMap[`lucidBlocksToolsAndWeapons::items::${index}`]} locale={locale}>
+                    <LinkedTitle linkData={moduleLinkMap[`brainrotRebirthGuideModule::items::${index}`]} locale={locale}>
                       {item.title}
                     </LinkedTitle>
                   </h3>
@@ -534,13 +534,13 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
-              {t.modules.lucidBlocksStorageAndInventory.eyebrow}
+              {t.modules.brainrotAllBrainrotsModule.eyebrow}
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksStorageAndInventory']} locale={locale}>{t.modules.lucidBlocksStorageAndInventory.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-4xl mx-auto">{t.modules.lucidBlocksStorageAndInventory.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['brainrotAllBrainrotsModule']} locale={locale}>{t.modules.brainrotAllBrainrotsModule.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-4xl mx-auto">{t.modules.brainrotAllBrainrotsModule.subtitle}</p>
           </div>
           <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
-            {t.modules.lucidBlocksStorageAndInventory.intro}
+            {t.modules.brainrotAllBrainrotsModule.intro}
           </p>
           <div className="scroll-reveal overflow-x-auto rounded-xl border border-border">
             <table className="w-full min-w-[920px] text-sm">
@@ -555,7 +555,7 @@ export default function HomePageClient({
                 </tr>
               </thead>
               <tbody>
-                {t.modules.lucidBlocksStorageAndInventory.items.map((row: any, index: number) => (
+                {t.modules.brainrotAllBrainrotsModule.items.map((row: any, index: number) => (
                   <tr
                     key={index}
                     className="border-t border-border hover:bg-white/5 transition-colors"
@@ -583,19 +583,19 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
-              {t.modules.lucidBlocksQualiaAndBaseBuilding.eyebrow}
+              {t.modules.brainrotTradingValuesModule.eyebrow}
             </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <LinkedTitle linkData={moduleLinkMap['lucidBlocksQualiaAndBaseBuilding']} locale={locale}>
-                {t.modules.lucidBlocksQualiaAndBaseBuilding.title}
+              <LinkedTitle linkData={moduleLinkMap['brainrotTradingValuesModule']} locale={locale}>
+                {t.modules.brainrotTradingValuesModule.title}
               </LinkedTitle>
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-              {t.modules.lucidBlocksQualiaAndBaseBuilding.subtitle}
+              {t.modules.brainrotTradingValuesModule.subtitle}
             </p>
           </div>
           <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
-            {t.modules.lucidBlocksQualiaAndBaseBuilding.intro}
+            {t.modules.brainrotTradingValuesModule.intro}
           </p>
           <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border mb-8">
             <table className="w-full min-w-[760px] text-sm">
@@ -610,7 +610,7 @@ export default function HomePageClient({
                 </tr>
               </thead>
               <tbody>
-                {t.modules.lucidBlocksQualiaAndBaseBuilding.items.map((item: any, index: number) => (
+                {t.modules.brainrotTradingValuesModule.items.map((item: any, index: number) => (
                   <tr key={index} className="border-t border-border hover:bg-white/5 transition-colors">
                     <td className="p-3 font-semibold text-[hsl(var(--nav-theme-light))]">{item.rank}</td>
                     <td className="p-3 font-medium">{item.asset}</td>
@@ -624,7 +624,7 @@ export default function HomePageClient({
             </table>
           </div>
           <div className="scroll-reveal md:hidden grid grid-cols-1 gap-3">
-            {t.modules.lucidBlocksQualiaAndBaseBuilding.items.map((item: any, index: number) => (
+            {t.modules.brainrotTradingValuesModule.items.map((item: any, index: number) => (
               <div key={index} className="p-4 bg-white/5 border border-border rounded-xl">
                 <div className="flex items-center justify-between mb-3">
                   <span className="inline-flex items-center px-2 py-1 rounded-full text-xs bg-[hsl(var(--nav-theme)/0.16)] border border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))]">
@@ -647,19 +647,19 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
-              {t.modules.lucidBlocksWorldRegions.eyebrow}
+              {t.modules.brainrotSecretsGuideModule.eyebrow}
             </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <LinkedTitle linkData={moduleLinkMap['lucidBlocksWorldRegions']} locale={locale}>
-                {t.modules.lucidBlocksWorldRegions.title}
+              <LinkedTitle linkData={moduleLinkMap['brainrotSecretsGuideModule']} locale={locale}>
+                {t.modules.brainrotSecretsGuideModule.title}
               </LinkedTitle>
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-              {t.modules.lucidBlocksWorldRegions.subtitle}
+              {t.modules.brainrotSecretsGuideModule.subtitle}
             </p>
           </div>
           <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
-            {t.modules.lucidBlocksWorldRegions.intro}
+            {t.modules.brainrotSecretsGuideModule.intro}
           </p>
           <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border mb-8">
             <table className="w-full min-w-[980px] text-sm">
@@ -674,7 +674,7 @@ export default function HomePageClient({
                 </tr>
               </thead>
               <tbody>
-                {t.modules.lucidBlocksWorldRegions.items.map((item: any, index: number) => (
+                {t.modules.brainrotSecretsGuideModule.items.map((item: any, index: number) => (
                   <tr key={index} className="border-t border-border hover:bg-white/5 transition-colors">
                     <td className="p-3 font-medium">{item.secret}</td>
                     <td className="p-3">
@@ -692,7 +692,7 @@ export default function HomePageClient({
             </table>
           </div>
           <div className="scroll-reveal md:hidden grid grid-cols-1 gap-3">
-            {t.modules.lucidBlocksWorldRegions.items.map((item: any, index: number) => (
+            {t.modules.brainrotSecretsGuideModule.items.map((item: any, index: number) => (
               <div key={index} className="p-4 bg-white/5 border border-border rounded-xl">
                 <div className="flex items-center gap-3 mb-3">
                   <Eye className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
@@ -718,22 +718,22 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
-              {t.modules.lucidBlocksCreaturesAndEnemies.eyebrow}
+              {t.modules.brainrotSecretTierListModule.eyebrow}
             </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <LinkedTitle linkData={moduleLinkMap['lucidBlocksCreaturesAndEnemies']} locale={locale}>
-                {t.modules.lucidBlocksCreaturesAndEnemies.title}
+              <LinkedTitle linkData={moduleLinkMap['brainrotSecretTierListModule']} locale={locale}>
+                {t.modules.brainrotSecretTierListModule.title}
               </LinkedTitle>
             </h2>
             <p className="text-muted-foreground text-lg max-w-4xl mx-auto">
-              {t.modules.lucidBlocksCreaturesAndEnemies.subtitle}
+              {t.modules.brainrotSecretTierListModule.subtitle}
             </p>
           </div>
           <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
-            {t.modules.lucidBlocksCreaturesAndEnemies.intro}
+            {t.modules.brainrotSecretTierListModule.intro}
           </p>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
-            {t.modules.lucidBlocksCreaturesAndEnemies.items.map((group: any, index: number) => {
+            {t.modules.brainrotSecretTierListModule.items.map((group: any, index: number) => {
               const TierIcon =
                 group.tier === 'S'
                   ? Star
@@ -776,19 +776,19 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
-              {t.modules.lucidBlocksMobilityGear.eyebrow}
+              {t.modules.brainrotPetsGuideModule.eyebrow}
             </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <LinkedTitle linkData={moduleLinkMap['lucidBlocksMobilityGear']} locale={locale}>
-                {t.modules.lucidBlocksMobilityGear.title}
+              <LinkedTitle linkData={moduleLinkMap['brainrotPetsGuideModule']} locale={locale}>
+                {t.modules.brainrotPetsGuideModule.title}
               </LinkedTitle>
             </h2>
             <p className="text-muted-foreground text-lg max-w-4xl mx-auto">
-              {t.modules.lucidBlocksMobilityGear.subtitle}
+              {t.modules.brainrotPetsGuideModule.subtitle}
             </p>
           </div>
           <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
-            {t.modules.lucidBlocksMobilityGear.intro}
+            {t.modules.brainrotPetsGuideModule.intro}
           </p>
           <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border mb-8">
             <table className="w-full min-w-[980px] text-sm">
@@ -804,7 +804,7 @@ export default function HomePageClient({
                 </tr>
               </thead>
               <tbody>
-                {t.modules.lucidBlocksMobilityGear.items.map((item: any, index: number) => (
+                {t.modules.brainrotPetsGuideModule.items.map((item: any, index: number) => (
                   <tr key={index} className="border-t border-border hover:bg-white/5 transition-colors">
                     <td className="p-3 font-medium">{item.world}</td>
                     <td className="p-3">{item.egg}</td>
@@ -819,7 +819,7 @@ export default function HomePageClient({
             </table>
           </div>
           <div className="scroll-reveal md:hidden grid grid-cols-1 gap-3 mb-8">
-            {t.modules.lucidBlocksMobilityGear.items.map((item: any, index: number) => (
+            {t.modules.brainrotPetsGuideModule.items.map((item: any, index: number) => (
               <div key={index} className="p-4 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-2 mb-3">
                   <ArrowRight className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
@@ -849,22 +849,22 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
-              {t.modules.lucidBlocksFarmingAndGrowth.eyebrow}
+              {t.modules.brainrotWorldGuideModule.eyebrow}
             </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <LinkedTitle linkData={moduleLinkMap['lucidBlocksFarmingAndGrowth']} locale={locale}>
-                {t.modules.lucidBlocksFarmingAndGrowth.title}
+              <LinkedTitle linkData={moduleLinkMap['brainrotWorldGuideModule']} locale={locale}>
+                {t.modules.brainrotWorldGuideModule.title}
               </LinkedTitle>
             </h2>
             <p className="text-muted-foreground text-lg max-w-4xl mx-auto">
-              {t.modules.lucidBlocksFarmingAndGrowth.subtitle}
+              {t.modules.brainrotWorldGuideModule.subtitle}
             </p>
           </div>
           <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
-            {t.modules.lucidBlocksFarmingAndGrowth.intro}
+            {t.modules.brainrotWorldGuideModule.intro}
           </p>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-            {t.modules.lucidBlocksFarmingAndGrowth.items.map((item: any, index: number) => {
+            {t.modules.brainrotWorldGuideModule.items.map((item: any, index: number) => {
               const worldIcons = [
                 'TrendingUp',
                 'Star',
@@ -942,19 +942,19 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
-              {t.modules.lucidBlocksBestEarlyUnlocks.eyebrow}
+              {t.modules.brainrotRelicsGuideModule.eyebrow}
             </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <LinkedTitle linkData={moduleLinkMap['lucidBlocksBestEarlyUnlocks']} locale={locale}>
-                {t.modules.lucidBlocksBestEarlyUnlocks.title}
+              <LinkedTitle linkData={moduleLinkMap['brainrotRelicsGuideModule']} locale={locale}>
+                {t.modules.brainrotRelicsGuideModule.title}
               </LinkedTitle>
             </h2>
             <p className="text-muted-foreground text-lg max-w-4xl mx-auto">
-              {t.modules.lucidBlocksBestEarlyUnlocks.subtitle}
+              {t.modules.brainrotRelicsGuideModule.subtitle}
             </p>
           </div>
           <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
-            {t.modules.lucidBlocksBestEarlyUnlocks.intro}
+            {t.modules.brainrotRelicsGuideModule.intro}
           </p>
           <div className="scroll-reveal overflow-x-auto rounded-xl border border-border">
             <table className="w-full min-w-[980px] text-sm">
@@ -968,7 +968,7 @@ export default function HomePageClient({
                 </tr>
               </thead>
               <tbody>
-                {t.modules.lucidBlocksBestEarlyUnlocks.items.map((item: any, index: number) => (
+                {t.modules.brainrotRelicsGuideModule.items.map((item: any, index: number) => (
                   <tr key={index} className="border-t border-border hover:bg-white/5 transition-colors">
                     <td className="p-3">
                       <span className="inline-flex items-center px-2 py-1 rounded-full text-xs bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
@@ -992,19 +992,19 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
-              {t.modules.lucidBlocksAchievementTracker.eyebrow}
+              {t.modules.brainrotTrinketsGuideModule.eyebrow}
             </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <LinkedTitle linkData={moduleLinkMap['lucidBlocksAchievementTracker']} locale={locale}>
-                {t.modules.lucidBlocksAchievementTracker.title}
+              <LinkedTitle linkData={moduleLinkMap['brainrotTrinketsGuideModule']} locale={locale}>
+                {t.modules.brainrotTrinketsGuideModule.title}
               </LinkedTitle>
             </h2>
             <p className="text-muted-foreground text-lg max-w-4xl mx-auto">
-              {t.modules.lucidBlocksAchievementTracker.subtitle}
+              {t.modules.brainrotTrinketsGuideModule.subtitle}
             </p>
           </div>
           <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
-            {t.modules.lucidBlocksAchievementTracker.intro}
+            {t.modules.brainrotTrinketsGuideModule.intro}
           </p>
           <div className="scroll-reveal overflow-x-auto rounded-xl border border-border">
             <table className="w-full min-w-[1080px] text-sm">
@@ -1019,7 +1019,7 @@ export default function HomePageClient({
                 </tr>
               </thead>
               <tbody>
-                {t.modules.lucidBlocksAchievementTracker.items.map((item: any, index: number) => (
+                {t.modules.brainrotTrinketsGuideModule.items.map((item: any, index: number) => (
                   <tr key={index} className="border-t border-border hover:bg-white/5 transition-colors">
                     <td className="p-3 font-medium">{item.world}</td>
                     <td className="p-3 text-muted-foreground">{item.station_priority}</td>
@@ -1044,22 +1044,22 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
-              {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.eyebrow}
+              {t.modules.brainrotItemsGuideModule.eyebrow}
             </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <LinkedTitle linkData={moduleLinkMap['lucidBlocksSingleplayerAndPlatformFAQ']} locale={locale}>
-                {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.title}
+              <LinkedTitle linkData={moduleLinkMap['brainrotItemsGuideModule']} locale={locale}>
+                {t.modules.brainrotItemsGuideModule.title}
               </LinkedTitle>
             </h2>
             <p className="text-muted-foreground text-lg max-w-4xl mx-auto">
-              {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.subtitle}
+              {t.modules.brainrotItemsGuideModule.subtitle}
             </p>
           </div>
           <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
-            {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.intro}
+            {t.modules.brainrotItemsGuideModule.intro}
           </p>
           <div className="scroll-reveal space-y-4">
-            {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.items.map((group: any, index: number) => (
+            {t.modules.brainrotItemsGuideModule.items.map((group: any, index: number) => (
               <div key={index} className="border border-border rounded-xl overflow-hidden bg-white/5">
                 <button
                   onClick={() => setFaqExpanded(faqExpanded === index ? null : index)}
@@ -1110,19 +1110,19 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
-              {t.modules.lucidBlocksSteamDeckAndController.eyebrow}
+              {t.modules.brainrotTradingGuideModule.eyebrow}
             </span>
             <div className="flex items-center justify-center gap-3 mb-4">
               <TrendingUp className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
-              <h2 className="text-4xl md:text-5xl font-bold"><LinkedTitle linkData={moduleLinkMap['lucidBlocksSteamDeckAndController']} locale={locale}>{t.modules.lucidBlocksSteamDeckAndController.title}</LinkedTitle></h2>
+              <h2 className="text-4xl md:text-5xl font-bold"><LinkedTitle linkData={moduleLinkMap['brainrotTradingGuideModule']} locale={locale}>{t.modules.brainrotTradingGuideModule.title}</LinkedTitle></h2>
             </div>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksSteamDeckAndController.subtitle}</p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.brainrotTradingGuideModule.subtitle}</p>
           </div>
           <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
-            {t.modules.lucidBlocksSteamDeckAndController.intro}
+            {t.modules.brainrotTradingGuideModule.intro}
           </p>
           <div className="scroll-reveal space-y-4">
-            {t.modules.lucidBlocksSteamDeckAndController.items.map((item: any, index: number) => {
+            {t.modules.brainrotTradingGuideModule.items.map((item: any, index: number) => {
               const StepIcon = tradingStepIcons[index] || Check
 
               return (
@@ -1141,7 +1141,7 @@ export default function HomePageClient({
                     </div>
                     <div className="flex-1">
                       <h3 className="text-xl font-bold mb-2">
-                        <LinkedTitle linkData={moduleLinkMap[`lucidBlocksSteamDeckAndController::items::${index}`]} locale={locale}>
+                        <LinkedTitle linkData={moduleLinkMap[`brainrotTradingGuideModule::items::${index}`]} locale={locale}>
                           {item.title}
                         </LinkedTitle>
                       </h3>
@@ -1172,17 +1172,17 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
-              {t.modules.lucidBlocksSettingsAndAccessibility.eyebrow}
+              {t.modules.brainrotUpdateLogModule.eyebrow}
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksSettingsAndAccessibility']} locale={locale}>{t.modules.lucidBlocksSettingsAndAccessibility.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksSettingsAndAccessibility.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['brainrotUpdateLogModule']} locale={locale}>{t.modules.brainrotUpdateLogModule.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.brainrotUpdateLogModule.subtitle}</p>
           </div>
           <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
-            {t.modules.lucidBlocksSettingsAndAccessibility.intro}
+            {t.modules.brainrotUpdateLogModule.intro}
           </p>
           <div className="scroll-reveal relative space-y-5">
             <div className="absolute left-5 top-0 bottom-0 w-px bg-[hsl(var(--nav-theme)/0.28)] hidden sm:block" />
-            {t.modules.lucidBlocksSettingsAndAccessibility.items.map((item: any, index: number) => (
+            {t.modules.brainrotUpdateLogModule.items.map((item: any, index: number) => (
               <article key={index} className="relative sm:pl-14">
                 <div className="hidden sm:flex absolute left-0 top-5 w-10 h-10 rounded-full border-2 border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.16)] items-center justify-center">
                   <Clock className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
@@ -1220,16 +1220,16 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
-              {t.modules.lucidBlocksUpdatesAndPatchNotes.eyebrow}
+              {t.modules.brainrotDiscordAndTrelloModule.eyebrow}
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksUpdatesAndPatchNotes']} locale={locale}>{t.modules.lucidBlocksUpdatesAndPatchNotes.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksUpdatesAndPatchNotes.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['brainrotDiscordAndTrelloModule']} locale={locale}>{t.modules.brainrotDiscordAndTrelloModule.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.brainrotDiscordAndTrelloModule.subtitle}</p>
           </div>
           <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
-            {t.modules.lucidBlocksUpdatesAndPatchNotes.intro}
+            {t.modules.brainrotDiscordAndTrelloModule.intro}
           </p>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-            {t.modules.lucidBlocksUpdatesAndPatchNotes.items.map((item: any, index: number) => {
+            {t.modules.brainrotDiscordAndTrelloModule.items.map((item: any, index: number) => {
               const CardIcon = communityIcons[index] || ExternalLink
 
               return (
@@ -1268,13 +1268,13 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)]">
-              {t.modules.lucidBlocksCrashFixAndTroubleshooting.eyebrow}
+              {t.modules.brainrotBossEventGuideModule.eyebrow}
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksCrashFixAndTroubleshooting']} locale={locale}>{t.modules.lucidBlocksCrashFixAndTroubleshooting.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksCrashFixAndTroubleshooting.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['brainrotBossEventGuideModule']} locale={locale}>{t.modules.brainrotBossEventGuideModule.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.brainrotBossEventGuideModule.subtitle}</p>
           </div>
           <p className="scroll-reveal text-muted-foreground text-sm md:text-base max-w-4xl mx-auto mb-8 text-center">
-            {t.modules.lucidBlocksCrashFixAndTroubleshooting.intro}
+            {t.modules.brainrotBossEventGuideModule.intro}
           </p>
           <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-12 gap-5">
             <aside className="lg:col-span-4">
@@ -1321,7 +1321,7 @@ export default function HomePageClient({
               </div>
             </aside>
             <div className="lg:col-span-8 space-y-4">
-              {t.modules.lucidBlocksCrashFixAndTroubleshooting.items.map((item: any, index: number) => (
+              {t.modules.brainrotBossEventGuideModule.items.map((item: any, index: number) => (
                 <article key={index} className="border border-border rounded-xl overflow-hidden bg-white/5">
                   <button
                     onClick={() => setEventExpanded(eventExpanded === index ? null : index)}
