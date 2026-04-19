@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Guides",
-    "crafting": "Fabrication",
-    "items": "Objets",
-    "biomes": "Biomes",
-    "building": "Construction",
-    "support": "Support"
+    "codes": "Codes",
+    "guide": "Guide",
+    "secrets": "Secrets",
+    "characters": "Characters",
+    "updates": "Updates",
+    "trading": "Trading",
+    "scripts": "Scripts"
   },
   "common": {
     "home": "Accueil",

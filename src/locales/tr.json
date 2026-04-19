@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "codes": "Codes",
+    "guide": "Guide",
+    "secrets": "Secrets",
+    "characters": "Characters",
+    "updates": "Updates",
+    "trading": "Trading",
+    "scripts": "Scripts"
   },
   "common": {
     "home": "Ana Sayfa",

@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "ガイド",
-    "crafting": "クラフト",
-    "items": "アイテム",
-    "biomes": "バイオーム",
-    "building": "建築",
-    "support": "サポート"
+    "codes": "Codes",
+    "guide": "Guide",
+    "secrets": "Secrets",
+    "characters": "Characters",
+    "updates": "Updates",
+    "trading": "Trading",
+    "scripts": "Scripts"
   },
   "common": {
     "home": "ホーム",

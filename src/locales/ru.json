@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "codes": "Codes",
+    "guide": "Guide",
+    "secrets": "Secrets",
+    "characters": "Characters",
+    "updates": "Updates",
+    "trading": "Trading",
+    "scripts": "Scripts"
   },
   "common": {
     "home": "Главная",

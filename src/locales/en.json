@@ -10,7 +10,15 @@
       "twitterDescription": "Track Brainrot Evolution codes, secrets, pets, worlds, and rebirth routes in one practical Roblox wiki."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "secrets": "Secrets",
+    "characters": "Characters",
+    "updates": "Updates",
+    "trading": "Trading",
+    "scripts": "Scripts"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -2933,125 +2941,145 @@
     "disclaimer": "Not affiliated with Roblox Corporation or the official Brainrot Evolution developers."
   },
   "pages": {
-    "guides": {
-      "title": "Brainrot Evolution Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Brainrot Evolution Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Brainrot Evolution guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "codes": {
+      "title": "Brainrot Evolution Codes",
+      "description": "Track active Brainrot Evolution codes, reward bundles, and redemption steps so you can claim boosts quickly.",
+      "metaTitle": "Brainrot Evolution Codes - Active Rewards and Redemption Steps",
+      "metaDescription": "Get the latest Brainrot Evolution codes, reward details, and clear redeem instructions to speed up your progression.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Brainrot Evolution Codes?",
+      "whatIsDescription": "This section collects every Brainrot Evolution code article in one place, including reward details, usage timing, and exact redeem flow.",
+      "why": "Why read Brainrot Evolution Codes pages?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Claim Fast Rewards",
+        "step1Description": "Use current code drops to collect gems, boosts, and limited bonuses before they rotate out.",
+        "step2Title": "Redeem Without Errors",
+        "step2Description": "Follow precise in-game redeem steps so each code entry works on the first try.",
+        "step3Title": "Plan Resource Spending",
+        "step3Description": "Apply code rewards to rebirth, relic, and progression priorities instead of wasting currency."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Brainrot Evolution Codes"
     },
-    "crafting": {
-      "title": "Brainrot Evolution Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Brainrot Evolution Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Brainrot Evolution Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "guide": {
+      "title": "Brainrot Evolution Guide",
+      "description": "Learn progression routes, rebirth planning, trinket setups, and world-by-world strategy for Brainrot Evolution.",
+      "metaTitle": "Brainrot Evolution Guide - Rebirth, Progression, and Build Paths",
+      "metaDescription": "Browse Brainrot Evolution guide articles for rebirth loops, team building, trinkets, world progression, and leveling efficiency.",
+      "categoryLabel": "GAME GUIDE",
+      "whatIs": "What is the Brainrot Evolution Guide category?",
+      "whatIsDescription": "This category groups practical Brainrot Evolution guide content: rebirth systems, team setup, max-level planning, and world progression checkpoints.",
+      "why": "Why read Brainrot Evolution Guide pages?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Progress With Structure",
+        "step1Description": "Follow step-based routes instead of random grinding so each session moves you forward.",
+        "step2Title": "Improve Rebirth Timing",
+        "step2Description": "Understand what resets and what stays to choose stronger rebirth windows.",
+        "step3Title": "Optimize Team Loadouts",
+        "step3Description": "Use lineup, trinket, and world targeting advice that fits early, mid, and late progression."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Brainrot Evolution Guide Articles"
     },
-    "items": {
-      "title": "Brainrot Evolution Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Brainrot Evolution Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Brainrot Evolution including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "secrets": {
+      "title": "Brainrot Evolution Secrets",
+      "description": "Find hidden unlock routes, secret unit requirements, and event-based secret farming paths in Brainrot Evolution.",
+      "metaTitle": "Brainrot Evolution Secrets - Hidden Unlocks and Secret Unit Routes",
+      "metaDescription": "Explore Brainrot Evolution secrets with unlock conditions, rarity notes, and farming strategies for top secret units.",
+      "categoryLabel": "SECRET UNLOCKS",
+      "whatIs": "What are Brainrot Evolution Secrets?",
+      "whatIsDescription": "Brainrot Evolution Secrets pages focus on hidden units, rare unlock mechanics, and the specific actions needed to obtain secret-tier power.",
+      "why": "Why track Brainrot Evolution Secrets?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Target Rare Units",
+        "step1Description": "See which secrets matter most and where each unlock route starts.",
+        "step2Title": "Use Better Farm Routes",
+        "step2Description": "Map events, crates, and rotation windows to reduce wasted attempts.",
+        "step3Title": "Compare Secret Value",
+        "step3Description": "Choose the right secret progression order based on performance and account goals."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Brainrot Evolution Secrets"
     },
-    "biomes": {
-      "title": "Brainrot Evolution Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Brainrot Evolution Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Brainrot Evolution biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "characters": {
+      "title": "Brainrot Evolution Characters",
+      "description": "Browse Brainrot Evolution character profiles, evolution chains, role strengths, and world-specific unit picks.",
+      "metaTitle": "Brainrot Evolution Characters - Unit List, Roles, and Evolution Paths",
+      "metaDescription": "Read Brainrot Evolution character guides with forms, strengths, role comparisons, and recommendations by world and stage.",
+      "categoryLabel": "CHARACTER ROSTER",
+      "whatIs": "What are Brainrot Evolution Characters pages?",
+      "whatIsDescription": "This section organizes Brainrot Evolution character articles, including form progression, attack traits, and practical role use in each world.",
+      "why": "Why use Brainrot Evolution Characters pages?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Pick Better Units",
+        "step1Description": "Compare character strengths to select units that match your current world and goals.",
+        "step2Title": "Understand Evolution Chains",
+        "step2Description": "See level milestones and form changes so you can plan upgrades efficiently.",
+        "step3Title": "Prepare Event Lineups",
+        "step3Description": "Build character sets for boss windows and limited events with fewer trial runs."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Brainrot Evolution Characters"
     },
-    "building": {
-      "title": "Brainrot Evolution Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Brainrot Evolution Building - Qualia & Base Construction",
-      "metaDescription": "Master Brainrot Evolution building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "updates": {
+      "title": "Brainrot Evolution Updates",
+      "description": "Track Brainrot Evolution patch changes, event cycles, weekly Saturday drops, and update-specific progression priorities.",
+      "metaTitle": "Brainrot Evolution Updates - Patch Changes and Weekly Event Tracking",
+      "metaDescription": "Stay current with Brainrot Evolution updates, event rotations, balance changes, and what to farm first after each patch.",
+      "categoryLabel": "PATCH & EVENTS",
+      "whatIs": "What are Brainrot Evolution Updates pages?",
+      "whatIsDescription": "Brainrot Evolution Updates pages summarize patch themes, event mechanics, and the fastest way to adapt your farm route after each release.",
+      "why": "Why follow Brainrot Evolution Updates?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "React to Meta Shifts",
+        "step1Description": "Catch new boss mechanics, unit adjustments, and event priorities quickly.",
+        "step2Title": "Use Weekly Windows",
+        "step2Description": "Plan around Saturday update cadence and active event timers.",
+        "step3Title": "Farm New Content Early",
+        "step3Description": "Focus your first runs on the newest rewards, crates, and progression systems."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Brainrot Evolution Updates"
     },
-    "support": {
-      "title": "Brainrot Evolution Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Brainrot Evolution Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Brainrot Evolution including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "trading": {
+      "title": "Brainrot Evolution Trading",
+      "description": "Use Brainrot Evolution trading guides for value lists, W/F/L checks, and fair exchange decisions by unit tier.",
+      "metaTitle": "Brainrot Evolution Trading - Value List and W/F/L Decision Guide",
+      "metaDescription": "Check Brainrot Evolution trading values, compare deals, and avoid bad swaps with updated W/F/L style guidance.",
+      "categoryLabel": "TRADING VALUES",
+      "whatIs": "What is Brainrot Evolution Trading?",
+      "whatIsDescription": "This category covers Brainrot Evolution trading value references, deal comparison workflows, and unit-by-unit exchange guidance.",
+      "why": "Why read Brainrot Evolution Trading pages?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Judge Deals Faster",
+        "step1Description": "Evaluate offer balance with clear value context instead of guesswork.",
+        "step2Title": "Avoid Low-Value Swaps",
+        "step2Description": "Spot common overpay traps and keep high-impact units on your account.",
+        "step3Title": "Track Tier Movement",
+        "step3Description": "Adjust trade strategy as events and update cycles change demand."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Brainrot Evolution Trading Articles"
+    },
+    "scripts": {
+      "title": "Brainrot Evolution Scripts",
+      "description": "Follow Brainrot Evolution scripts coverage for admin events, command behavior, and event-loop farming tactics.",
+      "metaTitle": "Brainrot Evolution Scripts - Admin Events and Command Coverage",
+      "metaDescription": "Browse Brainrot Evolution scripts articles to understand admin event patterns, command interactions, and efficient farm routines.",
+      "categoryLabel": "SCRIPTS & EVENTS",
+      "whatIs": "What are Brainrot Evolution Scripts pages?",
+      "whatIsDescription": "Brainrot Evolution Scripts pages document script-related gameplay topics such as admin abuse events, command usage, and event-triggered farming loops.",
+      "why": "Why use Brainrot Evolution Scripts pages?",
+      "whySteps": {
+        "step1Title": "Prepare for Admin Events",
+        "step1Description": "Know what event scripts can trigger and how to react when they begin.",
+        "step2Title": "Prioritize High-Value Drops",
+        "step2Description": "Focus crate routes and timing when script-driven events are active.",
+        "step3Title": "Keep Efficient Rotations",
+        "step3Description": "Use repeatable event loops that save time across long farming sessions."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Brainrot Evolution Scripts Articles"
     }
   }
 }
