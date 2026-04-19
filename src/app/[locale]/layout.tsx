@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -36,18 +36,25 @@ export function generateStaticParams() {
 // 生成元数据
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const { locale } = await params
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
-
-	// 获取 SEO 翻译
-	const t = await getTranslations('seo.home')
-
-	// 将 keywords 字符串分割为数组
-	const keywordsString = t('keywords')
-	const keywords = keywordsString.split(',').map(k => k.trim())
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://brainrotevolution.wiki'
+	const heroImage = new URL('/images/hero.webp', siteUrl).toString()
+	const title = 'Brainrot Evolution Wiki - Codes, Secrets & Pets'
+	const description =
+		"Track Brainrot Evolution codes, secrets, pets, worlds, rebirths, and updates in one fast Roblox wiki built for players who want cleaner progression help."
+	const keywords = [
+		'Brainrot Evolution',
+		'Roblox',
+		'codes',
+		'secrets',
+		'pets',
+		'worlds',
+		'rebirths',
+		'updates',
+	]
 
 	return {
-		title: t('title'),
-		description: t('description'),
+		title,
+		description,
 		keywords: keywords,
 		robots: {
 			index: true,
@@ -64,24 +71,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 			type: 'website',
 			locale: locale,
 			url: locale === 'en' ? siteUrl : `${siteUrl}/${locale}`,
-			siteName: 'Lucid Blocks Wiki',
-			title: t('ogTitle'),
-			description: t('ogDescription'),
+			siteName: 'Brainrot Evolution Wiki',
+			title,
+			description,
 			images: [
 				{
-					url: `${siteUrl}/images/hero.webp`,
+					url: heroImage,
 					width: 1920,
 					height: 1080,
-					alt: 'Lucid Blocks - Surreal Voxel Sandbox',
+					alt: 'Brainrot Evolution Wiki Hero Image',
 				},
 			],
 		},
 		twitter: {
 			card: 'summary_large_image',
-			title: t('twitterTitle'),
-			description: t('twitterDescription'),
-			images: [`${siteUrl}/images/hero.webp`],
-			creator: '@lucidblocks',
+			title,
+			description,
+			images: [heroImage],
+			creator: '@xFrozenStudios',
 		},
 		icons: {
 			icon: [
