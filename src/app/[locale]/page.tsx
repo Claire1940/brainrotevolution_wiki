@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server'
 import type { Metadata } from 'next'
 import { getLatestArticles } from '@/lib/getLatestArticles'
 import { buildModuleLinkMap } from '@/lib/buildModuleLinkMap'
@@ -30,6 +31,7 @@ const SITE_KEYWORDS = [
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params
+  setRequestLocale(locale)
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://brainrotevolution.wiki'
   const heroImage = new URL('/images/hero.webp', siteUrl).toString()
   const pageUrl = locale === 'en' ? siteUrl : `${siteUrl}/${locale}`
@@ -66,6 +68,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function HomePage({ params }: PageProps) {
   const { locale } = await params
+  setRequestLocale(locale)
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://brainrotevolution.wiki'
   const heroImage = new URL('/images/hero.webp', siteUrl).toString()
   const logoImage = new URL('/android-chrome-512x512.png', siteUrl).toString()
