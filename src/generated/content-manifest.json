@@ -1,0 +1,1738 @@
+{
+  "en": {
+    "characters": [
+      {
+        "slug": "brain-rot-evolution-bamber",
+        "file": "brain-rot-evolution-bamber"
+      },
+      {
+        "slug": "brain-rot-evolution-bananito-bandito",
+        "file": "brain-rot-evolution-bananito-bandito"
+      },
+      {
+        "slug": "brain-rot-evolution-brainrot-list",
+        "file": "brain-rot-evolution-brainrot-list"
+      },
+      {
+        "slug": "brain-rot-evolution-coralblox",
+        "file": "brain-rot-evolution-coralblox"
+      },
+      {
+        "slug": "brain-rot-evolution-fragola-la-la-la",
+        "file": "brain-rot-evolution-fragola-la-la-la"
+      },
+      {
+        "slug": "brain-rot-evolution-gorgonzilla",
+        "file": "brain-rot-evolution-gorgonzilla"
+      },
+      {
+        "slug": "brain-rot-evolution-italian-brainrot",
+        "file": "brain-rot-evolution-italian-brainrot"
+      },
+      {
+        "slug": "brain-rot-evolution-karkurkarnogakur",
+        "file": "brain-rot-evolution-karkurkarnogakur"
+      },
+      {
+        "slug": "brain-rot-evolution-last-brainrot",
+        "file": "brain-rot-evolution-last-brainrot"
+      },
+      {
+        "slug": "brain-rot-evolution-lukeblox-secret",
+        "file": "brain-rot-evolution-lukeblox-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-magia-face-reveal",
+        "file": "brain-rot-evolution-magia-face-reveal"
+      },
+      {
+        "slug": "brain-rot-evolution-n-n-n-sahur",
+        "file": "brain-rot-evolution-n-n-n-sahur"
+      },
+      {
+        "slug": "brain-rot-evolution-names",
+        "file": "brain-rot-evolution-names"
+      },
+      {
+        "slug": "brain-rot-evolution-pop-pop-pop-sahur",
+        "file": "brain-rot-evolution-pop-pop-pop-sahur"
+      },
+      {
+        "slug": "brain-rot-evolution-sahur",
+        "file": "brain-rot-evolution-sahur"
+      },
+      {
+        "slug": "brain-rot-evolution-squalo-cavallo",
+        "file": "brain-rot-evolution-squalo-cavallo"
+      },
+      {
+        "slug": "brain-rot-evolution-tung-tung-tung-sahur",
+        "file": "brain-rot-evolution-tung-tung-tung-sahur"
+      },
+      {
+        "slug": "brain-rot-evolution-yoni-moon",
+        "file": "brain-rot-evolution-yoni-moon"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "admin-commands-steal-a-brainrot",
+        "file": "admin-commands-steal-a-brainrot"
+      },
+      {
+        "slug": "bananito-bandito-brainrot-evolution",
+        "file": "bananito-bandito-brainrot-evolution"
+      },
+      {
+        "slug": "brain-rot-evolution-codes",
+        "file": "brain-rot-evolution-codes"
+      },
+      {
+        "slug": "brainrot-evolution-admin-brainrot",
+        "file": "brainrot-evolution-admin-brainrot"
+      },
+      {
+        "slug": "brainrot-evolution-admin",
+        "file": "brainrot-evolution-admin"
+      },
+      {
+        "slug": "brainrot-evolution-all-characters",
+        "file": "brainrot-evolution-all-characters"
+      },
+      {
+        "slug": "brainrot-evolution-brain-heaven",
+        "file": "brainrot-evolution-brain-heaven"
+      },
+      {
+        "slug": "brainrot-evolution-code",
+        "file": "brainrot-evolution-code"
+      },
+      {
+        "slug": "brainrot-evolution-codes",
+        "file": "brainrot-evolution-codes"
+      },
+      {
+        "slug": "brainrot-evolution-fusion",
+        "file": "brainrot-evolution-fusion"
+      },
+      {
+        "slug": "brainrot-evolution-live-event",
+        "file": "brainrot-evolution-live-event"
+      },
+      {
+        "slug": "brainrot-evolution-modded-game",
+        "file": "brainrot-evolution-modded-game"
+      },
+      {
+        "slug": "brainrot-evolution-modded-link",
+        "file": "brainrot-evolution-modded-link"
+      },
+      {
+        "slug": "brainrot-evolution-modded",
+        "file": "brainrot-evolution-modded"
+      },
+      {
+        "slug": "brainrot-evolution-roblox",
+        "file": "brainrot-evolution-roblox"
+      },
+      {
+        "slug": "brainrot-evolution-secret-codes",
+        "file": "brainrot-evolution-secret-codes"
+      },
+      {
+        "slug": "brainrot-evolution-secrets-tier-list",
+        "file": "brainrot-evolution-secrets-tier-list"
+      },
+      {
+        "slug": "brainrot-evolution-tier-list",
+        "file": "brainrot-evolution-tier-list"
+      },
+      {
+        "slug": "brainrot-evolution-trade",
+        "file": "brainrot-evolution-trade"
+      },
+      {
+        "slug": "brainrot-evolution-update-51",
+        "file": "brainrot-evolution-update-51"
+      },
+      {
+        "slug": "brainrot-evolution-wiki-secrets",
+        "file": "brainrot-evolution-wiki-secrets"
+      },
+      {
+        "slug": "brainrot-trade-value",
+        "file": "brainrot-trade-value"
+      },
+      {
+        "slug": "can-you-spawn-brainrots-with-admin-panel",
+        "file": "can-you-spawn-brainrots-with-admin-panel"
+      },
+      {
+        "slug": "catch-and-feed-a-brainrot-mutation-list",
+        "file": "catch-and-feed-a-brainrot-mutation-list"
+      },
+      {
+        "slug": "code-flush-for-brainrot",
+        "file": "code-flush-for-brainrot"
+      },
+      {
+        "slug": "codes-for-flush-for-brainrot",
+        "file": "codes-for-flush-for-brainrot"
+      },
+      {
+        "slug": "farm-a-brainrot-roblox-admin-abuse",
+        "file": "farm-a-brainrot-roblox-admin-abuse"
+      },
+      {
+        "slug": "flush-a-brainrot-code",
+        "file": "flush-a-brainrot-code"
+      },
+      {
+        "slug": "flush-for-brainrot-code",
+        "file": "flush-for-brainrot-code"
+      },
+      {
+        "slug": "flush-for-brainrots",
+        "file": "flush-for-brainrots"
+      },
+      {
+        "slug": "how-often-do-brainrot-gods-spawn",
+        "file": "how-often-do-brainrot-gods-spawn"
+      },
+      {
+        "slug": "how-to-get-admin-commands-in-brainrot-evolution",
+        "file": "how-to-get-admin-commands-in-brainrot-evolution"
+      },
+      {
+        "slug": "la-everything-combination-brainrot-evolution",
+        "file": "la-everything-combination-brainrot-evolution"
+      },
+      {
+        "slug": "steal-a-brainrot-update-47",
+        "file": "steal-a-brainrot-update-47"
+      },
+      {
+        "slug": "steal-a-brainrot-wiki-update-47",
+        "file": "steal-a-brainrot-wiki-update-47"
+      },
+      {
+        "slug": "when-is-brainrot-evolution-admin-abuse",
+        "file": "when-is-brainrot-evolution-admin-abuse"
+      },
+      {
+        "slug": "yoni-brainrot-evolution",
+        "file": "yoni-brainrot-evolution"
+      }
+    ],
+    "community": [
+      {
+        "slug": "brain-rot-evolution-discord",
+        "file": "brain-rot-evolution-discord"
+      },
+      {
+        "slug": "brain-rot-evolution-group",
+        "file": "brain-rot-evolution-group"
+      },
+      {
+        "slug": "brain-rot-evolution-reddit",
+        "file": "brain-rot-evolution-reddit"
+      },
+      {
+        "slug": "brain-rot-evolution-trello",
+        "file": "brain-rot-evolution-trello"
+      },
+      {
+        "slug": "brain-rot-evolution-website",
+        "file": "brain-rot-evolution-website"
+      },
+      {
+        "slug": "brain-rot-evolution-who-made",
+        "file": "brain-rot-evolution-who-made"
+      },
+      {
+        "slug": "brain-rot-evolution-youtube",
+        "file": "brain-rot-evolution-youtube"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "brain-rot-evolution-does-rebirth-get-rid-of-your-brainrots",
+        "file": "brain-rot-evolution-does-rebirth-get-rid-of-your-brainrots"
+      },
+      {
+        "slug": "brain-rot-evolution-for-free",
+        "file": "brain-rot-evolution-for-free"
+      },
+      {
+        "slug": "brain-rot-evolution-guide",
+        "file": "brain-rot-evolution-guide"
+      },
+      {
+        "slug": "brain-rot-evolution-how-to-equip-trinkets",
+        "file": "brain-rot-evolution-how-to-equip-trinkets"
+      },
+      {
+        "slug": "brain-rot-evolution-how-to-make-a-team",
+        "file": "brain-rot-evolution-how-to-make-a-team"
+      },
+      {
+        "slug": "brain-rot-evolution-how-to-rebirth",
+        "file": "brain-rot-evolution-how-to-rebirth"
+      },
+      {
+        "slug": "brain-rot-evolution-max-level",
+        "file": "brain-rot-evolution-max-level"
+      },
+      {
+        "slug": "brain-rot-evolution-new-rebirth",
+        "file": "brain-rot-evolution-new-rebirth"
+      },
+      {
+        "slug": "brain-rot-evolution-pets",
+        "file": "brain-rot-evolution-pets"
+      },
+      {
+        "slug": "brain-rot-evolution-shop",
+        "file": "brain-rot-evolution-shop"
+      },
+      {
+        "slug": "brain-rot-evolution-tier-list",
+        "file": "brain-rot-evolution-tier-list"
+      },
+      {
+        "slug": "brain-rot-evolution-trinkets",
+        "file": "brain-rot-evolution-trinkets"
+      },
+      {
+        "slug": "brain-rot-evolution-what-are-attachment-gems-for",
+        "file": "brain-rot-evolution-what-are-attachment-gems-for"
+      },
+      {
+        "slug": "brain-rot-evolution-what-happens-if-you-rebirth-with-a-secret",
+        "file": "brain-rot-evolution-what-happens-if-you-rebirth-with-a-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-world-15",
+        "file": "brain-rot-evolution-world-15"
+      },
+      {
+        "slug": "how-to-get-admin-brainrot-in-brainrot-evolution",
+        "file": "how-to-get-admin-brainrot-in-brainrot-evolution"
+      },
+      {
+        "slug": "how-to-get-admin-crates-in-brainrot-evolution",
+        "file": "how-to-get-admin-crates-in-brainrot-evolution"
+      },
+      {
+        "slug": "how-to-use-admin-commands-in-steal-a-brainrot",
+        "file": "how-to-use-admin-commands-in-steal-a-brainrot"
+      }
+    ],
+    "scripts": [
+      {
+        "slug": "brain-rot-evolution-admin-abuse",
+        "file": "brain-rot-evolution-admin-abuse"
+      },
+      {
+        "slug": "brain-rot-evolution-admin-commands",
+        "file": "brain-rot-evolution-admin-commands"
+      },
+      {
+        "slug": "brain-rot-evolution-auto-redeem-code",
+        "file": "brain-rot-evolution-auto-redeem-code"
+      },
+      {
+        "slug": "brain-rot-evolution-hacks",
+        "file": "brain-rot-evolution-hacks"
+      },
+      {
+        "slug": "brain-rot-evolution-modded",
+        "file": "brain-rot-evolution-modded"
+      }
+    ],
+    "secrets": [
+      {
+        "slug": "brain-rot-evolution-67-secret",
+        "file": "brain-rot-evolution-67-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-fusion-secrets",
+        "file": "brain-rot-evolution-fusion-secrets"
+      },
+      {
+        "slug": "brain-rot-evolution-hidden-secrets",
+        "file": "brain-rot-evolution-hidden-secrets"
+      },
+      {
+        "slug": "brain-rot-evolution-new-secret",
+        "file": "brain-rot-evolution-new-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-secret-boost",
+        "file": "brain-rot-evolution-secret-boost"
+      },
+      {
+        "slug": "brain-rot-evolution-secret",
+        "file": "brain-rot-evolution-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-youtuber-secret",
+        "file": "brain-rot-evolution-youtuber-secret"
+      }
+    ],
+    "trading": [
+      {
+        "slug": "brain-rot-evolution-brainrot-value-list",
+        "file": "brain-rot-evolution-brainrot-value-list"
+      },
+      {
+        "slug": "brain-rot-evolution-trading",
+        "file": "brain-rot-evolution-trading"
+      },
+      {
+        "slug": "brain-rot-evolution-value",
+        "file": "brain-rot-evolution-value"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "brain-rot-evolution-cheese-event",
+        "file": "brain-rot-evolution-cheese-event"
+      },
+      {
+        "slug": "brain-rot-evolution-event-today",
+        "file": "brain-rot-evolution-event-today"
+      },
+      {
+        "slug": "brain-rot-evolution-live-event",
+        "file": "brain-rot-evolution-live-event"
+      },
+      {
+        "slug": "brain-rot-evolution-tsunami-event",
+        "file": "brain-rot-evolution-tsunami-event"
+      },
+      {
+        "slug": "brain-rot-evolution-tsunami-is-permanent",
+        "file": "brain-rot-evolution-tsunami-is-permanent"
+      },
+      {
+        "slug": "brain-rot-evolution-update-47",
+        "file": "brain-rot-evolution-update-47"
+      },
+      {
+        "slug": "brain-rot-evolution-update-leaks",
+        "file": "brain-rot-evolution-update-leaks"
+      },
+      {
+        "slug": "brain-rot-evolution-update",
+        "file": "brain-rot-evolution-update"
+      },
+      {
+        "slug": "brain-rot-evolution-void-event",
+        "file": "brain-rot-evolution-void-event"
+      }
+    ]
+  },
+  "es": {
+    "characters": [
+      {
+        "slug": "brain-rot-evolution-bamber",
+        "file": "brain-rot-evolution-bamber"
+      },
+      {
+        "slug": "brain-rot-evolution-bananito-bandito",
+        "file": "brain-rot-evolution-bananito-bandito"
+      },
+      {
+        "slug": "brain-rot-evolution-brainrot-list",
+        "file": "brain-rot-evolution-brainrot-list"
+      },
+      {
+        "slug": "brain-rot-evolution-coralblox",
+        "file": "brain-rot-evolution-coralblox"
+      },
+      {
+        "slug": "brain-rot-evolution-fragola-la-la-la",
+        "file": "brain-rot-evolution-fragola-la-la-la"
+      },
+      {
+        "slug": "brain-rot-evolution-gorgonzilla",
+        "file": "brain-rot-evolution-gorgonzilla"
+      },
+      {
+        "slug": "brain-rot-evolution-italian-brainrot",
+        "file": "brain-rot-evolution-italian-brainrot"
+      },
+      {
+        "slug": "brain-rot-evolution-karkurkarnogakur",
+        "file": "brain-rot-evolution-karkurkarnogakur"
+      },
+      {
+        "slug": "brain-rot-evolution-last-brainrot",
+        "file": "brain-rot-evolution-last-brainrot"
+      },
+      {
+        "slug": "brain-rot-evolution-lukeblox-secret",
+        "file": "brain-rot-evolution-lukeblox-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-magia-face-reveal",
+        "file": "brain-rot-evolution-magia-face-reveal"
+      },
+      {
+        "slug": "brain-rot-evolution-n-n-n-sahur",
+        "file": "brain-rot-evolution-n-n-n-sahur"
+      },
+      {
+        "slug": "brain-rot-evolution-names",
+        "file": "brain-rot-evolution-names"
+      },
+      {
+        "slug": "brain-rot-evolution-pop-pop-pop-sahur",
+        "file": "brain-rot-evolution-pop-pop-pop-sahur"
+      },
+      {
+        "slug": "brain-rot-evolution-sahur",
+        "file": "brain-rot-evolution-sahur"
+      },
+      {
+        "slug": "brain-rot-evolution-squalo-cavallo",
+        "file": "brain-rot-evolution-squalo-cavallo"
+      },
+      {
+        "slug": "brain-rot-evolution-tung-tung-tung-sahur",
+        "file": "brain-rot-evolution-tung-tung-tung-sahur"
+      },
+      {
+        "slug": "brain-rot-evolution-yoni-moon",
+        "file": "brain-rot-evolution-yoni-moon"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "admin-commands-steal-a-brainrot",
+        "file": "admin-commands-steal-a-brainrot"
+      },
+      {
+        "slug": "bananito-bandito-brainrot-evolution",
+        "file": "bananito-bandito-brainrot-evolution"
+      },
+      {
+        "slug": "brain-rot-evolution-codes",
+        "file": "brain-rot-evolution-codes"
+      },
+      {
+        "slug": "brainrot-evolution-admin-brainrot",
+        "file": "brainrot-evolution-admin-brainrot"
+      },
+      {
+        "slug": "brainrot-evolution-admin",
+        "file": "brainrot-evolution-admin"
+      },
+      {
+        "slug": "brainrot-evolution-all-characters",
+        "file": "brainrot-evolution-all-characters"
+      },
+      {
+        "slug": "brainrot-evolution-brain-heaven",
+        "file": "brainrot-evolution-brain-heaven"
+      },
+      {
+        "slug": "brainrot-evolution-code",
+        "file": "brainrot-evolution-code"
+      },
+      {
+        "slug": "brainrot-evolution-codes",
+        "file": "brainrot-evolution-codes"
+      },
+      {
+        "slug": "brainrot-evolution-fusion",
+        "file": "brainrot-evolution-fusion"
+      },
+      {
+        "slug": "brainrot-evolution-live-event",
+        "file": "brainrot-evolution-live-event"
+      },
+      {
+        "slug": "brainrot-evolution-modded-game",
+        "file": "brainrot-evolution-modded-game"
+      },
+      {
+        "slug": "brainrot-evolution-modded-link",
+        "file": "brainrot-evolution-modded-link"
+      },
+      {
+        "slug": "brainrot-evolution-modded",
+        "file": "brainrot-evolution-modded"
+      },
+      {
+        "slug": "brainrot-evolution-roblox",
+        "file": "brainrot-evolution-roblox"
+      },
+      {
+        "slug": "brainrot-evolution-secret-codes",
+        "file": "brainrot-evolution-secret-codes"
+      },
+      {
+        "slug": "brainrot-evolution-secrets-tier-list",
+        "file": "brainrot-evolution-secrets-tier-list"
+      },
+      {
+        "slug": "brainrot-evolution-tier-list",
+        "file": "brainrot-evolution-tier-list"
+      },
+      {
+        "slug": "brainrot-evolution-trade",
+        "file": "brainrot-evolution-trade"
+      },
+      {
+        "slug": "brainrot-evolution-update-51",
+        "file": "brainrot-evolution-update-51"
+      },
+      {
+        "slug": "brainrot-evolution-wiki-secrets",
+        "file": "brainrot-evolution-wiki-secrets"
+      },
+      {
+        "slug": "brainrot-trade-value",
+        "file": "brainrot-trade-value"
+      },
+      {
+        "slug": "can-you-spawn-brainrots-with-admin-panel",
+        "file": "can-you-spawn-brainrots-with-admin-panel"
+      },
+      {
+        "slug": "catch-and-feed-a-brainrot-mutation-list",
+        "file": "catch-and-feed-a-brainrot-mutation-list"
+      },
+      {
+        "slug": "code-flush-for-brainrot",
+        "file": "code-flush-for-brainrot"
+      },
+      {
+        "slug": "codes-for-flush-for-brainrot",
+        "file": "codes-for-flush-for-brainrot"
+      },
+      {
+        "slug": "farm-a-brainrot-roblox-admin-abuse",
+        "file": "farm-a-brainrot-roblox-admin-abuse"
+      },
+      {
+        "slug": "flush-a-brainrot-code",
+        "file": "flush-a-brainrot-code"
+      },
+      {
+        "slug": "flush-for-brainrot-code",
+        "file": "flush-for-brainrot-code"
+      },
+      {
+        "slug": "flush-for-brainrots",
+        "file": "flush-for-brainrots"
+      },
+      {
+        "slug": "how-often-do-brainrot-gods-spawn",
+        "file": "how-often-do-brainrot-gods-spawn"
+      },
+      {
+        "slug": "how-to-get-admin-commands-in-brainrot-evolution",
+        "file": "how-to-get-admin-commands-in-brainrot-evolution"
+      },
+      {
+        "slug": "la-everything-combination-brainrot-evolution",
+        "file": "la-everything-combination-brainrot-evolution"
+      },
+      {
+        "slug": "steal-a-brainrot-update-47",
+        "file": "steal-a-brainrot-update-47"
+      },
+      {
+        "slug": "steal-a-brainrot-wiki-update-47",
+        "file": "steal-a-brainrot-wiki-update-47"
+      },
+      {
+        "slug": "when-is-brainrot-evolution-admin-abuse",
+        "file": "when-is-brainrot-evolution-admin-abuse"
+      },
+      {
+        "slug": "yoni-brainrot-evolution",
+        "file": "yoni-brainrot-evolution"
+      }
+    ],
+    "community": [
+      {
+        "slug": "brain-rot-evolution-discord",
+        "file": "brain-rot-evolution-discord"
+      },
+      {
+        "slug": "brain-rot-evolution-group",
+        "file": "brain-rot-evolution-group"
+      },
+      {
+        "slug": "brain-rot-evolution-reddit",
+        "file": "brain-rot-evolution-reddit"
+      },
+      {
+        "slug": "brain-rot-evolution-trello",
+        "file": "brain-rot-evolution-trello"
+      },
+      {
+        "slug": "brain-rot-evolution-website",
+        "file": "brain-rot-evolution-website"
+      },
+      {
+        "slug": "brain-rot-evolution-who-made",
+        "file": "brain-rot-evolution-who-made"
+      },
+      {
+        "slug": "brain-rot-evolution-youtube",
+        "file": "brain-rot-evolution-youtube"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "brain-rot-evolution-does-rebirth-get-rid-of-your-brainrots",
+        "file": "brain-rot-evolution-does-rebirth-get-rid-of-your-brainrots"
+      },
+      {
+        "slug": "brain-rot-evolution-for-free",
+        "file": "brain-rot-evolution-for-free"
+      },
+      {
+        "slug": "brain-rot-evolution-guide",
+        "file": "brain-rot-evolution-guide"
+      },
+      {
+        "slug": "brain-rot-evolution-how-to-equip-trinkets",
+        "file": "brain-rot-evolution-how-to-equip-trinkets"
+      },
+      {
+        "slug": "brain-rot-evolution-how-to-make-a-team",
+        "file": "brain-rot-evolution-how-to-make-a-team"
+      },
+      {
+        "slug": "brain-rot-evolution-how-to-rebirth",
+        "file": "brain-rot-evolution-how-to-rebirth"
+      },
+      {
+        "slug": "brain-rot-evolution-max-level",
+        "file": "brain-rot-evolution-max-level"
+      },
+      {
+        "slug": "brain-rot-evolution-new-rebirth",
+        "file": "brain-rot-evolution-new-rebirth"
+      },
+      {
+        "slug": "brain-rot-evolution-pets",
+        "file": "brain-rot-evolution-pets"
+      },
+      {
+        "slug": "brain-rot-evolution-shop",
+        "file": "brain-rot-evolution-shop"
+      },
+      {
+        "slug": "brain-rot-evolution-tier-list",
+        "file": "brain-rot-evolution-tier-list"
+      },
+      {
+        "slug": "brain-rot-evolution-trinkets",
+        "file": "brain-rot-evolution-trinkets"
+      },
+      {
+        "slug": "brain-rot-evolution-what-are-attachment-gems-for",
+        "file": "brain-rot-evolution-what-are-attachment-gems-for"
+      },
+      {
+        "slug": "brain-rot-evolution-what-happens-if-you-rebirth-with-a-secret",
+        "file": "brain-rot-evolution-what-happens-if-you-rebirth-with-a-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-world-15",
+        "file": "brain-rot-evolution-world-15"
+      },
+      {
+        "slug": "how-to-get-admin-brainrot-in-brainrot-evolution",
+        "file": "how-to-get-admin-brainrot-in-brainrot-evolution"
+      },
+      {
+        "slug": "how-to-get-admin-crates-in-brainrot-evolution",
+        "file": "how-to-get-admin-crates-in-brainrot-evolution"
+      },
+      {
+        "slug": "how-to-use-admin-commands-in-steal-a-brainrot",
+        "file": "how-to-use-admin-commands-in-steal-a-brainrot"
+      }
+    ],
+    "scripts": [
+      {
+        "slug": "brain-rot-evolution-admin-abuse",
+        "file": "brain-rot-evolution-admin-abuse"
+      },
+      {
+        "slug": "brain-rot-evolution-admin-commands",
+        "file": "brain-rot-evolution-admin-commands"
+      },
+      {
+        "slug": "brain-rot-evolution-auto-redeem-code",
+        "file": "brain-rot-evolution-auto-redeem-code"
+      },
+      {
+        "slug": "brain-rot-evolution-hacks",
+        "file": "brain-rot-evolution-hacks"
+      },
+      {
+        "slug": "brain-rot-evolution-modded",
+        "file": "brain-rot-evolution-modded"
+      }
+    ],
+    "secrets": [
+      {
+        "slug": "brain-rot-evolution-67-secret",
+        "file": "brain-rot-evolution-67-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-fusion-secrets",
+        "file": "brain-rot-evolution-fusion-secrets"
+      },
+      {
+        "slug": "brain-rot-evolution-hidden-secrets",
+        "file": "brain-rot-evolution-hidden-secrets"
+      },
+      {
+        "slug": "brain-rot-evolution-new-secret",
+        "file": "brain-rot-evolution-new-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-secret-boost",
+        "file": "brain-rot-evolution-secret-boost"
+      },
+      {
+        "slug": "brain-rot-evolution-secret",
+        "file": "brain-rot-evolution-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-youtuber-secret",
+        "file": "brain-rot-evolution-youtuber-secret"
+      }
+    ],
+    "trading": [
+      {
+        "slug": "brain-rot-evolution-brainrot-value-list",
+        "file": "brain-rot-evolution-brainrot-value-list"
+      },
+      {
+        "slug": "brain-rot-evolution-trading",
+        "file": "brain-rot-evolution-trading"
+      },
+      {
+        "slug": "brain-rot-evolution-value",
+        "file": "brain-rot-evolution-value"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "brain-rot-evolution-cheese-event",
+        "file": "brain-rot-evolution-cheese-event"
+      },
+      {
+        "slug": "brain-rot-evolution-event-today",
+        "file": "brain-rot-evolution-event-today"
+      },
+      {
+        "slug": "brain-rot-evolution-live-event",
+        "file": "brain-rot-evolution-live-event"
+      },
+      {
+        "slug": "brain-rot-evolution-tsunami-event",
+        "file": "brain-rot-evolution-tsunami-event"
+      },
+      {
+        "slug": "brain-rot-evolution-tsunami-is-permanent",
+        "file": "brain-rot-evolution-tsunami-is-permanent"
+      },
+      {
+        "slug": "brain-rot-evolution-update-47",
+        "file": "brain-rot-evolution-update-47"
+      },
+      {
+        "slug": "brain-rot-evolution-update-leaks",
+        "file": "brain-rot-evolution-update-leaks"
+      },
+      {
+        "slug": "brain-rot-evolution-update",
+        "file": "brain-rot-evolution-update"
+      },
+      {
+        "slug": "brain-rot-evolution-void-event",
+        "file": "brain-rot-evolution-void-event"
+      }
+    ]
+  },
+  "ja": {
+    "characters": [
+      {
+        "slug": "brain-rot-evolution-bamber",
+        "file": "brain-rot-evolution-bamber"
+      },
+      {
+        "slug": "brain-rot-evolution-bananito-bandito",
+        "file": "brain-rot-evolution-bananito-bandito"
+      },
+      {
+        "slug": "brain-rot-evolution-brainrot-list",
+        "file": "brain-rot-evolution-brainrot-list"
+      },
+      {
+        "slug": "brain-rot-evolution-coralblox",
+        "file": "brain-rot-evolution-coralblox"
+      },
+      {
+        "slug": "brain-rot-evolution-fragola-la-la-la",
+        "file": "brain-rot-evolution-fragola-la-la-la"
+      },
+      {
+        "slug": "brain-rot-evolution-gorgonzilla",
+        "file": "brain-rot-evolution-gorgonzilla"
+      },
+      {
+        "slug": "brain-rot-evolution-italian-brainrot",
+        "file": "brain-rot-evolution-italian-brainrot"
+      },
+      {
+        "slug": "brain-rot-evolution-karkurkarnogakur",
+        "file": "brain-rot-evolution-karkurkarnogakur"
+      },
+      {
+        "slug": "brain-rot-evolution-last-brainrot",
+        "file": "brain-rot-evolution-last-brainrot"
+      },
+      {
+        "slug": "brain-rot-evolution-lukeblox-secret",
+        "file": "brain-rot-evolution-lukeblox-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-magia-face-reveal",
+        "file": "brain-rot-evolution-magia-face-reveal"
+      },
+      {
+        "slug": "brain-rot-evolution-n-n-n-sahur",
+        "file": "brain-rot-evolution-n-n-n-sahur"
+      },
+      {
+        "slug": "brain-rot-evolution-names",
+        "file": "brain-rot-evolution-names"
+      },
+      {
+        "slug": "brain-rot-evolution-pop-pop-pop-sahur",
+        "file": "brain-rot-evolution-pop-pop-pop-sahur"
+      },
+      {
+        "slug": "brain-rot-evolution-sahur",
+        "file": "brain-rot-evolution-sahur"
+      },
+      {
+        "slug": "brain-rot-evolution-squalo-cavallo",
+        "file": "brain-rot-evolution-squalo-cavallo"
+      },
+      {
+        "slug": "brain-rot-evolution-tung-tung-tung-sahur",
+        "file": "brain-rot-evolution-tung-tung-tung-sahur"
+      },
+      {
+        "slug": "brain-rot-evolution-yoni-moon",
+        "file": "brain-rot-evolution-yoni-moon"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "admin-commands-steal-a-brainrot",
+        "file": "admin-commands-steal-a-brainrot"
+      },
+      {
+        "slug": "bananito-bandito-brainrot-evolution",
+        "file": "bananito-bandito-brainrot-evolution"
+      },
+      {
+        "slug": "brain-rot-evolution-codes",
+        "file": "brain-rot-evolution-codes"
+      },
+      {
+        "slug": "brainrot-evolution-admin-brainrot",
+        "file": "brainrot-evolution-admin-brainrot"
+      },
+      {
+        "slug": "brainrot-evolution-admin",
+        "file": "brainrot-evolution-admin"
+      },
+      {
+        "slug": "brainrot-evolution-all-characters",
+        "file": "brainrot-evolution-all-characters"
+      },
+      {
+        "slug": "brainrot-evolution-brain-heaven",
+        "file": "brainrot-evolution-brain-heaven"
+      },
+      {
+        "slug": "brainrot-evolution-code",
+        "file": "brainrot-evolution-code"
+      },
+      {
+        "slug": "brainrot-evolution-codes",
+        "file": "brainrot-evolution-codes"
+      },
+      {
+        "slug": "brainrot-evolution-fusion",
+        "file": "brainrot-evolution-fusion"
+      },
+      {
+        "slug": "brainrot-evolution-live-event",
+        "file": "brainrot-evolution-live-event"
+      },
+      {
+        "slug": "brainrot-evolution-modded-game",
+        "file": "brainrot-evolution-modded-game"
+      },
+      {
+        "slug": "brainrot-evolution-modded-link",
+        "file": "brainrot-evolution-modded-link"
+      },
+      {
+        "slug": "brainrot-evolution-modded",
+        "file": "brainrot-evolution-modded"
+      },
+      {
+        "slug": "brainrot-evolution-roblox",
+        "file": "brainrot-evolution-roblox"
+      },
+      {
+        "slug": "brainrot-evolution-secret-codes",
+        "file": "brainrot-evolution-secret-codes"
+      },
+      {
+        "slug": "brainrot-evolution-secrets-tier-list",
+        "file": "brainrot-evolution-secrets-tier-list"
+      },
+      {
+        "slug": "brainrot-evolution-tier-list",
+        "file": "brainrot-evolution-tier-list"
+      },
+      {
+        "slug": "brainrot-evolution-trade",
+        "file": "brainrot-evolution-trade"
+      },
+      {
+        "slug": "brainrot-evolution-update-51",
+        "file": "brainrot-evolution-update-51"
+      },
+      {
+        "slug": "brainrot-evolution-wiki-secrets",
+        "file": "brainrot-evolution-wiki-secrets"
+      },
+      {
+        "slug": "brainrot-trade-value",
+        "file": "brainrot-trade-value"
+      },
+      {
+        "slug": "can-you-spawn-brainrots-with-admin-panel",
+        "file": "can-you-spawn-brainrots-with-admin-panel"
+      },
+      {
+        "slug": "catch-and-feed-a-brainrot-mutation-list",
+        "file": "catch-and-feed-a-brainrot-mutation-list"
+      },
+      {
+        "slug": "code-flush-for-brainrot",
+        "file": "code-flush-for-brainrot"
+      },
+      {
+        "slug": "codes-for-flush-for-brainrot",
+        "file": "codes-for-flush-for-brainrot"
+      },
+      {
+        "slug": "farm-a-brainrot-roblox-admin-abuse",
+        "file": "farm-a-brainrot-roblox-admin-abuse"
+      },
+      {
+        "slug": "flush-a-brainrot-code",
+        "file": "flush-a-brainrot-code"
+      },
+      {
+        "slug": "flush-for-brainrot-code",
+        "file": "flush-for-brainrot-code"
+      },
+      {
+        "slug": "flush-for-brainrots",
+        "file": "flush-for-brainrots"
+      },
+      {
+        "slug": "how-often-do-brainrot-gods-spawn",
+        "file": "how-often-do-brainrot-gods-spawn"
+      },
+      {
+        "slug": "how-to-get-admin-commands-in-brainrot-evolution",
+        "file": "how-to-get-admin-commands-in-brainrot-evolution"
+      },
+      {
+        "slug": "la-everything-combination-brainrot-evolution",
+        "file": "la-everything-combination-brainrot-evolution"
+      },
+      {
+        "slug": "steal-a-brainrot-update-47",
+        "file": "steal-a-brainrot-update-47"
+      },
+      {
+        "slug": "steal-a-brainrot-wiki-update-47",
+        "file": "steal-a-brainrot-wiki-update-47"
+      },
+      {
+        "slug": "when-is-brainrot-evolution-admin-abuse",
+        "file": "when-is-brainrot-evolution-admin-abuse"
+      },
+      {
+        "slug": "yoni-brainrot-evolution",
+        "file": "yoni-brainrot-evolution"
+      }
+    ],
+    "community": [
+      {
+        "slug": "brain-rot-evolution-discord",
+        "file": "brain-rot-evolution-discord"
+      },
+      {
+        "slug": "brain-rot-evolution-group",
+        "file": "brain-rot-evolution-group"
+      },
+      {
+        "slug": "brain-rot-evolution-reddit",
+        "file": "brain-rot-evolution-reddit"
+      },
+      {
+        "slug": "brain-rot-evolution-trello",
+        "file": "brain-rot-evolution-trello"
+      },
+      {
+        "slug": "brain-rot-evolution-website",
+        "file": "brain-rot-evolution-website"
+      },
+      {
+        "slug": "brain-rot-evolution-who-made",
+        "file": "brain-rot-evolution-who-made"
+      },
+      {
+        "slug": "brain-rot-evolution-youtube",
+        "file": "brain-rot-evolution-youtube"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "brain-rot-evolution-does-rebirth-get-rid-of-your-brainrots",
+        "file": "brain-rot-evolution-does-rebirth-get-rid-of-your-brainrots"
+      },
+      {
+        "slug": "brain-rot-evolution-for-free",
+        "file": "brain-rot-evolution-for-free"
+      },
+      {
+        "slug": "brain-rot-evolution-guide",
+        "file": "brain-rot-evolution-guide"
+      },
+      {
+        "slug": "brain-rot-evolution-how-to-equip-trinkets",
+        "file": "brain-rot-evolution-how-to-equip-trinkets"
+      },
+      {
+        "slug": "brain-rot-evolution-how-to-make-a-team",
+        "file": "brain-rot-evolution-how-to-make-a-team"
+      },
+      {
+        "slug": "brain-rot-evolution-how-to-rebirth",
+        "file": "brain-rot-evolution-how-to-rebirth"
+      },
+      {
+        "slug": "brain-rot-evolution-max-level",
+        "file": "brain-rot-evolution-max-level"
+      },
+      {
+        "slug": "brain-rot-evolution-new-rebirth",
+        "file": "brain-rot-evolution-new-rebirth"
+      },
+      {
+        "slug": "brain-rot-evolution-pets",
+        "file": "brain-rot-evolution-pets"
+      },
+      {
+        "slug": "brain-rot-evolution-shop",
+        "file": "brain-rot-evolution-shop"
+      },
+      {
+        "slug": "brain-rot-evolution-tier-list",
+        "file": "brain-rot-evolution-tier-list"
+      },
+      {
+        "slug": "brain-rot-evolution-trinkets",
+        "file": "brain-rot-evolution-trinkets"
+      },
+      {
+        "slug": "brain-rot-evolution-what-are-attachment-gems-for",
+        "file": "brain-rot-evolution-what-are-attachment-gems-for"
+      },
+      {
+        "slug": "brain-rot-evolution-what-happens-if-you-rebirth-with-a-secret",
+        "file": "brain-rot-evolution-what-happens-if-you-rebirth-with-a-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-world-15",
+        "file": "brain-rot-evolution-world-15"
+      },
+      {
+        "slug": "how-to-get-admin-brainrot-in-brainrot-evolution",
+        "file": "how-to-get-admin-brainrot-in-brainrot-evolution"
+      },
+      {
+        "slug": "how-to-get-admin-crates-in-brainrot-evolution",
+        "file": "how-to-get-admin-crates-in-brainrot-evolution"
+      },
+      {
+        "slug": "how-to-use-admin-commands-in-steal-a-brainrot",
+        "file": "how-to-use-admin-commands-in-steal-a-brainrot"
+      }
+    ],
+    "scripts": [
+      {
+        "slug": "brain-rot-evolution-admin-abuse",
+        "file": "brain-rot-evolution-admin-abuse"
+      },
+      {
+        "slug": "brain-rot-evolution-admin-commands",
+        "file": "brain-rot-evolution-admin-commands"
+      },
+      {
+        "slug": "brain-rot-evolution-auto-redeem-code",
+        "file": "brain-rot-evolution-auto-redeem-code"
+      },
+      {
+        "slug": "brain-rot-evolution-hacks",
+        "file": "brain-rot-evolution-hacks"
+      },
+      {
+        "slug": "brain-rot-evolution-modded",
+        "file": "brain-rot-evolution-modded"
+      }
+    ],
+    "secrets": [
+      {
+        "slug": "brain-rot-evolution-67-secret",
+        "file": "brain-rot-evolution-67-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-fusion-secrets",
+        "file": "brain-rot-evolution-fusion-secrets"
+      },
+      {
+        "slug": "brain-rot-evolution-hidden-secrets",
+        "file": "brain-rot-evolution-hidden-secrets"
+      },
+      {
+        "slug": "brain-rot-evolution-new-secret",
+        "file": "brain-rot-evolution-new-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-secret-boost",
+        "file": "brain-rot-evolution-secret-boost"
+      },
+      {
+        "slug": "brain-rot-evolution-secret",
+        "file": "brain-rot-evolution-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-youtuber-secret",
+        "file": "brain-rot-evolution-youtuber-secret"
+      }
+    ],
+    "trading": [
+      {
+        "slug": "brain-rot-evolution-brainrot-value-list",
+        "file": "brain-rot-evolution-brainrot-value-list"
+      },
+      {
+        "slug": "brain-rot-evolution-trading",
+        "file": "brain-rot-evolution-trading"
+      },
+      {
+        "slug": "brain-rot-evolution-value",
+        "file": "brain-rot-evolution-value"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "brain-rot-evolution-cheese-event",
+        "file": "brain-rot-evolution-cheese-event"
+      },
+      {
+        "slug": "brain-rot-evolution-event-today",
+        "file": "brain-rot-evolution-event-today"
+      },
+      {
+        "slug": "brain-rot-evolution-live-event",
+        "file": "brain-rot-evolution-live-event"
+      },
+      {
+        "slug": "brain-rot-evolution-tsunami-event",
+        "file": "brain-rot-evolution-tsunami-event"
+      },
+      {
+        "slug": "brain-rot-evolution-tsunami-is-permanent",
+        "file": "brain-rot-evolution-tsunami-is-permanent"
+      },
+      {
+        "slug": "brain-rot-evolution-update-47",
+        "file": "brain-rot-evolution-update-47"
+      },
+      {
+        "slug": "brain-rot-evolution-update-leaks",
+        "file": "brain-rot-evolution-update-leaks"
+      },
+      {
+        "slug": "brain-rot-evolution-update",
+        "file": "brain-rot-evolution-update"
+      },
+      {
+        "slug": "brain-rot-evolution-void-event",
+        "file": "brain-rot-evolution-void-event"
+      }
+    ]
+  },
+  "pt": {
+    "characters": [
+      {
+        "slug": "brain-rot-evolution-bamber",
+        "file": "brain-rot-evolution-bamber"
+      },
+      {
+        "slug": "brain-rot-evolution-bananito-bandito",
+        "file": "brain-rot-evolution-bananito-bandito"
+      },
+      {
+        "slug": "brain-rot-evolution-brainrot-list",
+        "file": "brain-rot-evolution-brainrot-list"
+      },
+      {
+        "slug": "brain-rot-evolution-coralblox",
+        "file": "brain-rot-evolution-coralblox"
+      },
+      {
+        "slug": "brain-rot-evolution-fragola-la-la-la",
+        "file": "brain-rot-evolution-fragola-la-la-la"
+      },
+      {
+        "slug": "brain-rot-evolution-gorgonzilla",
+        "file": "brain-rot-evolution-gorgonzilla"
+      },
+      {
+        "slug": "brain-rot-evolution-italian-brainrot",
+        "file": "brain-rot-evolution-italian-brainrot"
+      },
+      {
+        "slug": "brain-rot-evolution-karkurkarnogakur",
+        "file": "brain-rot-evolution-karkurkarnogakur"
+      },
+      {
+        "slug": "brain-rot-evolution-last-brainrot",
+        "file": "brain-rot-evolution-last-brainrot"
+      },
+      {
+        "slug": "brain-rot-evolution-lukeblox-secret",
+        "file": "brain-rot-evolution-lukeblox-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-magia-face-reveal",
+        "file": "brain-rot-evolution-magia-face-reveal"
+      },
+      {
+        "slug": "brain-rot-evolution-n-n-n-sahur",
+        "file": "brain-rot-evolution-n-n-n-sahur"
+      },
+      {
+        "slug": "brain-rot-evolution-names",
+        "file": "brain-rot-evolution-names"
+      },
+      {
+        "slug": "brain-rot-evolution-pop-pop-pop-sahur",
+        "file": "brain-rot-evolution-pop-pop-pop-sahur"
+      },
+      {
+        "slug": "brain-rot-evolution-sahur",
+        "file": "brain-rot-evolution-sahur"
+      },
+      {
+        "slug": "brain-rot-evolution-squalo-cavallo",
+        "file": "brain-rot-evolution-squalo-cavallo"
+      },
+      {
+        "slug": "brain-rot-evolution-tung-tung-tung-sahur",
+        "file": "brain-rot-evolution-tung-tung-tung-sahur"
+      },
+      {
+        "slug": "brain-rot-evolution-yoni-moon",
+        "file": "brain-rot-evolution-yoni-moon"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "admin-commands-steal-a-brainrot",
+        "file": "admin-commands-steal-a-brainrot"
+      },
+      {
+        "slug": "bananito-bandito-brainrot-evolution",
+        "file": "bananito-bandito-brainrot-evolution"
+      },
+      {
+        "slug": "brain-rot-evolution-codes",
+        "file": "brain-rot-evolution-codes"
+      },
+      {
+        "slug": "brainrot-evolution-admin-brainrot",
+        "file": "brainrot-evolution-admin-brainrot"
+      },
+      {
+        "slug": "brainrot-evolution-admin",
+        "file": "brainrot-evolution-admin"
+      },
+      {
+        "slug": "brainrot-evolution-all-characters",
+        "file": "brainrot-evolution-all-characters"
+      },
+      {
+        "slug": "brainrot-evolution-brain-heaven",
+        "file": "brainrot-evolution-brain-heaven"
+      },
+      {
+        "slug": "brainrot-evolution-code",
+        "file": "brainrot-evolution-code"
+      },
+      {
+        "slug": "brainrot-evolution-codes",
+        "file": "brainrot-evolution-codes"
+      },
+      {
+        "slug": "brainrot-evolution-fusion",
+        "file": "brainrot-evolution-fusion"
+      },
+      {
+        "slug": "brainrot-evolution-live-event",
+        "file": "brainrot-evolution-live-event"
+      },
+      {
+        "slug": "brainrot-evolution-modded-game",
+        "file": "brainrot-evolution-modded-game"
+      },
+      {
+        "slug": "brainrot-evolution-modded-link",
+        "file": "brainrot-evolution-modded-link"
+      },
+      {
+        "slug": "brainrot-evolution-modded",
+        "file": "brainrot-evolution-modded"
+      },
+      {
+        "slug": "brainrot-evolution-roblox",
+        "file": "brainrot-evolution-roblox"
+      },
+      {
+        "slug": "brainrot-evolution-secret-codes",
+        "file": "brainrot-evolution-secret-codes"
+      },
+      {
+        "slug": "brainrot-evolution-secrets-tier-list",
+        "file": "brainrot-evolution-secrets-tier-list"
+      },
+      {
+        "slug": "brainrot-evolution-tier-list",
+        "file": "brainrot-evolution-tier-list"
+      },
+      {
+        "slug": "brainrot-evolution-trade",
+        "file": "brainrot-evolution-trade"
+      },
+      {
+        "slug": "brainrot-evolution-update-51",
+        "file": "brainrot-evolution-update-51"
+      },
+      {
+        "slug": "brainrot-evolution-wiki-secrets",
+        "file": "brainrot-evolution-wiki-secrets"
+      },
+      {
+        "slug": "brainrot-trade-value",
+        "file": "brainrot-trade-value"
+      },
+      {
+        "slug": "can-you-spawn-brainrots-with-admin-panel",
+        "file": "can-you-spawn-brainrots-with-admin-panel"
+      },
+      {
+        "slug": "catch-and-feed-a-brainrot-mutation-list",
+        "file": "catch-and-feed-a-brainrot-mutation-list"
+      },
+      {
+        "slug": "code-flush-for-brainrot",
+        "file": "code-flush-for-brainrot"
+      },
+      {
+        "slug": "codes-for-flush-for-brainrot",
+        "file": "codes-for-flush-for-brainrot"
+      },
+      {
+        "slug": "farm-a-brainrot-roblox-admin-abuse",
+        "file": "farm-a-brainrot-roblox-admin-abuse"
+      },
+      {
+        "slug": "flush-a-brainrot-code",
+        "file": "flush-a-brainrot-code"
+      },
+      {
+        "slug": "flush-for-brainrot-code",
+        "file": "flush-for-brainrot-code"
+      },
+      {
+        "slug": "flush-for-brainrots",
+        "file": "flush-for-brainrots"
+      },
+      {
+        "slug": "how-often-do-brainrot-gods-spawn",
+        "file": "how-often-do-brainrot-gods-spawn"
+      },
+      {
+        "slug": "how-to-get-admin-commands-in-brainrot-evolution",
+        "file": "how-to-get-admin-commands-in-brainrot-evolution"
+      },
+      {
+        "slug": "la-everything-combination-brainrot-evolution",
+        "file": "la-everything-combination-brainrot-evolution"
+      },
+      {
+        "slug": "steal-a-brainrot-update-47",
+        "file": "steal-a-brainrot-update-47"
+      },
+      {
+        "slug": "steal-a-brainrot-wiki-update-47",
+        "file": "steal-a-brainrot-wiki-update-47"
+      },
+      {
+        "slug": "when-is-brainrot-evolution-admin-abuse",
+        "file": "when-is-brainrot-evolution-admin-abuse"
+      },
+      {
+        "slug": "yoni-brainrot-evolution",
+        "file": "yoni-brainrot-evolution"
+      }
+    ],
+    "community": [
+      {
+        "slug": "brain-rot-evolution-discord",
+        "file": "brain-rot-evolution-discord"
+      },
+      {
+        "slug": "brain-rot-evolution-group",
+        "file": "brain-rot-evolution-group"
+      },
+      {
+        "slug": "brain-rot-evolution-reddit",
+        "file": "brain-rot-evolution-reddit"
+      },
+      {
+        "slug": "brain-rot-evolution-trello",
+        "file": "brain-rot-evolution-trello"
+      },
+      {
+        "slug": "brain-rot-evolution-website",
+        "file": "brain-rot-evolution-website"
+      },
+      {
+        "slug": "brain-rot-evolution-who-made",
+        "file": "brain-rot-evolution-who-made"
+      },
+      {
+        "slug": "brain-rot-evolution-youtube",
+        "file": "brain-rot-evolution-youtube"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "brain-rot-evolution-does-rebirth-get-rid-of-your-brainrots",
+        "file": "brain-rot-evolution-does-rebirth-get-rid-of-your-brainrots"
+      },
+      {
+        "slug": "brain-rot-evolution-for-free",
+        "file": "brain-rot-evolution-for-free"
+      },
+      {
+        "slug": "brain-rot-evolution-guide",
+        "file": "brain-rot-evolution-guide"
+      },
+      {
+        "slug": "brain-rot-evolution-how-to-equip-trinkets",
+        "file": "brain-rot-evolution-how-to-equip-trinkets"
+      },
+      {
+        "slug": "brain-rot-evolution-how-to-make-a-team",
+        "file": "brain-rot-evolution-how-to-make-a-team"
+      },
+      {
+        "slug": "brain-rot-evolution-how-to-rebirth",
+        "file": "brain-rot-evolution-how-to-rebirth"
+      },
+      {
+        "slug": "brain-rot-evolution-max-level",
+        "file": "brain-rot-evolution-max-level"
+      },
+      {
+        "slug": "brain-rot-evolution-new-rebirth",
+        "file": "brain-rot-evolution-new-rebirth"
+      },
+      {
+        "slug": "brain-rot-evolution-pets",
+        "file": "brain-rot-evolution-pets"
+      },
+      {
+        "slug": "brain-rot-evolution-shop",
+        "file": "brain-rot-evolution-shop"
+      },
+      {
+        "slug": "brain-rot-evolution-tier-list",
+        "file": "brain-rot-evolution-tier-list"
+      },
+      {
+        "slug": "brain-rot-evolution-trinkets",
+        "file": "brain-rot-evolution-trinkets"
+      },
+      {
+        "slug": "brain-rot-evolution-what-are-attachment-gems-for",
+        "file": "brain-rot-evolution-what-are-attachment-gems-for"
+      },
+      {
+        "slug": "brain-rot-evolution-what-happens-if-you-rebirth-with-a-secret",
+        "file": "brain-rot-evolution-what-happens-if-you-rebirth-with-a-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-world-15",
+        "file": "brain-rot-evolution-world-15"
+      },
+      {
+        "slug": "how-to-get-admin-brainrot-in-brainrot-evolution",
+        "file": "how-to-get-admin-brainrot-in-brainrot-evolution"
+      },
+      {
+        "slug": "how-to-get-admin-crates-in-brainrot-evolution",
+        "file": "how-to-get-admin-crates-in-brainrot-evolution"
+      },
+      {
+        "slug": "how-to-use-admin-commands-in-steal-a-brainrot",
+        "file": "how-to-use-admin-commands-in-steal-a-brainrot"
+      }
+    ],
+    "scripts": [
+      {
+        "slug": "brain-rot-evolution-admin-abuse",
+        "file": "brain-rot-evolution-admin-abuse"
+      },
+      {
+        "slug": "brain-rot-evolution-admin-commands",
+        "file": "brain-rot-evolution-admin-commands"
+      },
+      {
+        "slug": "brain-rot-evolution-auto-redeem-code",
+        "file": "brain-rot-evolution-auto-redeem-code"
+      },
+      {
+        "slug": "brain-rot-evolution-hacks",
+        "file": "brain-rot-evolution-hacks"
+      },
+      {
+        "slug": "brain-rot-evolution-modded",
+        "file": "brain-rot-evolution-modded"
+      }
+    ],
+    "secrets": [
+      {
+        "slug": "brain-rot-evolution-67-secret",
+        "file": "brain-rot-evolution-67-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-fusion-secrets",
+        "file": "brain-rot-evolution-fusion-secrets"
+      },
+      {
+        "slug": "brain-rot-evolution-hidden-secrets",
+        "file": "brain-rot-evolution-hidden-secrets"
+      },
+      {
+        "slug": "brain-rot-evolution-new-secret",
+        "file": "brain-rot-evolution-new-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-secret-boost",
+        "file": "brain-rot-evolution-secret-boost"
+      },
+      {
+        "slug": "brain-rot-evolution-secret",
+        "file": "brain-rot-evolution-secret"
+      },
+      {
+        "slug": "brain-rot-evolution-youtuber-secret",
+        "file": "brain-rot-evolution-youtuber-secret"
+      }
+    ],
+    "trading": [
+      {
+        "slug": "brain-rot-evolution-brainrot-value-list",
+        "file": "brain-rot-evolution-brainrot-value-list"
+      },
+      {
+        "slug": "brain-rot-evolution-trading",
+        "file": "brain-rot-evolution-trading"
+      },
+      {
+        "slug": "brain-rot-evolution-value",
+        "file": "brain-rot-evolution-value"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "brain-rot-evolution-cheese-event",
+        "file": "brain-rot-evolution-cheese-event"
+      },
+      {
+        "slug": "brain-rot-evolution-event-today",
+        "file": "brain-rot-evolution-event-today"
+      },
+      {
+        "slug": "brain-rot-evolution-live-event",
+        "file": "brain-rot-evolution-live-event"
+      },
+      {
+        "slug": "brain-rot-evolution-tsunami-event",
+        "file": "brain-rot-evolution-tsunami-event"
+      },
+      {
+        "slug": "brain-rot-evolution-tsunami-is-permanent",
+        "file": "brain-rot-evolution-tsunami-is-permanent"
+      },
+      {
+        "slug": "brain-rot-evolution-update-47",
+        "file": "brain-rot-evolution-update-47"
+      },
+      {
+        "slug": "brain-rot-evolution-update-leaks",
+        "file": "brain-rot-evolution-update-leaks"
+      },
+      {
+        "slug": "brain-rot-evolution-update",
+        "file": "brain-rot-evolution-update"
+      },
+      {
+        "slug": "brain-rot-evolution-void-event",
+        "file": "brain-rot-evolution-void-event"
+      }
+    ]
+  }
+}
